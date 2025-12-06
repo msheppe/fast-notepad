@@ -1,24 +1,16 @@
-!!brut.androlib.meta.MetaInfo
-apkFileName: fast-notepad-2.0.9.apk
-compressionType: false
-doNotCompress:
-- resources.arsc
-- png
-isFrameworkApk: false
-packageInfo:
-  forcedPackageId: '127'
-  renameManifestPackage: null
-sdkInfo:
-  minSdkVersion: '8'
-  targetSdkVersion: '23'
-sharedLibrary: false
-sparseResources: false
-unknownFiles: {}
+version: 2.12.1
+apkFileName: fast-notepad.apk
 usesFramework:
   ids:
   - 1
-  tag: null
-version: 2.7.0-dirty
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 29
+packageInfo:
+  forcedPackageId: 127
 versionInfo:
-  versionCode: '40'
-  versionName: 2.0.9
+  versionCode: 41
+  versionName: 2.1.0
+doNotCompress:
+- arsc
+- png
