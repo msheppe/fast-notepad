@@ -1,5 +1,5 @@
 # fast-notepad<br>
-A revival of Igor's Fast Notepad 2.0.9 for Android, preserving its clean UI and ease of use.<br>
+A revival of Igor's Fast Notepad 2.0.9 for Android (aka Taxaly Noteme)<br>
 <br>
 v2.1.0<br>
 Update to API 29 (Android 10)<br>
