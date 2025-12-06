@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Зашыфраваць</item>
+        <item>Выдаліць</item>
+        <item>Зачыніць без захавання</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Сартаваць па даце</item>
+        <item>Сартаваць па назве</item>
+        <item>Стварыць тэчку</item>
+        <item>Перайменаваць тэчку</item>
+        <item>Выдаліць тэчку</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Сартаваць па даце</item>
+        <item>Сартаваць па назве</item>
+        <item>Стварыць тэчку</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Адкрыць</item>
+        <item>Кланаваць</item>
+        <item>Выдаліць</item>
+        <item>Перамясціць у</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Ачысціць кошык</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Пачатак</item>
+        <item>Канец</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Белая</item>
+        <item>Чорная</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Вельмі дробны</item>
+        <item>Дробны</item>
+        <item>Сярэдні</item>
+        <item>Вялікі</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Чырвоная</item>
+        <item>Цёмная</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Унутраная памяць</item>
+        <item>Ўручную</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Адключыць сінхранізацыю</item>
+    </string-array>
+</resources>

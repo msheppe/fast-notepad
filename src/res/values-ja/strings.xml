@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">私は高速メモ帳を使っています！</string>
+    <string name="actionbar_searchbar_hint">ノートを検索</string>
+    <string name="app_name">高速メモ帳</string>
+    <string name="crypt_agree">上記の内容に同意します</string>
+    <string name="crypt_info">"暗号化はあなたのメモをのぞき見から守る一つの方法です。パスワードは暗号化の解除やパスワードのリセットに必要ですので、忘れないようにしてください。
+パスワードを忘れた場合、どんな理由があっても完全にあなたの責任となります。"</string>
+    <string name="crypt_nomasterpasswd">空です</string>
+    <string name="crypt_title">暗号化</string>
+    <string name="cryptbuy_buy">Buy</string>
+    <string name="cryptbuy_info">"暗号化はあなたのメモをのぞき見から守る一つの方法です。
+このオプションを一度購入すると、あなたは下記を得ることができます
+1. あなたのデータが守られます
+2. 生涯にわたるライセンスが得られます
+3. プロジェクトの開発を支援できます"</string>
+    <string name="editor_decrypt">暗号化を解除する</string>
+    <string name="editor_saved">保存しました</string>
+    <string name="editor_share_nothing">共有するメモがありません</string>
+    <string name="err">エラー</string>
+    <string name="err_cannot_create_file">ファイルの作成ができませんでした</string>
+    <string name="err_cannot_decode_file">ファイルのデコードができませんでした</string>
+    <string name="err_cannot_encode_file">ファイルのエンコードができませんでした</string>
+    <string name="err_cannot_find_storage">ストレージの場所が間違っています</string>
+    <string name="err_cannot_open_file">ファイルを開けませんでした</string>
+    <string name="err_cannot_read_file">ファイルを読み込めませんでした</string>
+    <string name="err_empty_masterpwd">マスターパスワードが空です</string>
+    <string name="err_folder_exists">フォルダーが既に存在します</string>
+    <string name="err_folder_name_invalid">フォルダーの名前が間違っています</string>
+    <string name="err_folder_notempty">空でないためフォルダーを削除できません。</string>
+    <string name="err_invalid_phone">電話番号が無効です</string>
+    <string name="err_invalid_pwd">パスワードが間違っています</string>
+    <string name="err_move_file">ファイルの移動に失敗しました</string>
+    <string name="err_move_storage">ストレージの移動に失敗しました</string>
+    <string name="err_no_account">アカウントがありません</string>
+    <string name="err_not_a_folder">%s はフォルダーではありません</string>
+    <string name="err_only_one_folder">別のフォルダがありません</string>
+    <string name="list_decrypt_error">\#暗号化解除 失敗</string>
+    <string name="list_decrypt_error2">\#暗号化されています</string>
+    <string name="list_enter_folder_name">フォルダ名を入力</string>
+    <string name="list_enter_pwd">パスワードを入力</string>
+    <string name="list_move_to">移動</string>
+    <string name="list_new_folder">高速フォルダ</string>
+    <string name="list_read_error">\#読み込み 失敗</string>
+    <string name="masterpasswd_emptypass">パスワードは空にできません</string>
+    <string name="masterpasswd_notsame">パスワードが一致しません</string>
+    <string name="masterpasswd_ok">設定する</string>
+    <string name="masterpasswd_pass1_hint">新しいパスワードを入力</string>
+    <string name="masterpasswd_pass2_hint">もう一度入力してください</string>
+    <string name="masterpasswd_show">パスワードを表示</string>
+    <string name="masterpasswd_title">新しいパスワード</string>
+    <string name="menu">メニュー</string>
+    <string name="nd_about">このアプリについて</string>
+    <string name="nd_home">ノート一覧</string>
+    <string name="nd_settings">設定</string>
+    <string name="nd_sync">同期</string>
+    <string name="nd_trash">ごみ箱</string>
+    <string name="search_nothing_found">見つかりませんでした</string>
+    <string name="sent_from">高速メモ帳から送信</string>
+    <string name="settings_crypt">メモの暗号化</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">エディタを開いた時のカーソルの位置</string>
+    <string name="settings_editorTheme">エディタのテーマ</string>
+    <string name="settings_encrypt_new">新しいメモをデフォルトで暗号化する</string>
+    <string name="settings_encrypt_new_desc">新しく作成されるメモは全て暗号化されます</string>
+    <string name="settings_fontSize">フォントサイズ</string>
+    <string name="settings_globalTheme">全体のテーマ</string>
+    <string name="settings_master_passwd">マスターパスワード</string>
+    <string name="settings_master_passwd_desc">このパスワードはSDカード上にあるファイルの暗号化に使用します</string>
+    <string name="settings_one_passwd">一つのパスワードで管理</string>
+    <string name="settings_one_passwd_desc">メモの暗号化にマスターパスワードを使用します</string>
+    <string name="settings_storage_location">保存先</string>
+    <string name="share_via">共有</string>
+    <string name="speech_not_supported">サポートしていません</string>
+    <string name="speech_prompt">話してください</string>
+    <string name="sync_1month">1カ月のプレミアム</string>
+    <string name="sync_1year">1年間のプレミアム</string>
+    <string name="sync_enter_code">"コードは以下に送信されました
+%s
+下部に入力してください"</string>
+    <string name="sync_err_code">コードが無効です</string>
+    <string name="sync_err_email">Eメールが無効です</string>
+    <string name="sync_err_internet">接続に問題</string>
+    <string name="sync_err_phone">電話が無効です</string>
+    <string name="sync_err_phone_used">この電話は使用されています</string>
+    <string name="sync_features">"1. 端末間で同期できます
+2. 端末を紛失しても回復できます
+3. メモの過去のバージョンに戻ることができます
+4. サービスは低コストです"</string>
+    <string name="sync_free">1カ月のトライアル</string>
+    <string name="sync_free_until">トライアル有効期限 %s</string>
+    <string name="sync_premium_until">プレミアム有効期限 %s</string>
+    <string name="sync_signin_google">Googleを使用してサインイン</string>
+    <string name="sync_your_code">あなたの携帯電話</string>
+</resources>

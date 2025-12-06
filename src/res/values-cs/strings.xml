@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Používám Rychlý zápisník</string>
+    <string name="actionbar_searchbar_hint">Hledat v poznámkach</string>
+    <string name="app_name">Rychlý zápisník</string>
+    <string name="crypt_agree">Souhlasím</string>
+    <string name="crypt_info">"Šifrování je ochrana Vašich poznámek před zneužitím. Při ztrátě hesla NEEXISTUJE žádná možnost na obnovu hesla ani zašifrovaných poznámek !!! Myslete na to!
+Autor ani prekladatel nenese žádnou odpovědnost za ztrátu dat, poznámek ani hesla! Šifrovat na vlastní zodpovědnost!"</string>
+    <string name="crypt_nomasterpasswd">Žádné hlavní heslo!</string>
+    <string name="crypt_title">Šifrování</string>
+    <string name="cryptbuy_buy">Koupit</string>
+    <string name="cryptbuy_info">"Šifrování je ochrana Vašich poznámek před zneužitím.
+Dostupné po zakoupení
+1. Chraňte své poznámky!
+Doživotní licence
+3. Podpořte projekt"</string>
+    <string name="editor_decrypt">Dešifrovat</string>
+    <string name="editor_saved">Uloženo</string>
+    <string name="editor_share_nothing">Nelze sdílet!</string>
+    <string name="err">Chyba</string>
+    <string name="err_cannot_create_file">Soubor nelze vytvořit!</string>
+    <string name="err_cannot_decode_file">Soubor nelze dešifrovat!</string>
+    <string name="err_cannot_encode_file">Soubor nelze zašifrovat!</string>
+    <string name="err_cannot_find_storage">Nenašlo se umístění!</string>
+    <string name="err_cannot_open_file">Soubor nelze otevřít!</string>
+    <string name="err_cannot_read_file">Soubor se nedá číst!</string>
+    <string name="err_empty_masterpwd">Hlavní heslo není vytvořeno!</string>
+    <string name="err_folder_exists">Adresář již existuje!</string>
+    <string name="err_folder_name_invalid">Neplatné jméno adresáře</string>
+    <string name="err_folder_notempty">Adresář nelze vymazat, není prázdný!</string>
+    <string name="err_invalid_phone">Nesprávný telefon!</string>
+    <string name="err_invalid_pwd">Špatné heslo!</string>
+    <string name="err_move_file">Soubor nelze přesunout!</string>
+    <string name="err_move_storage">Umístění nelze přesunout</string>
+    <string name="err_no_account">Účet nenalezen</string>
+    <string name="err_not_a_folder">Není adresář!</string>
+    <string name="err_only_one_folder">Není jiný adresář</string>
+    <string name="list_decrypt_error">Chyba dešifrování</string>
+    <string name="list_decrypt_error2">Chyba dešifrování</string>
+    <string name="list_enter_folder_name">Zadejte jméno adresáře</string>
+    <string name="list_enter_pwd">Zadejte heslo</string>
+    <string name="list_move_to">Přesunout do</string>
+    <string name="list_new_folder">Nový adresář</string>
+    <string name="list_read_error">Chyba čtení</string>
+    <string name="masterpasswd_emptypass">Heslo nesmí být prázdné!</string>
+    <string name="masterpasswd_notsame">Nesprávně zadané heslo!</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Zadejte hlavní heslo</string>
+    <string name="masterpasswd_pass2_hint">Znova zadejte hlavní heslo</string>
+    <string name="masterpasswd_show">Zobrazit hlavní heslo</string>
+    <string name="masterpasswd_title">Hlavní heslo</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">About</string>
+    <string name="nd_home">Mé poznámky</string>
+    <string name="nd_settings">Nastavení</string>
+    <string name="nd_sync">Synchronizovat</string>
+    <string name="nd_trash">Koš</string>
+    <string name="search_nothing_found">Nic nenalezeno</string>
+    <string name="sent_from">Používam Rychlý zápisník</string>
+    <string name="settings_crypt">Poznámka zašifrována</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Pozice kurzoru v editoru</string>
+    <string name="settings_editorTheme">Téma Editoru</string>
+    <string name="settings_encrypt_new">Šifrovat nové poznámky</string>
+    <string name="settings_encrypt_new_desc">Všechny nové poznámky budou zašifrovány</string>
+    <string name="settings_fontSize">Velikost písma</string>
+    <string name="settings_globalTheme">Hlavní téma</string>
+    <string name="settings_master_passwd">Hlavní heslo</string>
+    <string name="settings_master_passwd_desc">Použít hlavní heslo na šifrování na SD kartě</string>
+    <string name="settings_one_passwd">Heslo</string>
+    <string name="settings_one_passwd_desc">Použijte hlavní heslo na šifrování</string>
+    <string name="settings_storage_location">Umístění</string>
+    <string name="share_via">Sdílet přes</string>
+    <string name="speech_not_supported">Nepodporované</string>
+    <string name="speech_prompt">Namluvit</string>
+    <string name="sync_1month">Premium na 30 dní</string>
+    <string name="sync_1year">Premium na rok</string>
+    <string name="sync_enter_code">"Kód zaslaný na
+%s
+Prosím zadejte kód"</string>
+    <string name="sync_err_code">Nesprávný kód</string>
+    <string name="sync_err_email">Nesprávný email</string>
+    <string name="sync_err_internet">Nelze se připojit</string>
+    <string name="sync_err_phone">Nesprávný telefon</string>
+    <string name="sync_err_phone_used">Tenhle telefon se používá</string>
+    <string name="sync_features">"1. Synchronizovat zařízení
+2. Obnovit po ztrátě zařízení
+3. Obnovit jakoukoli verzi poznámky
+4. Nízké provozní náklady"</string>
+    <string name="sync_free">Trial na 30 dní</string>
+    <string name="sync_free_until">Trail do %s</string>
+    <string name="sync_premium_until">Premium do %s</string>
+    <string name="sync_signin_google">Přihlásit přes Google</string>
+    <string name="sync_your_code">Vaše telefonní číslo</string>
+</resources>

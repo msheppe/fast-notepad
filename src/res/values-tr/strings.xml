@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">"Hızlı Not'u kullanıyorum"</string>
+    <string name="actionbar_searchbar_hint">Notlarda Ara</string>
+    <string name="app_name">Hızlı Not</string>
+    <string name="crypt_agree">Yukarıda yazanları onaylıyorum</string>
+    <string name="crypt_info">"Şifrelemek sizden başkalarının notlarınızı görmesine engel olur. Güçlü bir şifre seçin ve şifreyi unutmayın. Şifreli notları açmak için şifreyi hatırlamaktan başka bir yol yoktur.
+Şifrenizi unutur veya sıfırlarsanız daha önce şifrelediğiniz verilerinizi kaybedersiniz. Bu tamamen sizin sorumluluğunuzdadır."</string>
+    <string name="crypt_nomasterpasswd">boş</string>
+    <string name="crypt_title">Şifreleme</string>
+    <string name="cryptbuy_buy">Satın al</string>
+    <string name="cryptbuy_info">"Encryption is a way to protect your notes from prying.
+By purchasing this option once you get
+1. Protection of your data
+Lifetime license
+3. Purchasing will help in the development of the project"</string>
+    <string name="editor_decrypt">Şifresini çöz</string>
+    <string name="editor_saved">Kaydedildi</string>
+    <string name="editor_share_nothing">Paylaşacak bir şey yok</string>
+    <string name="err">Hata</string>
+    <string name="err_cannot_create_file">Dosya oluşturulamıyor</string>
+    <string name="err_cannot_decode_file">Dosya şifresi çözülemiyor</string>
+    <string name="err_cannot_encode_file">Dosya şifrelenemiyor</string>
+    <string name="err_cannot_find_storage">Hatalı depolama yolu</string>
+    <string name="err_cannot_open_file">Dosya açılamıyor</string>
+    <string name="err_cannot_read_file">Dosya okunamıyor</string>
+    <string name="err_empty_masterpwd">Ana şifre yok</string>
+    <string name="err_folder_exists">Böyle bir klasör zaten var</string>
+    <string name="err_folder_name_invalid">Klasör adı hatalı</string>
+    <string name="err_folder_notempty">Klasör boş olmadığı için silinemiyor</string>
+    <string name="err_invalid_phone">Yanlış telefon numarası</string>
+    <string name="err_invalid_pwd">Hatalı Parola</string>
+    <string name="err_move_file">Dosya taşıma hatası</string>
+    <string name="err_move_storage">Error on storage moving</string>
+    <string name="err_no_account">Hesap bulunamadı</string>
+    <string name="err_not_a_folder">%s bir klasör değil</string>
+    <string name="err_only_one_folder">Başka klasörleriniz yok</string>
+    <string name="list_decrypt_error">\#decrypt hatası</string>
+    <string name="list_decrypt_error2">\#encrypted</string>
+    <string name="list_enter_folder_name">Dosya adı girin</string>
+    <string name="list_enter_pwd">Şifreyi Gir</string>
+    <string name="list_move_to">Taşıma yeri</string>
+    <string name="list_new_folder">Hızlı klasör</string>
+    <string name="list_read_error">\#read hatası</string>
+    <string name="masterpasswd_emptypass">Şifre boş olamaz</string>
+    <string name="masterpasswd_notsame">Şifreler uyuşmuyor</string>
+    <string name="masterpasswd_ok">Tamam</string>
+    <string name="masterpasswd_pass1_hint">yeni şifreyi giriniz</string>
+    <string name="masterpasswd_pass2_hint">Lütfen tekrar</string>
+    <string name="masterpasswd_show">Şifreyi göster</string>
+    <string name="masterpasswd_title">Yeni Şifre</string>
+    <string name="menu">Menü</string>
+    <string name="nd_about">Hakkında</string>
+    <string name="nd_home">Notlarım</string>
+    <string name="nd_settings">Ayarlar</string>
+    <string name="nd_sync">Senkronizasyon</string>
+    <string name="nd_trash">Çöp Kutusu</string>
+    <string name="search_nothing_found">Hiçbir şey bulunamadı</string>
+    <string name="sent_from">Hızlı not ile gönderildi</string>
+    <string name="settings_crypt">Not şifreleme</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Cursor position in the editor</string>
+    <string name="settings_editorTheme">Düzenleme teması</string>
+    <string name="settings_encrypt_new">Yeni notlar varsayılan olarak şifreli olacak</string>
+    <string name="settings_encrypt_new_desc">Bundan sonraki notlar şifrelenecek</string>
+    <string name="settings_fontSize">Yazı tipi boyutu</string>
+    <string name="settings_globalTheme">Genel tema</string>
+    <string name="settings_master_passwd">Ana şifre</string>
+    <string name="settings_master_passwd_desc">This password uses for encrypted files on SD</string>
+    <string name="settings_one_passwd">Tek şifre</string>
+    <string name="settings_one_passwd_desc">Dosyaları şifrelemek için ana şifreyi kullan</string>
+    <string name="settings_storage_location">Depolama konumu</string>
+    <string name="share_via">Bununla paylaş:</string>
+    <string name="speech_not_supported">Konuşma kullanılamıyor</string>
+    <string name="speech_prompt">Şimdi Konuşun</string>
+    <string name="sync_1month">1 aylık premium</string>
+    <string name="sync_1year">1 yıllık premium</string>
+    <string name="sync_enter_code">"Code was sent to
+%s
+Please enter it bellow"</string>
+    <string name="sync_err_code">Kod geçersiz</string>
+    <string name="sync_err_email">Eposta yanlış</string>
+    <string name="sync_err_internet">Bağlantı problemi</string>
+    <string name="sync_err_phone">Telefon numarası yanlış</string>
+    <string name="sync_err_phone_used">Bu telefon numarası kullanılmaktadır</string>
+    <string name="sync_features">"1. Sync between your devices
+2. Recover if you lose a device
+3. Return to any version of note
+4. Low cost of service"</string>
+    <string name="sync_free">1 aylık deneme</string>
+    <string name="sync_free_until">"%s'a kadar deneme"</string>
+    <string name="sync_premium_until">"%s'a kadar premium"</string>
+    <string name="sync_signin_google">Google ile oturum açın</string>
+    <string name="sync_your_code">Cep telefonunuz</string>
+</resources>

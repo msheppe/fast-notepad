@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">मैं फास्ट नोटपैड का इस्तेमाल करता हूं</string>
+    <string name="actionbar_searchbar_hint">नोट्स में खोजें</string>
+    <string name="app_name">फास्ट नोटपैड</string>
+    <string name="crypt_agree">मैं ऊपर लिखे से सहमत हूं</string>
+    <string name="crypt_info">एनक्रिप्शन एक तरीका है, आपके नोट्स को ताकझांक से बचाने का। एक मजबूत पासवर्ड चुनें और इसे याद रखें। एनक्रिप्टेड नोट्स पुन: प्राप्त करने और पासवर्ड वापस पाने का कोई तरीका नहीं है। अगर आप अपना पासवर्ड खोते हैं या रीसेट करते हैं, तो आप पिछला एनक्रिप्टेड डाटा खो देंगे। यह पूरी तरह से आपकी जिम्मेदारी है।</string>
+    <string name="crypt_nomasterpasswd">रिक्त</string>
+    <string name="crypt_title">एनक्रिप्शन</string>
+    <string name="cryptbuy_buy">खरीदें</string>
+    <string name="cryptbuy_info">"एनक्रिप्शन एक तरीका है आपके नोट्स को ताकझांक से बचाने का।
+इस विकल्प को एक बार खरीदने से आप पाते हैं
+1. आपके डाटा की सुरक्षा
+आजीवन लाइसेंस
+3. खरीददारी प्रोजेक्ट के विकास में मदद करेगी"</string>
+    <string name="editor_decrypt">डिक्रिप्टेड बनाएं</string>
+    <string name="editor_saved">सहेजा गया</string>
+    <string name="editor_share_nothing">साझा करने के लिए कुछ नहीं</string>
+    <string name="err">त्रुटि</string>
+    <string name="err_cannot_create_file">फाइल बनाने में असमर्थ</string>
+    <string name="err_cannot_decode_file">फाइल डिक्रिप्ट करने में असमर्थ</string>
+    <string name="err_cannot_encode_file">फाइल एनक्रिप्ट करने में असमर्थ</string>
+    <string name="err_cannot_find_storage">गलत संग्रहण पाथ</string>
+    <string name="err_cannot_open_file">फाइल खोलने में असमर्थ</string>
+    <string name="err_cannot_read_file">फाइल पढ़ने में असमर्थ</string>
+    <string name="err_empty_masterpwd">मास्टर-पासवर्ड रिक्त है</string>
+    <string name="err_folder_exists">फोल्डर पहले से ही मौजूद है</string>
+    <string name="err_folder_name_invalid">फोल्डर का नाम सही नहीं है</string>
+    <string name="err_folder_notempty">हटाने में असमर्थ, फोल्डर रिक्त नहीं है</string>
+    <string name="err_invalid_phone">गलत फोन नंबर</string>
+    <string name="err_invalid_pwd">गलत पासवर्ड</string>
+    <string name="err_move_file">फाइल स्थानांतरण में त्रुटि</string>
+    <string name="err_move_storage">संग्रहण स्थानांतरण में त्रुटि</string>
+    <string name="err_no_account">खाता नहीं मिला</string>
+    <string name="err_not_a_folder">%s फोल्डर नहीं है</string>
+    <string name="err_only_one_folder">आपके पास कोई अन्य फोल्डर नहीं है</string>
+    <string name="list_decrypt_error">\#डिक्रिप्ट त्रुटि</string>
+    <string name="list_decrypt_error2">\#एन्क्रिप्टेड.</string>
+    <string name="list_enter_folder_name">फोल्डर का नाम दर्ज करें</string>
+    <string name="list_enter_pwd">पासवर्ड दर्ज करें</string>
+    <string name="list_move_to">यहाँ ले जायें</string>
+    <string name="list_new_folder">फास्ट फोल्डर</string>
+    <string name="list_read_error">\#पठन त्रुटि</string>
+    <string name="masterpasswd_emptypass">पासवर्ड रिक्त नहीं हो सकता</string>
+    <string name="masterpasswd_notsame">पासवर्ड एक समान नहीं हैं</string>
+    <string name="masterpasswd_ok">ठीक है</string>
+    <string name="masterpasswd_pass1_hint">नया पासवर्ड दर्ज करें</string>
+    <string name="masterpasswd_pass2_hint">कृपया दोहराएं</string>
+    <string name="masterpasswd_show">पासवर्ड दिखाएं</string>
+    <string name="masterpasswd_title">नया पासवर्ड</string>
+    <string name="menu">मैन्यू</string>
+    <string name="nd_about">इसके बारे में</string>
+    <string name="nd_home">मेरे नोट्स</string>
+    <string name="nd_settings">सेटिंग्स</string>
+    <string name="nd_sync">सिंक्रनाइजेशन</string>
+    <string name="nd_trash">ट्रैश बिन</string>
+    <string name="search_nothing_found">कुछ नहीं मिला</string>
+    <string name="sent_from">फास्ट नोटपैड से भेजा गया</string>
+    <string name="settings_crypt">नोट्स एनक्रिप्शन</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">संपादक में कर्सर स्थिति</string>
+    <string name="settings_editorTheme">संपादक थीम</string>
+    <string name="settings_encrypt_new">नया नोट डिफॉल्ट वश एनक्रिप्टेड</string>
+    <string name="settings_encrypt_new_desc">सभी नए नोट्स एनक्रिप्ट किए जाएंगे</string>
+    <string name="settings_fontSize">फॉन्ट आकार</string>
+    <string name="settings_globalTheme">वैश्विक थीम</string>
+    <string name="settings_master_passwd">मास्टर-पासवर्ड</string>
+    <string name="settings_master_passwd_desc">यह पासवर्ड SD पर एनक्रिप्टेड फाइल्स के लिए इस्तेमाल किया जाता है</string>
+    <string name="settings_one_passwd">एक पासवर्ड</string>
+    <string name="settings_one_passwd_desc">नोट्स एनक्रिप्ट करने के लिए मास्टर-पासवर्ड इस्तेमाल करें</string>
+    <string name="settings_storage_location">संग्रहण स्थान</string>
+    <string name="share_via">इसके माध्यम से साझा करें</string>
+    <string name="speech_not_supported">स्पीच समर्थित नहीं</string>
+    <string name="speech_prompt">अभी बोलें</string>
+    <string name="sync_1month">1 महीने के लिए प्रीमियम</string>
+    <string name="sync_1year">1 वर्ष के लिए प्रीमियम</string>
+    <string name="sync_enter_code">"कोड %s को भेजा गया।
+
+कृपया इसे नीचे दर्ज करें"</string>
+    <string name="sync_err_code">कोड अमान्य है</string>
+    <string name="sync_err_email">ईमेल सही नहीं है</string>
+    <string name="sync_err_internet">कनेक्शन की परेशानी</string>
+    <string name="sync_err_phone">फोन नंबर सही नहीं है</string>
+    <string name="sync_err_phone_used">यह फोन नंबर इस्तेमाल में है</string>
+    <string name="sync_features">"1. अपनी डिवाइस के बीच सिंक करें
+2. अगर आप एक डिवाइस खोते हैं, पुन: प्राप्त करें
+3. नोट के किसी भी संस्करण पर वापस लौटें
+4. सेवा की कम लागत"</string>
+    <string name="sync_free">1 महीने के लिए ट्रायल</string>
+    <string name="sync_free_until">ट्रायल %s तक</string>
+    <string name="sync_premium_until">प्रीमियम %s तक</string>
+    <string name="sync_signin_google">गूगल के साथ साइन इन करें</string>
+    <string name="sync_your_code">आपका मोबाइल फोन</string>
+</resources>

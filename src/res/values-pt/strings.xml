@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Eu uso Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Procurar em Notas</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">Eu concordo com o que está escrito acima</string>
+    <string name="crypt_info">"A encriptação é uma maneira de proteger as suas notas de curiosos. Escolha uma palavra-passe forte e lembre-se dela. Não há nenhuma maneira de recuperar as notas encriptadas ou de recuperar a palavra-passe.
+Se perder ou redefinir a sua palavra-passe, todos os dados encriptados anteriormente serão perdidos. Isto fica inteiramente à sua responsabilidade."</string>
+    <string name="crypt_nomasterpasswd">vazio</string>
+    <string name="crypt_title">Encriptação</string>
+    <string name="cryptbuy_buy">Comprar</string>
+    <string name="cryptbuy_info">"A encriptação é uma maneira de proteger as suas notas de curiosos.
+Ao adquirir esta opção uma única vez, consegue
+1. A protecção dos seus dados
+Licença vitalícia
+3. Ao comprar, ajuda ao desenvolvimento do projeto."</string>
+    <string name="editor_decrypt">Desencriptar</string>
+    <string name="editor_saved">Guardado</string>
+    <string name="editor_share_nothing">Nada para partilhar</string>
+    <string name="err">Erro</string>
+    <string name="err_cannot_create_file">Impossível criar ficheiro</string>
+    <string name="err_cannot_decode_file">Impossível desencriptar ficheiro</string>
+    <string name="err_cannot_encode_file">Impossível encriptar ficheiro</string>
+    <string name="err_cannot_find_storage">Caminho de armazenamento errado</string>
+    <string name="err_cannot_open_file">Impossível abrir o ficheiro</string>
+    <string name="err_cannot_read_file">Impossível ler ficheiro</string>
+    <string name="err_empty_masterpwd">O campo Palavra-passe Mestra está vazio</string>
+    <string name="err_folder_exists">A pasta já existe</string>
+    <string name="err_folder_name_invalid">O nome da pasta está incorreto</string>
+    <string name="err_folder_notempty">Não foi possível apagar, a pasta não está vazia</string>
+    <string name="err_invalid_phone">Número de telefone errado</string>
+    <string name="err_invalid_pwd">Palavra-passe incorreta</string>
+    <string name="err_move_file">Erro ao movimentar ficheiro</string>
+    <string name="err_move_storage">Erro ao movimentar armazenamento</string>
+    <string name="err_no_account">Conta não encontrada</string>
+    <string name="err_not_a_folder">%s não é uma pasta</string>
+    <string name="err_only_one_folder">Não tem mais pastas</string>
+    <string name="list_decrypt_error">\#desencriptação erro</string>
+    <string name="list_decrypt_error2">\#encriptado</string>
+    <string name="list_enter_folder_name">Inserir o nome da pasta</string>
+    <string name="list_enter_pwd">Inserir palavra-passe</string>
+    <string name="list_move_to">Mover para</string>
+    <string name="list_new_folder">Pasta rápida</string>
+    <string name="list_read_error">\#leitura erro</string>
+    <string name="masterpasswd_emptypass">O campo de palavra-passe não pode estar vazio</string>
+    <string name="masterpasswd_notsame">As palavras-passe não são iguais</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">inserir nova palavra-passe</string>
+    <string name="masterpasswd_pass2_hint">por favor, repita</string>
+    <string name="masterpasswd_show">Mostrar palavra-passe</string>
+    <string name="masterpasswd_title">Nova palavra-passe</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">Sobre</string>
+    <string name="nd_home">As minhas notas</string>
+    <string name="nd_settings">Configurações</string>
+    <string name="nd_sync">Sincronização</string>
+    <string name="nd_trash">Caixote de lixo</string>
+    <string name="search_nothing_found">Nada Encontrado</string>
+    <string name="sent_from">Enviado de Fast Notepad</string>
+    <string name="settings_crypt">Encriptação de Notas</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Posição do cursor no editor</string>
+    <string name="settings_editorTheme">Tema do editor</string>
+    <string name="settings_encrypt_new">Nova nota encriptada por defeito</string>
+    <string name="settings_encrypt_new_desc">Todas as novas notas serão encriptadas</string>
+    <string name="settings_fontSize">Tamanho da fonte</string>
+    <string name="settings_globalTheme">Tema Global</string>
+    <string name="settings_master_passwd">Palavra-passe Mestra</string>
+    <string name="settings_master_passwd_desc">Esta palavra-passe é usada para ficheiros encriptados em SD</string>
+    <string name="settings_one_passwd">Uma palavra-passe</string>
+    <string name="settings_one_passwd_desc">Use uma palavra-passe mestra para encriptar notas</string>
+    <string name="settings_storage_location">Local de armazenamento</string>
+    <string name="share_via">Partilhar Via</string>
+    <string name="speech_not_supported">Discurso não suportado</string>
+    <string name="speech_prompt">Falar agora</string>
+    <string name="sync_1month">Premium por 1 mês</string>
+    <string name="sync_1year">Premium por 1 ano</string>
+    <string name="sync_enter_code">"O código foi enviado para
+%s
+Por favor, insira-o abaixo"</string>
+    <string name="sync_err_code">O código é inválido</string>
+    <string name="sync_err_email">O E-mail não está correto</string>
+    <string name="sync_err_internet">Problema de ligação</string>
+    <string name="sync_err_phone">O número de telefone não está correto</string>
+    <string name="sync_err_phone_used">Este numero de telefone já está a ser usado</string>
+    <string name="sync_features">"1. Sincronização entre os seus dispositivos
+2. Recupere se perder um dispositivo
+3. Retorne a qualquer versão de nota
+4. Baixo custo de serviço"</string>
+    <string name="sync_free">Testar por 1 mês</string>
+    <string name="sync_free_until">Teste até %s</string>
+    <string name="sync_premium_until">Premium até %s</string>
+    <string name="sync_signin_google">Iniciar sessão com Google</string>
+    <string name="sync_your_code">O seu telemóvel</string>
+</resources>

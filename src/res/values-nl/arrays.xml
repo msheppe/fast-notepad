@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Versleutelen</item>
+        <item>Verwijderen</item>
+        <item>Sluiten zonder opslaan</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Sorteren op datum</item>
+        <item>Sorteren op titel</item>
+        <item>Map aanmaken</item>
+        <item>Map hernoemen</item>
+        <item>Map verwijderen</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Sorteren op datum</item>
+        <item>Sorteren op titel</item>
+        <item>Map aanmaken</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Openen</item>
+        <item>Kopiлren</item>
+        <item>Verwijderen</item>
+        <item>Verplaatsen naar</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Prullenbak leegmaken</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origineel</item>
+        <item>Einde</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Wit</item>
+        <item>Zwart</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Xtra klein</item>
+        <item>Klein</item>
+        <item>Gemiddeld</item>
+        <item>Groot</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Rood</item>
+        <item>Donker</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Intern geheugen</item>
+        <item>Handmatig</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Synchroniseren uitzetten</item>
+    </string-array>
+</resources>

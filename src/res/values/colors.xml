@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_dark">#ff074c63</color>
+    <color name="actionbar_dark_pressed">#ff0d82a9</color>
+    <color name="actionbar_input_dark">#ffffffff</color>
+    <color name="actionbar_input_hint_dark">#ff001c38</color>
+    <color name="actionbar_input_hint_red">#ff740031</color>
+    <color name="actionbar_input_red">#ffffffff</color>
+    <color name="actionbar_red">#ffda4336</color>
+    <color name="actionbar_red_pressed">#fff3928a</color>
+    <color name="color_statusbar_dark">#ff113b63</color>
+    <color name="color_statusbar_red">#ffbf0f00</color>
+    <color name="editor_bg_crypt_black">#ffc9ffc9</color>
+    <color name="editor_bg_crypt_white">#ffc9ffc9</color>
+    <color name="editor_bg_normal_black">#ff000000</color>
+    <color name="editor_bg_normal_white">#ffffffff</color>
+    <color name="editor_textcolor_black">#ffffffff</color>
+    <color name="editor_textcolor_white">#ff000000</color>
+    <color name="list_background_dark">#ff000000</color>
+    <color name="list_background_red">#ffffffff</color>
+    <color name="list_divider_dark">#ff6a6a6a</color>
+    <color name="list_divider_red">#ff6a6a6a</color>
+    <color name="list_textcolor_crypt_dark">#ff00a54a</color>
+    <color name="list_textcolor_crypt_red">#ff009744</color>
+    <color name="list_textcolor_fail_dark">#ffff6161</color>
+    <color name="list_textcolor_fail_red">#ffc54b4b</color>
+    <color name="list_textcolor_normal_dark">#ffffffff</color>
+    <color name="list_textcolor_normal_red">#ff000000</color>
+    <color name="navigation_drawer_background_dark">#ff292929</color>
+    <color name="navigation_drawer_background_red">#ff292929</color>
+    <color name="navigation_drawer_color_dark">#ffffffff</color>
+    <color name="navigation_drawer_color_red">#ffffffff</color>
+    <color name="textview_color">#ff000000</color>
+    <color name="textview_hint_dark">#ffcccccc</color>
+    <color name="textview_hint_red">#ff6a6a6a</color>
+</resources>

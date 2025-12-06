@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themedActionBar" format="reference" />
+    <attr name="themedActionBarInput" format="reference" />
+    <attr name="themedBtnAdd" format="reference" />
+    <attr name="themedBtnBack" format="reference" />
+    <attr name="themedBtnClear" format="reference" />
+    <attr name="themedBtnEdit" format="reference" />
+    <attr name="themedBtnMenu" format="reference" />
+    <attr name="themedBtnMic" format="reference" />
+    <attr name="themedBtnSearch" format="reference" />
+    <attr name="themedBtnShare" format="reference" />
+    <attr name="themedBtnToggle" format="reference" />
+    <attr name="themedCheckbox" format="reference" />
+    <attr name="themedList" format="reference" />
+    <attr name="themedNavigationDrawer" format="reference" />
+    <attr name="themedTextView" format="reference" />
+</resources>

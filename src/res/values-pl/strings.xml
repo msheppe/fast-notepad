@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Używam Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Szukaj</string>
+    <string name="app_name">Fast notepad</string>
+    <string name="crypt_agree">Zgadzam się z powyższym</string>
+    <string name="crypt_info">"Szyfrowanie to sposób na ochronę notatek przed niepowołanym wzrokiem. Zastanów się dobrze i wybierz hasło, którego nie zapomniesz, gdyż nie istnieje metoda na jego odzyskanie.
+Jeśli z jakiegoś powodu zapomniesz hasło, ponosisz pełną odpowiedzialność za utratę danych."</string>
+    <string name="crypt_nomasterpasswd">puste</string>
+    <string name="crypt_title">Szyfrowanie</string>
+    <string name="cryptbuy_buy">Kup</string>
+    <string name="cryptbuy_info">"Szyfrowanie to sposób na ochronę notatek przed niepowołanym wzrokiem.
+Kupując ten produkt otrzymasz
+1. chroń swoje dane
+Dożywotnia licencja
+3. Pomóż w rozwoju tego projektu"</string>
+    <string name="editor_decrypt">Oznacz jako zaszyfrowany</string>
+    <string name="editor_saved">Zapisano</string>
+    <string name="editor_share_nothing">Nic do udostępnienia</string>
+    <string name="err">Błąd</string>
+    <string name="err_cannot_create_file">Nie mogę stworzyć pliku</string>
+    <string name="err_cannot_decode_file">Nie można odszyfrować pliku</string>
+    <string name="err_cannot_encode_file">Nie można zaszyfrować pliku</string>
+    <string name="err_cannot_find_storage">Błędna lokacja</string>
+    <string name="err_cannot_open_file">Nie mogę otworzyć pliku</string>
+    <string name="err_cannot_read_file">Nie można odczytać pliku</string>
+    <string name="err_empty_masterpwd">Główne hasło jest puste</string>
+    <string name="err_folder_exists">Folder już istnieje</string>
+    <string name="err_folder_name_invalid">Nazwa folderu jest nieprawidłowa</string>
+    <string name="err_folder_notempty">Nie można usunąć folderu, nie jest pusty</string>
+    <string name="err_invalid_phone">Błąd telefonu</string>
+    <string name="err_invalid_pwd">Błędne hasło</string>
+    <string name="err_move_file">Błąd przy przenoszeniu pliku</string>
+    <string name="err_move_storage">Błąd przy przenoszeniu pamięci</string>
+    <string name="err_no_account">Nie znaleziono konta</string>
+    <string name="err_not_a_folder">%s nie jest folderem</string>
+    <string name="err_only_one_folder">Nie masz innych folderów</string>
+    <string name="list_decrypt_error">\#błąd odszyfrowania</string>
+    <string name="list_decrypt_error2">\#zaszyfrowano</string>
+    <string name="list_enter_folder_name">Wprowadź nazwę folderu</string>
+    <string name="list_enter_pwd">Podaj hasło</string>
+    <string name="list_move_to">Przenieś do</string>
+    <string name="list_new_folder">Szybki folder</string>
+    <string name="list_read_error">\#błąd odczytu</string>
+    <string name="masterpasswd_emptypass">Hasło nie może być puste</string>
+    <string name="masterpasswd_notsame">Podane hasła nie są identycnze</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">podaj nowe hasło</string>
+    <string name="masterpasswd_pass2_hint">powtórz</string>
+    <string name="masterpasswd_show">Pokaż hasło</string>
+    <string name="masterpasswd_title">Nowe hasło</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">O aplikacji..</string>
+    <string name="nd_home">Notatki</string>
+    <string name="nd_settings">Ustawienia</string>
+    <string name="nd_sync">Synchronizuj</string>
+    <string name="nd_trash">Kosz</string>
+    <string name="search_nothing_found">Nic nie znaleziono</string>
+    <string name="sent_from">Wyślij z Fast Notepad</string>
+    <string name="settings_crypt">Szyfrowanie notatek</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Pozycja kursora w edytorze</string>
+    <string name="settings_editorTheme">Edytuj motyw</string>
+    <string name="settings_encrypt_new">Nowe notatki domyślnie zaszyfrowane</string>
+    <string name="settings_encrypt_new_desc">Wszystkie nowe notatki będą szyfrowane</string>
+    <string name="settings_fontSize">Rozmiar czcionki</string>
+    <string name="settings_globalTheme">Motyw globalny</string>
+    <string name="settings_master_passwd">Hasło główne</string>
+    <string name="settings_master_passwd_desc">Użyję tego hasła do szyfrowania plików na karcie SD</string>
+    <string name="settings_one_passwd">Jedno hasło</string>
+    <string name="settings_one_passwd_desc">Użyj hasła głównego do szyfrowania</string>
+    <string name="settings_storage_location">Pamięć zapisu</string>
+    <string name="share_via">Udostępnij przez</string>
+    <string name="speech_not_supported">Funkcja niedostępna</string>
+    <string name="speech_prompt">Mów teraz</string>
+    <string name="sync_1month">Premium na 1 miesiąc</string>
+    <string name="sync_1year">Premium na 1 rok</string>
+    <string name="sync_enter_code">"Kod został wysłany do
+%s
+Wprowadź go poniżej"</string>
+    <string name="sync_err_code">Błędny kod</string>
+    <string name="sync_err_email">Błędny e-mail</string>
+    <string name="sync_err_internet">Błąd połączenia</string>
+    <string name="sync_err_phone">Błędny telefon</string>
+    <string name="sync_err_phone_used">Tem telefon jest już używany</string>
+    <string name="sync_features">"1. Synchronizuj między urządzeniami
+2. Odzyskaj dane ze zgubionych urządzeń
+3. Wróć do poprzednich wersji notatek
+4. Niski koszt usługi"</string>
+    <string name="sync_free">Okres próbny przez 1 miesiąc</string>
+    <string name="sync_free_until">Konto próbne do %s</string>
+    <string name="sync_premium_until">Premium do %s</string>
+    <string name="sync_signin_google">Zaloguj się przez Google</string>
+    <string name="sync_your_code">Twój telefon</string>
+</resources>

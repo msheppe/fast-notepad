@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Criptografar</item>
+        <item>Excluir</item>
+        <item>Fechar sem salvar</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Ordenar por data</item>
+        <item>Ordenar por título</item>
+        <item>Criar pasta</item>
+        <item>Renomear pasta</item>
+        <item>Excluir pasta</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Ordenar por data</item>
+        <item>Ordenar por título</item>
+        <item>Criar pasta</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Abrir</item>
+        <item>Clonar</item>
+        <item>Excluir</item>
+        <item>Mover para</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Lixeira vazia</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origem</item>
+        <item>Fim</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Branco</item>
+        <item>Preto</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Tamanho mínimo</item>
+        <item>Pequeno</item>
+        <item>Médio</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Vermelho</item>
+        <item>Escuro</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Memória interna</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Desabilitar sincronização</item>
+    </string-array>
+</resources>

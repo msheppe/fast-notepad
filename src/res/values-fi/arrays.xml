@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Salaa</item>
+        <item>Poista</item>
+        <item>Sulje tallentamatta</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Päivämäärän mukaan</item>
+        <item>Otsikon mukaan</item>
+        <item>Luo tiedosto</item>
+        <item>Nimeä uudelleen</item>
+        <item>Poista hakemisto</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Päivämäärän mukaan</item>
+        <item>Otsikon mukaan</item>
+        <item>Luo tiedosto</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Avaa</item>
+        <item>Kopioi</item>
+        <item>Poista</item>
+        <item>Siirrä</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Tyhjennä roskakori</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Alku</item>
+        <item>Loppu</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Vaalea</item>
+        <item>Tumma</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Erittäin pieni</item>
+        <item>Pieni</item>
+        <item>Keskikoko</item>
+        <item>Suuri</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Punainen</item>
+        <item>Tumma</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Sisäinen muisti</item>
+        <item>Manuaalinen</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Älä synkronoi</item>
+    </string-array>
+</resources>

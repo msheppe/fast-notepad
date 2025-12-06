@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Koristim aplikaciju Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Pretaži bilješke</string>
+    <string name="app_name">Fast notepad</string>
+    <string name="crypt_agree">Slažem se sa gore napisanim</string>
+    <string name="crypt_info">"Šifriranje je način zaštite vaših bilježaka od znatiželjnih pogleda. Dobro razmislite, i odaberite lozinku koju nećete zaboraviti jer način vraćanja bilježaka ili poništavanja lozinke ne postoji.
+Ako se iz bilo kojeg razloga ne možete sjetiti lozinke koju ste postavili, gubitak podataka će biti u potpunosti vaša odgovornost."</string>
+    <string name="crypt_nomasterpasswd">prazno</string>
+    <string name="crypt_title">Šifriranje</string>
+    <string name="cryptbuy_buy">Kupi</string>
+    <string name="cryptbuy_info">"Šifriranje je način zaštite vaših bilježaka od znatiželjnih pogleda.
+Jednokratnom kupovinom ove opcije dobivate
+1. Zaštitu svojih podataka
+Doživotnu licencu
+3. Pomoći ćete u daljnjem razvoju projekta"</string>
+    <string name="editor_decrypt">Dešifriraj</string>
+    <string name="editor_saved">Spremljeno</string>
+    <string name="editor_share_nothing">Ništa za podijeliti</string>
+    <string name="err">Pogreška</string>
+    <string name="err_cannot_create_file">Nemoguće stvoriti datoteku</string>
+    <string name="err_cannot_decode_file">Nemoguće dešifrirati datoteku</string>
+    <string name="err_cannot_encode_file">Nemoguće šifrirati datoteku</string>
+    <string name="err_cannot_find_storage">Pogrešno mjesto pohrane</string>
+    <string name="err_cannot_open_file">Nemoguće otvoriti datoteku</string>
+    <string name="err_cannot_read_file">Nemoguće pročitati datoteku</string>
+    <string name="err_empty_masterpwd">Glavna lozinka je prazna</string>
+    <string name="err_folder_exists">Mapa već postoji</string>
+    <string name="err_folder_name_invalid">Naziv mape nije točan</string>
+    <string name="err_folder_notempty">Ne možete obrisati mapu, nije prazna</string>
+    <string name="err_invalid_phone">Telefon je nevažeći</string>
+    <string name="err_invalid_pwd">Neispravna lozinka</string>
+    <string name="err_move_file">Pogreška prilikom premještanja datoteke</string>
+    <string name="err_move_storage">Pogreška prilikom mjenjanja pohrane</string>
+    <string name="err_no_account">Korisnički račun nije pronađen</string>
+    <string name="err_not_a_folder">%s nije mapa</string>
+    <string name="err_only_one_folder">Nemate ostalih mapa</string>
+    <string name="list_decrypt_error">\#pogreška dešifriranja</string>
+    <string name="list_decrypt_error2">\#šifrirano</string>
+    <string name="list_enter_folder_name">Unesite naziv mape</string>
+    <string name="list_enter_pwd">Unesite lozinku</string>
+    <string name="list_move_to">Premjesti</string>
+    <string name="list_new_folder">Fast folder</string>
+    <string name="list_read_error">\#pogreška čitanja</string>
+    <string name="masterpasswd_emptypass">Lozinka ne može biti prazna</string>
+    <string name="masterpasswd_notsame">Lozinke nisu jednake</string>
+    <string name="masterpasswd_ok">Uredu</string>
+    <string name="masterpasswd_pass1_hint">Unesite novu lozinku</string>
+    <string name="masterpasswd_pass2_hint">Molimo ponovite</string>
+    <string name="masterpasswd_show">Prikaži lozinku</string>
+    <string name="masterpasswd_title">Nova lozinka</string>
+    <string name="menu">Izbornik</string>
+    <string name="nd_about">O aplikaciji</string>
+    <string name="nd_home">Moje bilješke</string>
+    <string name="nd_settings">Postavke</string>
+    <string name="nd_sync">Sinkronizacija</string>
+    <string name="nd_trash">Smeće</string>
+    <string name="search_nothing_found">Nema rezultata</string>
+    <string name="sent_from">Poslano aplikacijom Fast Notepad</string>
+    <string name="settings_crypt">Šifriranje bilješka</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Mjesto pokazivača u uređivaču</string>
+    <string name="settings_editorTheme">Tema uređivača</string>
+    <string name="settings_encrypt_new">Nove bilješke automatski šifrirane</string>
+    <string name="settings_encrypt_new_desc">Sve nove bilješke će biti šifrirane</string>
+    <string name="settings_fontSize">Veličina fonta</string>
+    <string name="settings_globalTheme">Glavna tema</string>
+    <string name="settings_master_passwd">Glavna lozinka</string>
+    <string name="settings_master_passwd_desc">Ova lozinka služi za šifriranje bilješka na SD kartici</string>
+    <string name="settings_one_passwd">One password</string>
+    <string name="settings_one_passwd_desc">Glavna lozinka služi za šifriranje bilješka</string>
+    <string name="settings_storage_location">Mjesto pohrane</string>
+    <string name="share_via">Podijeli</string>
+    <string name="speech_not_supported">Nije podržano</string>
+    <string name="speech_prompt">Govorite sada</string>
+    <string name="sync_1month">Premium verzija za 1 mjesec</string>
+    <string name="sync_1year">Premium verzija za 1 godinu</string>
+    <string name="sync_enter_code">"Kod je poslan na
+%s
+Unesite ga ispod"</string>
+    <string name="sync_err_code">Kod je netočan</string>
+    <string name="sync_err_email">E-mail je netočan</string>
+    <string name="sync_err_internet">Problem u vezi</string>
+    <string name="sync_err_phone">Uređaj je netočan</string>
+    <string name="sync_err_phone_used">Ovaj uređaj je korišten</string>
+    <string name="sync_features">"1. Sinkroniziraj između svojih uređaja
+2. Oporavak u slučaju gubitka uređaja
+3. Povratak na bilo koju verziju aplikacije
+4. Niska cijena usluge"</string>
+    <string name="sync_free">Trial verzija za 1 mjesec</string>
+    <string name="sync_free_until">Trial verzija sve do %s</string>
+    <string name="sync_premium_until">Premium verzija sve do %s</string>
+    <string name="sync_signin_google">Prijavite se sa Google</string>
+    <string name="sync_your_code">Tvoj mobilni uređaj</string>
+</resources>

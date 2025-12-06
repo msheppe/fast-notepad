@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>اجعله مشفرا</item>
+        <item>حذف</item>
+        <item>اغلاق دون الحفظ</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>ترتيب بواسطة التاريخ</item>
+        <item>ترتيب بواسطة العنوان</item>
+        <item>إنشاء ملف</item>
+        <item>إعادة تسمية الملف</item>
+        <item>حذف ملف</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>ترتيب بواسطة التاريخ</item>
+        <item>ترتيب بواسطة العنوان</item>
+        <item>إنشاء ملف</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>فتح</item>
+        <item>استنساخ</item>
+        <item>حذف</item>
+        <item>نقل إلى</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>سلة مهملات فارغة</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>الأصل</item>
+        <item>نهاية</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>أبيض</item>
+        <item>أسود</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>صغيرا شديد</item>
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>الاحمر</item>
+        <item>داكن</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>الذاكرة الداخلية</item>
+        <item>دليل</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>تعطيل المزامنة</item>
+    </string-array>
+</resources>

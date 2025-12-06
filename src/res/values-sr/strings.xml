@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Ja koristim Brze beleške</string>
+    <string name="actionbar_searchbar_hint">Traži u Beleškama</string>
+    <string name="app_name">Brze beleške</string>
+    <string name="crypt_agree">Slažem se sa gore navedenim</string>
+    <string name="crypt_info">Kriptovanje je način da zaštitite beleške od gledanja. Izaberite jaku lozinku i zapamtite je. Ne postoji način da se kriptovane beleške ili lozinka povrate ukoliko resetujete ili izgubite lozinku, svi prethodno kriptovani podaci biće izgubljeni. To je u potpunosti vaša odgovornost.</string>
+    <string name="crypt_nomasterpasswd">prazno</string>
+    <string name="crypt_title">Kriptovanje</string>
+    <string name="cryptbuy_buy">Kupi</string>
+    <string name="cryptbuy_info">"Kriptovanje je način da zaštitite beleške od gledanja.
+Jednom kupovinom ove opcije dobijate
+1.Zaštitu vaših podataka
+Doživotno
+3.Kupovina će pomoći razvoju ovog projekta"</string>
+    <string name="editor_decrypt">Dekriptuj</string>
+    <string name="editor_saved">Sačuvano</string>
+    <string name="editor_share_nothing">Ništa za deljenje</string>
+    <string name="err">Greška</string>
+    <string name="err_cannot_create_file">Greška u pravljenju fajla</string>
+    <string name="err_cannot_decode_file">Greška u dekriptovanju fajla</string>
+    <string name="err_cannot_encode_file">Greška u kriptovanju fajla</string>
+    <string name="err_cannot_find_storage">Pogrešno mesto čuvanja podataka</string>
+    <string name="err_cannot_open_file">Greška u otvaranju fajla</string>
+    <string name="err_cannot_read_file">Greška u čitanju fajla</string>
+    <string name="err_empty_masterpwd">Master-lozinka je prazna</string>
+    <string name="err_folder_exists">Folder već postoji</string>
+    <string name="err_folder_name_invalid">Ime foldera nije ispravno</string>
+    <string name="err_folder_notempty">Greška u brisanju, folder nije prazan</string>
+    <string name="err_invalid_phone">Pogrešan broj telefona</string>
+    <string name="err_invalid_pwd">Pogrešna lozinka</string>
+    <string name="err_move_file">Greška u premeštanju fajla</string>
+    <string name="err_move_storage">Greška u premeštanju skladišta</string>
+    <string name="err_no_account">Nalog nije pronađen</string>
+    <string name="err_not_a_folder">% nije folder</string>
+    <string name="err_only_one_folder">Nemate više foldera</string>
+    <string name="list_decrypt_error">\#dekriptovanje greška</string>
+    <string name="list_decrypt_error2">\#enkriptovano</string>
+    <string name="list_enter_folder_name">Unesite ime foldera</string>
+    <string name="list_enter_pwd">Unesite lozinku</string>
+    <string name="list_move_to">Premesti u</string>
+    <string name="list_new_folder">Brzi folder</string>
+    <string name="list_read_error">\#čitanje greška</string>
+    <string name="masterpasswd_emptypass">Lozinka ne može biti prazna</string>
+    <string name="masterpasswd_notsame">Lozinke nisu iste</string>
+    <string name="masterpasswd_ok">U redu</string>
+    <string name="masterpasswd_pass1_hint">unesite novu lozinku</string>
+    <string name="masterpasswd_pass2_hint">molimo vas ponovite</string>
+    <string name="masterpasswd_show">Prikaži lozinku</string>
+    <string name="masterpasswd_title">Nova lozinka</string>
+    <string name="menu">Meni</string>
+    <string name="nd_about">Info</string>
+    <string name="nd_home">Moje beleške</string>
+    <string name="nd_settings">Podešavanja</string>
+    <string name="nd_sync">Sinhronizacija</string>
+    <string name="nd_trash">Kanta za otpatke</string>
+    <string name="search_nothing_found">Nema rezultata</string>
+    <string name="sent_from">Poslato iz Brze beleške</string>
+    <string name="settings_crypt">Enkripcija beleški</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Pozicija kursora pri izmeni teksta</string>
+    <string name="settings_editorTheme">Izgled ekrana za izmenu</string>
+    <string name="settings_encrypt_new">Nova beleška kriptovana automatski</string>
+    <string name="settings_encrypt_new_desc">Sve nove beleške biće kriptovane</string>
+    <string name="settings_fontSize">Veličina fonta</string>
+    <string name="settings_globalTheme">Globalni izgled</string>
+    <string name="settings_master_passwd">Master-lozinka</string>
+    <string name="settings_master_passwd_desc">Koristi ovu lozinku za kriptovane fajlove na SD kartici</string>
+    <string name="settings_one_passwd">Jedna lozinka</string>
+    <string name="settings_one_passwd_desc">Upotrebi master-lozinku za kriptovanje beleški</string>
+    <string name="settings_storage_location">Mesto skladištenja</string>
+    <string name="share_via">Podeli putem</string>
+    <string name="speech_not_supported">Govor nije podržan</string>
+    <string name="speech_prompt">Pričajte sada</string>
+    <string name="sync_1month">1 mesec Premium</string>
+    <string name="sync_1year">1 godina Premium</string>
+    <string name="sync_enter_code">"Šifra je poslata na
+%s
+Molimo vas unesite je ispod"</string>
+    <string name="sync_err_code">Šifra je netačna</string>
+    <string name="sync_err_email">E-mail je netačan</string>
+    <string name="sync_err_internet">Problem sa konekcijom</string>
+    <string name="sync_err_phone">Broj telefona je netačan</string>
+    <string name="sync_err_phone_used">Ovaj broj telefona je već korišćen</string>
+    <string name="sync_features">"1. Sinhronizuj svoje uređaje
+2. Povrati podatke ako izgubiš uređaj
+3. Vrati na bilo koju verziju beleške
+4. Niska cena usluge"</string>
+    <string name="sync_free">1 mesec probni period</string>
+    <string name="sync_free_until">Još %s probnog perioda</string>
+    <string name="sync_premium_until">Još %s Premium pristupa</string>
+    <string name="sync_signin_google">Uloguj se sa Google nalogom</string>
+    <string name="sync_your_code">Vaš broj telefona</string>
+</resources>

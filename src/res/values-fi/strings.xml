@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Käytän Fast Notepadia</string>
+    <string name="actionbar_searchbar_hint">Etsi muistiinpanoista</string>
+    <string name="app_name">Fast notepad</string>
+    <string name="crypt_agree">Suostun ylläolevaan</string>
+    <string name="crypt_info">Salauksella voit suojata muistiinpanosi. Mieti kahdesti, sillä salausta ei voi purkaa mitenkään ilman salasanaa. Jos kuitenkin salaat muistiinpanosi, niin mahdollinen tietojen katoaminen, unohtaessasi salasanasi, on kokonaan omalla vastuullasi</string>
+    <string name="crypt_nomasterpasswd">tyhjä</string>
+    <string name="crypt_title">Salaus</string>
+    <string name="cryptbuy_buy">Osta</string>
+    <string name="cryptbuy_info">"Salaus suojaa tiedostosi ulkopuolisilta.
+Suojaa tiedostosi ikuisella lisenssillä.
+Ostamalla tämän toiminnon, autat kehittämään tuotetta."</string>
+    <string name="editor_decrypt">Salattu</string>
+    <string name="editor_saved">Tallennettu</string>
+    <string name="editor_share_nothing">Ei jaettavaa</string>
+    <string name="err">Virhe</string>
+    <string name="err_cannot_create_file">Tiedoston luonti ei onnistu</string>
+    <string name="err_cannot_decode_file">Tiedoston purku ei onnistu</string>
+    <string name="err_cannot_encode_file">Tiedoston salaus ei onnistu</string>
+    <string name="err_cannot_find_storage">Virheellinen tallennuspaikka</string>
+    <string name="err_cannot_open_file">Tiedoston avaus ei onnistu</string>
+    <string name="err_cannot_read_file">Tiedoston luku ei onnistu</string>
+    <string name="err_empty_masterpwd">Master salasana ei ole asetettu</string>
+    <string name="err_folder_exists">Hakemisto on jo olemassa</string>
+    <string name="err_folder_name_invalid">Tiedoston nimi on virheellinen</string>
+    <string name="err_folder_notempty">Hakemistoa ei voi poistaa, koska se ei ole tyhjä</string>
+    <string name="err_invalid_phone">Virheellinen puhelinnumero</string>
+    <string name="err_invalid_pwd">Väärä salasana</string>
+    <string name="err_move_file">Virhe tiedoston siirrossa</string>
+    <string name="err_move_storage">Virhe siirrettäessa hakemistoa.</string>
+    <string name="err_no_account">Tiliä ei löydy</string>
+    <string name="err_not_a_folder">%s ei ole hakemisto</string>
+    <string name="err_only_one_folder">Ei muita hakemistoja</string>
+    <string name="list_decrypt_error">\#Purkuvirhe</string>
+    <string name="list_decrypt_error2">\#Salattu</string>
+    <string name="list_enter_folder_name">Anna hakemiston nimi</string>
+    <string name="list_enter_pwd">Aseta salasana</string>
+    <string name="list_move_to">Siirrä</string>
+    <string name="list_new_folder">Fast folder</string>
+    <string name="list_read_error">\#Lukuvirhe</string>
+    <string name="masterpasswd_emptypass">Salasana ei voi olla tyhjä</string>
+    <string name="masterpasswd_notsame">Salasanat poikkeavat.</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Aseta uusi salasana</string>
+    <string name="masterpasswd_pass2_hint">Toista uudelleen</string>
+    <string name="masterpasswd_show">Näytä salasana</string>
+    <string name="masterpasswd_title">Uusi salasana</string>
+    <string name="menu">Valikko</string>
+    <string name="nd_about">Tietoja</string>
+    <string name="nd_home">Omat muistiinpanot</string>
+    <string name="nd_settings">Asetukset</string>
+    <string name="nd_sync">Sync</string>
+    <string name="nd_trash">Roskakori</string>
+    <string name="search_nothing_found">Ei löytynyt</string>
+    <string name="sent_from">Lähetetty Fast Notepadista</string>
+    <string name="settings_crypt">Salaustapa</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Kursorin sijainti</string>
+    <string name="settings_editorTheme">Teema</string>
+    <string name="settings_encrypt_new">Salaus oletuksena</string>
+    <string name="settings_encrypt_new_desc">Kaikki uudet muistiinpanot salataan.</string>
+    <string name="settings_fontSize">Fonttikoko</string>
+    <string name="settings_globalTheme">Yleinen teema</string>
+    <string name="settings_master_passwd">Master salasana</string>
+    <string name="settings_master_passwd_desc">SD kortin salasana</string>
+    <string name="settings_one_passwd">Yksi salasana</string>
+    <string name="settings_one_passwd_desc">Käytä Master-salasanaa salataksesi</string>
+    <string name="settings_storage_location">Tallennuspaikka</string>
+    <string name="share_via">Jaa</string>
+    <string name="speech_not_supported">Ei tuettu</string>
+    <string name="speech_prompt">Puhu nyt</string>
+    <string name="sync_1month">1kk Premium</string>
+    <string name="sync_1year">Yhden vuoden Premium</string>
+    <string name="sync_enter_code">"Koodi lähetettiin
+%s
+Täytä se alapuolelle"</string>
+    <string name="sync_err_code">Koodi on virheellinen</string>
+    <string name="sync_err_email">Sähköpostiosoite on virheellinen</string>
+    <string name="sync_err_internet">Yhteysvirhe</string>
+    <string name="sync_err_phone">Puhelin on virheellinen</string>
+    <string name="sync_err_phone_used">Tätä puhelinta on käytetty</string>
+    <string name="sync_features">"1. Synkronoi laitteidesi välillä
+2. Palauta jos hukkaat laitteesi
+3. Palauta mihin muistiinpanon versioon tahansa
+4. Edullinen palvelu"</string>
+    <string name="sync_free">1kk Testikäyttö</string>
+    <string name="sync_free_until">Koekäyttö %s asti</string>
+    <string name="sync_premium_until">Premium %s asti</string>
+    <string name="sync_signin_google">Kirjaudu Google-tilille</string>
+    <string name="sync_your_code">Kännykkänumerosi</string>
+</resources>

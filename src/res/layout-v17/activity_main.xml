@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.taxaly.noteme.v2.lib.drawer.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/include_actionbar" layout="@layout/actionbar" />
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/include_actionbar" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        <View android:id="@id/content_addbtn" android:clickable="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="addbtn_click" android:layout_alignParentEnd="true" style="?attr/themedBtnAdd" />
+    </RelativeLayout>
+    <include layout="@layout/navigation_drawer" />
+</com.taxaly.noteme.v2.lib.drawer.DrawerLayout>

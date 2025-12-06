@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Kryptera</item>
+        <item>Radera</item>
+        <item>Stäng utan att spara</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Sortera efter datum</item>
+        <item>Sortera efter titel</item>
+        <item>Skapa mapp</item>
+        <item>Döp om mapp</item>
+        <item>Radera mapp</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Sortera efter datum</item>
+        <item>Sortera efter titel</item>
+        <item>Skapa mapp</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Öppna</item>
+        <item>Duplicera</item>
+        <item>Radera</item>
+        <item>Flytta till</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Töm papperskorgen</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Början</item>
+        <item>Slutet</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Vitt</item>
+        <item>Svart</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Pytteliten</item>
+        <item>Liten</item>
+        <item>Mellan</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Rött</item>
+        <item>Mörkt</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Internminne</item>
+        <item>Manuellt</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Avaktivera synkronisering</item>
+    </string-array>
+</resources>

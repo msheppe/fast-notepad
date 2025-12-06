@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Ik gebruik Snel Kladblok</string>
+    <string name="actionbar_searchbar_hint">Zoeken in notities</string>
+    <string name="app_name">Snel Kladblok</string>
+    <string name="crypt_agree">Ik ga akkoord met het bovenstaande</string>
+    <string name="crypt_info">"Encryptie is een manier om uw notities te beschermen tegen indringers en nieuwsgierigen. Bedenk een sterk wachtwoord en onthoud deze goed.
+Indien u uw wachtwoord kwijtraakt of vergeet, bent u uw versleutelde notities kwijt. Het is niet mogelijk om deze te herstellen zonder het wachtwoord en dit is uw eigen verantwoordelijkheid."</string>
+    <string name="crypt_nomasterpasswd">Leeg</string>
+    <string name="crypt_title">Encryptie/Versleuteling</string>
+    <string name="cryptbuy_buy">Kopen</string>
+    <string name="cryptbuy_info">"Encryptie is een manier om uw notities te beschermen tegen indringers en nieuwsgierigen.
+Door deze option te kopen krijgt u
+1. Bescherming van uw gegevens
+2. Levenslange licentie
+3. U helpt met de ontwikkeling van dit project"</string>
+    <string name="editor_decrypt">Versleutelen</string>
+    <string name="editor_saved">Opgeslagen</string>
+    <string name="editor_share_nothing">Niets om te delen</string>
+    <string name="err">Fout</string>
+    <string name="err_cannot_create_file">Kan bestand niet aanmaken</string>
+    <string name="err_cannot_decode_file">Kan bestand niet decoderen</string>
+    <string name="err_cannot_encode_file">Kan bestand niet versleutelen</string>
+    <string name="err_cannot_find_storage">Ongeldige opslaglocatie</string>
+    <string name="err_cannot_open_file">Kan bestand niet openen</string>
+    <string name="err_cannot_read_file">Kan bestand niet lezen</string>
+    <string name="err_empty_masterpwd">Hoofd-wachtwoord is leeg</string>
+    <string name="err_folder_exists">De map bestaat al</string>
+    <string name="err_folder_name_invalid">De mapnaam is ongeldig</string>
+    <string name="err_folder_notempty">Map is niet leeg en kan niet worden verwijderd</string>
+    <string name="err_invalid_phone">Telefoon is ongeldig</string>
+    <string name="err_invalid_pwd">Fout wachtwoord</string>
+    <string name="err_move_file">Fout bij verplaatsen bestand</string>
+    <string name="err_move_storage">Fout bij verplaatsen opslaglocatie</string>
+    <string name="err_no_account">Account niet gevonden</string>
+    <string name="err_not_a_folder">%s is geen map</string>
+    <string name="err_only_one_folder">Er zijn geen andere mappen</string>
+    <string name="list_decrypt_error">\#decodeerfout</string>
+    <string name="list_decrypt_error2">\#versleuteld</string>
+    <string name="list_enter_folder_name">Voer mapnaam in</string>
+    <string name="list_enter_pwd">Voer wachtwoord in</string>
+    <string name="list_move_to">Verplaatsen naar</string>
+    <string name="list_new_folder">Snel map</string>
+    <string name="list_read_error">\#leesfout</string>
+    <string name="masterpasswd_emptypass">Wachtwoord mag niet leeg zijn</string>
+    <string name="masterpasswd_notsame">Wachtwoorden zijn niet gelijk</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">voer nieuw wachtwoord in</string>
+    <string name="masterpasswd_pass2_hint">herhaal wachtwoord</string>
+    <string name="masterpasswd_show">Wachtwoord tonen</string>
+    <string name="masterpasswd_title">Nieuw wachtwoord</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">Over</string>
+    <string name="nd_home">Mijn notities</string>
+    <string name="nd_settings">Instellingen</string>
+    <string name="nd_sync">Synchroniseren</string>
+    <string name="nd_trash">Prullenbak</string>
+    <string name="search_nothing_found">Niets gevonden</string>
+    <string name="sent_from">Verzonden met Snel Kladblok</string>
+    <string name="settings_crypt">Notities versleuteling</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Cursorpositie in de editor</string>
+    <string name="settings_editorTheme">Editor thema</string>
+    <string name="settings_encrypt_new">Nieuwe notities standaard versleutelen</string>
+    <string name="settings_encrypt_new_desc">Alle nieuwe notities worden versleuteld</string>
+    <string name="settings_fontSize">Lettergrootte</string>
+    <string name="settings_globalTheme">Globaal thema</string>
+    <string name="settings_master_passwd">Hoofd-wachtwoord</string>
+    <string name="settings_master_passwd_desc">Dit wachtwoord gebruiken om bestanden op SD te versleutelen</string>
+    <string name="settings_one_passwd">Een wachtwoord</string>
+    <string name="settings_one_passwd_desc">Gebruik hoofd-wachtwoord om te versleutelen</string>
+    <string name="settings_storage_location">Opslaglocatie</string>
+    <string name="share_via">Delen via</string>
+    <string name="speech_not_supported">Niet ondersteund</string>
+    <string name="speech_prompt">Spreek nu</string>
+    <string name="sync_1month">Premium voor 1 maand</string>
+    <string name="sync_1year">Premium voor 1 jaar</string>
+    <string name="sync_enter_code">"Code is verzonden naar
+%s
+Voer hieronder de code in"</string>
+    <string name="sync_err_code">Code is ongeldig</string>
+    <string name="sync_err_email">E-mail is ongeldig</string>
+    <string name="sync_err_internet">Connectieprobleem</string>
+    <string name="sync_err_phone">Telefoonnummer is ongeldig</string>
+    <string name="sync_err_phone_used">Dit telefoonnummer wordt gebruikt</string>
+    <string name="sync_features">"1. Synchroniseren tussen uw apparaten
+2. Recover als u een apparaat kwijtraakt
+3. Teruggaan naar elke versie van notitie
+4. Lage kosten"</string>
+    <string name="sync_free">1 maand uitproberen</string>
+    <string name="sync_free_until">Probeerversie tot %s</string>
+    <string name="sync_premium_until">Premium tot %s</string>
+    <string name="sync_signin_google">Inloggen met Google</string>
+    <string name="sync_your_code">Uw mobiele telefoonnummer</string>
+</resources>

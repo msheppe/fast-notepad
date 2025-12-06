@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Я пользуюсь Быстрым блокнотом</string>
+    <string name="actionbar_searchbar_hint">Поиск в заметках</string>
+    <string name="app_name">Быстрый блокнот</string>
+    <string name="crypt_agree">Я согласен с выше написанным</string>
+    <string name="crypt_info">"Шифрование это способ обезопасить ваши заметки от посторонних. Вы должны дважды подумать и в качестве пароля выбрать такую комбинацию, котору не забудите так как способа восстановить заметки или сбросить пароль не существует.
+Если вы по какой-либо причине не можете вспомнить пароль указаный при создании заметки, то потеря данных полностью ваша ответственность."</string>
+    <string name="crypt_nomasterpasswd">не задан</string>
+    <string name="crypt_title">Шифрование</string>
+    <string name="cryptbuy_buy">Купить</string>
+    <string name="cryptbuy_info">"Шифрование это способ обезопасить ваши заметки от посторонних.
+Купив эту опцию вы получите
+1. Защиту свои данных от посторонних
+2. Пожизненная лицензия
+3. Поможете в развитии проекта"</string>
+    <string name="editor_decrypt">Расшифровать</string>
+    <string name="editor_saved">Сохранено</string>
+    <string name="editor_share_nothing">Нечего отправить</string>
+    <string name="err">Ошибка</string>
+    <string name="err_cannot_create_file">Невозможно создать файл</string>
+    <string name="err_cannot_decode_file">Невозможно расшифровать файл</string>
+    <string name="err_cannot_encode_file">Невозможно зашифровать файл</string>
+    <string name="err_cannot_find_storage">Неверный путь хранения</string>
+    <string name="err_cannot_open_file">Невозможно открыть файл</string>
+    <string name="err_cannot_read_file">Невозможно прочитать файл</string>
+    <string name="err_empty_masterpwd">Пустой мастер пароль</string>
+    <string name="err_folder_exists">Такая папка уже есть</string>
+    <string name="err_folder_name_invalid">Имя папки не верное</string>
+    <string name="err_folder_notempty">Удалить нельзя, папка не пустая</string>
+    <string name="err_invalid_phone">Неверный телефон</string>
+    <string name="err_invalid_pwd">Неверный пароль</string>
+    <string name="err_move_file">Ошибка при перемещении файла</string>
+    <string name="err_move_storage">Ошибка при перемещении хранилища</string>
+    <string name="err_no_account">Аккаунт не найден</string>
+    <string name="err_not_a_folder">%s не является папкой</string>
+    <string name="err_only_one_folder">У вас нет других папок</string>
+    <string name="list_decrypt_error">\#ошибка расшифровки</string>
+    <string name="list_decrypt_error2">\#зашифровано</string>
+    <string name="list_enter_folder_name">Введите имя папки</string>
+    <string name="list_enter_pwd">Введите пароль</string>
+    <string name="list_move_to">Переместить в</string>
+    <string name="list_new_folder">Быстрая папка</string>
+    <string name="list_read_error">\#ошибка чтения</string>
+    <string name="masterpasswd_emptypass">Пароль не может быть пустым</string>
+    <string name="masterpasswd_notsame">Пароли не совпадают</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">введите новый пароль</string>
+    <string name="masterpasswd_pass2_hint">повторите</string>
+    <string name="masterpasswd_show">Показать пароль</string>
+    <string name="masterpasswd_title">Новый пароль</string>
+    <string name="menu">Меню</string>
+    <string name="nd_about">О программе</string>
+    <string name="nd_home">Мои заметки</string>
+    <string name="nd_settings">Настройки</string>
+    <string name="nd_sync">Синхронизация</string>
+    <string name="nd_trash">Корзина</string>
+    <string name="search_nothing_found">Ничего не найдено</string>
+    <string name="sent_from">Отправлено из Быстрого блокнота</string>
+    <string name="settings_crypt">Шифрование заметок</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Позиция курсора в редакторе</string>
+    <string name="settings_editorTheme">Тема редактора</string>
+    <string name="settings_encrypt_new">Шифровать новые</string>
+    <string name="settings_encrypt_new_desc">Все новые записи будут зашифрованы</string>
+    <string name="settings_fontSize">Размер шрифта</string>
+    <string name="settings_globalTheme">Глобальная тема</string>
+    <string name="settings_master_passwd">Мастер пароль</string>
+    <string name="settings_master_passwd_desc">Этот пароль используется для шифрования файлов на SD</string>
+    <string name="settings_one_passwd">Один пароль</string>
+    <string name="settings_one_passwd_desc">Использовать один мастер пароль для шифрования заметок</string>
+    <string name="settings_storage_location">Место хранения</string>
+    <string name="share_via">Отправить через</string>
+    <string name="speech_not_supported">Не поддерживается</string>
+    <string name="speech_prompt">Говорите</string>
+    <string name="sync_1month">Премиум на 1 месяц</string>
+    <string name="sync_1year">Премиум на 1 год</string>
+    <string name="sync_enter_code">"Код был отправлен на
+%s
+Введите его ниже"</string>
+    <string name="sync_err_code">Код неверный</string>
+    <string name="sync_err_email">E-mail неверный</string>
+    <string name="sync_err_internet">Проблемы с интернет соединением</string>
+    <string name="sync_err_phone">Телефон неверный</string>
+    <string name="sync_err_phone_used">Этот телефон уже используется</string>
+    <string name="sync_features">"1. Синхронизация между устройствами
+2. Восстановление в случае потери устройства
+3. Откат заметки к любой дате
+4. Низкая стоимость услуги"</string>
+    <string name="sync_free">Бесплатно на 1 месяц</string>
+    <string name="sync_free_until">Бесплатно до %s</string>
+    <string name="sync_premium_until">Премиум до %s</string>
+    <string name="sync_signin_google">Войти через Google</string>
+    <string name="sync_your_code">Ваш мобильный телефон</string>
+</resources>

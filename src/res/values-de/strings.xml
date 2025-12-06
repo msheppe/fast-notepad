@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Ich verwende Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Durchsuchen...</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">Ich bin mit diesen Bedingungen einverstanden</string>
+    <string name="crypt_info">"Die Verschlüsselung ist eine Möglichkeit, Ihre Notizen vor neugierigen Blicken zu schützen. Verwenden Sie ein starkes Passwort und behalten Sie es in Erinnerung. Es gibt keine Möglichkeit, verschlüsselte Notizen oder das Passwort wiederherzustellen.
+Wenn Sie das Passwort zurücksetzen oder verlieren, gehen alle zuvor verschlüsselten Daten verloren. Die Nutzung der Verschlüsselung obliegt Ihrer eigenen Verantwortung."</string>
+    <string name="crypt_nomasterpasswd">Leer</string>
+    <string name="crypt_title">Verschlüsselung</string>
+    <string name="cryptbuy_buy">Kaufen</string>
+    <string name="cryptbuy_info">"Die Verschlüsselung ist eine Möglichkeit, Ihre Notizen vor neugierigen Blicken zu schützen.
+Wenn Sie diese Funktion kaufen, erhalten Sie
+1. Unbegrenzten Schutz Ihrer Daten
+Unbegrenzte Lizenz
+3. Die Bezahlung hilft der weiteren Entwicklung dieses Projekts"</string>
+    <string name="editor_decrypt">Entschlüsseln</string>
+    <string name="editor_saved">Gespeichert</string>
+    <string name="editor_share_nothing">Es gibt nichts zum Teilen</string>
+    <string name="err">Fehler</string>
+    <string name="err_cannot_create_file">Datei konnte nicht erstellt werden</string>
+    <string name="err_cannot_decode_file">Datei konnte nicht entschlüsselt werden</string>
+    <string name="err_cannot_encode_file">Datei konnte nicht verschlüsselt werden</string>
+    <string name="err_cannot_find_storage">Falscher Dateipfad</string>
+    <string name="err_cannot_open_file">Datei konnte nicht geöffnet werden</string>
+    <string name="err_cannot_read_file">Datei konnte nicht gelesen werden</string>
+    <string name="err_empty_masterpwd">Es existiert kein Master-Passwort</string>
+    <string name="err_folder_exists">Der Ordner ist bereits vorhanden</string>
+    <string name="err_folder_name_invalid">Der Ordnername ist unzulässig</string>
+    <string name="err_folder_notempty">Löschen nicht möglich, der Ordner ist nicht leer</string>
+    <string name="err_invalid_phone">Falsche Telefonnummer</string>
+    <string name="err_invalid_pwd">Falsches Passwort</string>
+    <string name="err_move_file">Datei konnte nicht verschoben werden</string>
+    <string name="err_move_storage">Speicherort konnte nicht geändert werden</string>
+    <string name="err_no_account">Konto nicht gefunden</string>
+    <string name="err_not_a_folder">%s ist kein Ordner</string>
+    <string name="err_only_one_folder">Sie haben keine anderen Ordner</string>
+    <string name="list_decrypt_error">\#Fehler beim Entschlüsseln</string>
+    <string name="list_decrypt_error2">\#verschlüsselt</string>
+    <string name="list_enter_folder_name">Ordnername eingeben</string>
+    <string name="list_enter_pwd">Passwort eingeben</string>
+    <string name="list_move_to">Verschieben...</string>
+    <string name="list_new_folder">Neuer Ordner</string>
+    <string name="list_read_error">\#Lesefehler</string>
+    <string name="masterpasswd_emptypass">Das Passwortfeld darf nicht leer sein</string>
+    <string name="masterpasswd_notsame">Die Passwörter stimmen nicht überein</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Neues Passwort eingeben</string>
+    <string name="masterpasswd_pass2_hint">Bitte erneut eingeben</string>
+    <string name="masterpasswd_show">Passwort anzeigen</string>
+    <string name="masterpasswd_title">Neues Passwort</string>
+    <string name="menu">Menü</string>
+    <string name="nd_about">Über</string>
+    <string name="nd_home">Meine Notizen</string>
+    <string name="nd_settings">Einstellungen</string>
+    <string name="nd_sync">Synchronisation</string>
+    <string name="nd_trash">Papierkorb</string>
+    <string name="search_nothing_found">Nichts gefunden</string>
+    <string name="sent_from">Gesendet von Fast Notepad</string>
+    <string name="settings_crypt">Verschlüsselung der Notizen</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Cursorposition im Editor</string>
+    <string name="settings_editorTheme">Design des Editors</string>
+    <string name="settings_encrypt_new">Neue Notizen automatisch verschlüsseln</string>
+    <string name="settings_encrypt_new_desc">Alle Notizen werden verschlüsselt</string>
+    <string name="settings_fontSize">Schriftgröße</string>
+    <string name="settings_globalTheme">Design der Oberfläche</string>
+    <string name="settings_master_passwd">Masterpasswort</string>
+    <string name="settings_master_passwd_desc">Dieses Passwort wird für verschlüsselte Dateien auf der Speicherkarte verwendet</string>
+    <string name="settings_one_passwd">Mit Passwort</string>
+    <string name="settings_one_passwd_desc">Ein Masterpasswort zum Verschlüsseln verwenden</string>
+    <string name="settings_storage_location">Speicherort</string>
+    <string name="share_via">Teilen via</string>
+    <string name="speech_not_supported">Sprache wird nicht unterstützt</string>
+    <string name="speech_prompt">Jetzt sprechen</string>
+    <string name="sync_1month">1 Monat Premium-Zugang</string>
+    <string name="sync_1year">1 Jahr Premium-Zugang</string>
+    <string name="sync_enter_code">"Der Code wurde an
+%s
+gesendet. Bitte geben Sie den Code unten ein."</string>
+    <string name="sync_err_code">Dieser Code ist ungültig</string>
+    <string name="sync_err_email">Die E-Mail-Adresse ist falsch</string>
+    <string name="sync_err_internet">Verbindungsproblem</string>
+    <string name="sync_err_phone">Die Telefonnummer ist falsch</string>
+    <string name="sync_err_phone_used">Diese Telefonnummer wird bereits verwendet</string>
+    <string name="sync_features">"1. Die Synchronisation zwischen Ihren Geräten
+2. Die Wiederherstellung ihrer Daten im Falle eines Verlusts
+3. Zu jeder Version der Notiz zurückkehren
+4. Günstiger Service"</string>
+    <string name="sync_free">1 Monat Testzeitraum</string>
+    <string name="sync_free_until">Testzeitraum bis %s</string>
+    <string name="sync_premium_until">Premium-Zugang bis %s</string>
+    <string name="sync_signin_google">Mit Google anmelden</string>
+    <string name="sync_your_code">Ihre Handynummer</string>
+</resources>

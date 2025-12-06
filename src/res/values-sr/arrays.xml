@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Enkriptuj</item>
+        <item>Obriši</item>
+        <item>Zatvori bez čuvanja</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Složi prema datumu</item>
+        <item>Složi prema nazivu</item>
+        <item>Napravi folder</item>
+        <item>Promeni ime foldera</item>
+        <item>Obriši folder</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Složi prema datumu</item>
+        <item>Složi prema nazivu</item>
+        <item>Napravi folder</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Otvori</item>
+        <item>Dupliraj</item>
+        <item>Obriši</item>
+        <item>Premesti u</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Isprazni kantu</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Poreklo</item>
+        <item>Kraj</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Belo</item>
+        <item>Crno</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Ekstra mala</item>
+        <item>Mala</item>
+        <item>Srednja</item>
+        <item>Velika</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Crveno</item>
+        <item>Tamno</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Interna memorija</item>
+        <item>Uputstvo</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Onemogući sinhronizovanje</item>
+    </string-array>
+</resources>

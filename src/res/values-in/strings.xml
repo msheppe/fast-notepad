@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Saya menggunakan Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Cari di catatan</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">Saya setuju dengan yang tertulis di atas</string>
+    <string name="crypt_info">"Enkripsi adalah cara untuk melindungi catatan Anda dari pengintai. Pilih password yang kuat dan ingatlah password tersebut. Tidak ada cara untuk memulihkan catatan yang terenkripsi atau memulihkan password.
+Jika Anda lupa password atau mereset password, maka semua data yang telah terenkripsi akan hilang. Ini sepenuhnya adalah tanggung jawab Anda sendiri."</string>
+    <string name="crypt_nomasterpasswd">Kosong</string>
+    <string name="crypt_title">Enkripsi</string>
+    <string name="cryptbuy_buy">Membeli</string>
+    <string name="cryptbuy_info">"Enkripsi adalah cara untuk melindungi catatan Anda dari pengintai.
+Dengan membeli opsi ini sekali Anda dapat:
+1. Melindungi data Anda
+2. Lisensi seumur hidup
+3. Membantu dalam pengembangan aplikasi ini"</string>
+    <string name="editor_decrypt">Dekripsikan</string>
+    <string name="editor_saved">Disimpan</string>
+    <string name="editor_share_nothing">Tidak ada untuk berbagi</string>
+    <string name="err">Error</string>
+    <string name="err_cannot_create_file">Tidak dapat membuat file</string>
+    <string name="err_cannot_decode_file">Tidak dapat membuka sandi file</string>
+    <string name="err_cannot_encode_file">Tidak dapat menyandikan file</string>
+    <string name="err_cannot_find_storage">Lokasi penyimpanan salah</string>
+    <string name="err_cannot_open_file">Tidak dapat membuka file</string>
+    <string name="err_cannot_read_file">Tidak dapat membaca file</string>
+    <string name="err_empty_masterpwd">Master-password kosong</string>
+    <string name="err_folder_exists">Folder sudah ada</string>
+    <string name="err_folder_name_invalid">Nama folder salah</string>
+    <string name="err_folder_notempty">Tidak dapat menghapus, folder tidak kosong</string>
+    <string name="err_invalid_phone">Nomor telefon salah</string>
+    <string name="err_invalid_pwd">Password salah</string>
+    <string name="err_move_file">Gagal memindahkan file</string>
+    <string name="err_move_storage">Gagal memindahkan penyimpanan</string>
+    <string name="err_no_account">Akun tidak ditemukan</string>
+    <string name="err_not_a_folder">%s bukan folder</string>
+    <string name="err_only_one_folder">Anda tidak memiliki folder lain</string>
+    <string name="list_decrypt_error">\#gagal mendekripsi</string>
+    <string name="list_decrypt_error2">\#terenkripsi</string>
+    <string name="list_enter_folder_name">Masukkan nama folder</string>
+    <string name="list_enter_pwd">Masukkan password</string>
+    <string name="list_move_to">Pindahkan ke</string>
+    <string name="list_new_folder">Fast folder</string>
+    <string name="list_read_error">\#gagal membaca</string>
+    <string name="masterpasswd_emptypass">Password tidak dapat dikosongi</string>
+    <string name="masterpasswd_notsame">Password tidak sama</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Masukkan password baru</string>
+    <string name="masterpasswd_pass2_hint">Ulangi password</string>
+    <string name="masterpasswd_show">Tampilkan password</string>
+    <string name="masterpasswd_title">Password baru</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">Tentang</string>
+    <string name="nd_home">Catatan saya</string>
+    <string name="nd_settings">Pengaturan</string>
+    <string name="nd_sync">Sinkronisasi</string>
+    <string name="nd_trash">Keranjang sampah</string>
+    <string name="search_nothing_found">Tidak ditemukan</string>
+    <string name="sent_from">Kirim dari Fast Notepad</string>
+    <string name="settings_crypt">Enkripsi catatan</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Posisi kursor pada editor</string>
+    <string name="settings_editorTheme">Tema editor</string>
+    <string name="settings_encrypt_new">Catatan baru dienkripsi secara default</string>
+    <string name="settings_encrypt_new_desc">Semua catatan baru akan dienkripsi</string>
+    <string name="settings_fontSize">Ukuran font</string>
+    <string name="settings_globalTheme">Tema umum</string>
+    <string name="settings_master_passwd">Master-password</string>
+    <string name="settings_master_passwd_desc">Password ini digunakan untuk enkripsi file pada SD</string>
+    <string name="settings_one_passwd">Satu password</string>
+    <string name="settings_one_passwd_desc">Gunakan master-password untuk mengenkripsi catatan</string>
+    <string name="settings_storage_location">Lokasi penyimpanan</string>
+    <string name="share_via">Bagikan melalui</string>
+    <string name="speech_not_supported">Pembicaraan tidak didukung</string>
+    <string name="speech_prompt">Bicara sekarang</string>
+    <string name="sync_1month">Premium selama 1 bulan</string>
+    <string name="sync_1year">Premium selama 1 tahun</string>
+    <string name="sync_enter_code">"Kode telah dikirim ke
+%s
+Silahkan masukkan kode dibawah ini"</string>
+    <string name="sync_err_code">Kode tidak valid</string>
+    <string name="sync_err_email">E-mail salah</string>
+    <string name="sync_err_internet">Masalah koneksi jaringan</string>
+    <string name="sync_err_phone">Ponsel salah</string>
+    <string name="sync_err_phone_used">Ponsel ini digunakan</string>
+    <string name="sync_features">"1. Sinkronisasi antara perangkat Anda
+2. Memulihkan jika Anda kehilangan perangkat
+3. Kembali ke Fast notepad versi berapapun
+4. Biaya layanan yang rendah"</string>
+    <string name="sync_free">Percobaan selama 1 bulan</string>
+    <string name="sync_free_until">Percobaan hingga %s</string>
+    <string name="sync_premium_until">Premium hingga %s</string>
+    <string name="sync_signin_google">Masuk dengan akun Google</string>
+    <string name="sync_your_code">Ponsel Anda</string>
+</resources>

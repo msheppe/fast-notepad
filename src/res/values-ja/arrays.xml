@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>暗号化する</item>
+        <item>削除</item>
+        <item>保存せずに閉じる</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>日付順</item>
+        <item>名前順</item>
+        <item>フォルダを作成</item>
+        <item>フォルダの名前を変更</item>
+        <item>フォルダを削除</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>日付順</item>
+        <item>名前順</item>
+        <item>フォルダを作成</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>開く</item>
+        <item>クローンを作成</item>
+        <item>削除</item>
+        <item>移動する</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>ごみ箱を空にする</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>先頭</item>
+        <item>末尾</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>白</item>
+        <item>黒</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>とても小さい</item>
+        <item>小さい</item>
+        <item>普通</item>
+        <item>大きい</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>赤</item>
+        <item>ダーク</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>内部ストレージ</item>
+        <item>マニュアル</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>同期を無効化</item>
+    </string-array>
+</resources>

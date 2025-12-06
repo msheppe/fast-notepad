@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">"J'utilise Fast Notepad"</string>
+    <string name="actionbar_searchbar_hint">Recherche dans les notes</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">"Je suis d'accord avec ce qui est écrit ci-dessus"</string>
+    <string name="crypt_info">"Le cryptage est un moyen de protéger vos notes des regards indiscrets. Choisissez un mot de passe fort et ne l'oubliez pas. Il n'y a pas moyen de récupérer les notes chiffrées ou de récupérer le mot de passe.
+Si vous perdez ou réinitialiser votre mot de passe, toutes les données précédemment chiffrées seront perdus. Ceci est de votre propre responsabilité."</string>
+    <string name="crypt_nomasterpasswd">Vide</string>
+    <string name="crypt_title">Chiffrement</string>
+    <string name="cryptbuy_buy">Acheter</string>
+    <string name="cryptbuy_info">"Le cryptage est un moyen de protéger vos notes des regards indiscrets.
+En achetant cette option vous obtenez
+1. Protection de vos données. Licence à vie
+3. L'achat aidera le développement du projet"</string>
+    <string name="editor_decrypt">Décrypter</string>
+    <string name="editor_saved">Enregistré</string>
+    <string name="editor_share_nothing">Rien à partager</string>
+    <string name="err">Erreur</string>
+    <string name="err_cannot_create_file">Impossible de créer le fichier</string>
+    <string name="err_cannot_decode_file">Impossible de décrypter le fichier</string>
+    <string name="err_cannot_encode_file">Impossible de crypter le fichier</string>
+    <string name="err_cannot_find_storage">Chemin de stockage erronées</string>
+    <string name="err_cannot_open_file">"Impossible d'ouvrir le fichier"</string>
+    <string name="err_cannot_read_file">Impossible de lire le fichier</string>
+    <string name="err_empty_masterpwd">Mot de passe-Principal est vide</string>
+    <string name="err_folder_exists">Le dossier existe déjà</string>
+    <string name="err_folder_name_invalid">Le nom du dossier est incorrect</string>
+    <string name="err_folder_notempty">"Impossible de supprimer, le dossier n'est pas vide"</string>
+    <string name="err_invalid_phone">Mauvais numéro de téléphone</string>
+    <string name="err_invalid_pwd">Mot de passe incorrect</string>
+    <string name="err_move_file">Erreur sur le fichier durant le déplacement</string>
+    <string name="err_move_storage">Erreur sur le périphérique de stockage durant le déplacement</string>
+    <string name="err_no_account">Compte non-trouvé</string>
+    <string name="err_not_a_folder">"%s n'est pas un dossier"</string>
+    <string name="err_only_one_folder">"Vous n'avez pas d'autres dossiers"</string>
+    <string name="list_decrypt_error">\#erreur de décryptage</string>
+    <string name="list_decrypt_error2">\#crypté</string>
+    <string name="list_enter_folder_name">Saisir le nom du dossier</string>
+    <string name="list_enter_pwd">Saisir le mot de passe</string>
+    <string name="list_move_to">Déplacer vers</string>
+    <string name="list_new_folder">Dossier rapide</string>
+    <string name="list_read_error">\#erreur de lecture</string>
+    <string name="masterpasswd_emptypass">Mot de passe ne peut pas être vide</string>
+    <string name="masterpasswd_notsame">Les mots de passe ne sont pas identiques</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Entrez un nouveau mot de passe</string>
+    <string name="masterpasswd_pass2_hint">"Répetez s'il-vous-plait"</string>
+    <string name="masterpasswd_show">Montrer le mot de passe</string>
+    <string name="masterpasswd_title">Nouveau mot de passe</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">À propos</string>
+    <string name="nd_home">Mes notes</string>
+    <string name="nd_settings">Paramètres</string>
+    <string name="nd_sync">Synchronisation</string>
+    <string name="nd_trash">Poubelle</string>
+    <string name="search_nothing_found">Aucun résultat trouvé</string>
+    <string name="sent_from">Envoyé depuis Fast Notepad</string>
+    <string name="settings_crypt">Cryptage notes</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">"Position du curseur dans l'éditeur"</string>
+    <string name="settings_editorTheme">Editeur de thème</string>
+    <string name="settings_encrypt_new">Nouvelle note chiffrée par défaut</string>
+    <string name="settings_encrypt_new_desc">Tous les les nouvelles notes seront cryptées</string>
+    <string name="settings_fontSize">Taille de la police</string>
+    <string name="settings_globalTheme">Thème général</string>
+    <string name="settings_master_passwd">Mot de passe-Principal</string>
+    <string name="settings_master_passwd_desc">Ce mot de passe est utilisé pour les fichiers chiffrés sur SD</string>
+    <string name="settings_one_passwd">Un mot de passe</string>
+    <string name="settings_one_passwd_desc">Utilisez Mot de passe-Principal pour crypter les notes</string>
+    <string name="settings_storage_location">Emplacement de stockage</string>
+    <string name="share_via">Partager via</string>
+    <string name="speech_not_supported">Parole non pris en charge</string>
+    <string name="speech_prompt">Parlez maintenant</string>
+    <string name="sync_1month">Premium pendant 1 mois</string>
+    <string name="sync_1year">Premium pendant 1 an</string>
+    <string name="sync_enter_code">"Le code a été envoyé
+%s
+Veuillez l'entrer ci-dessous"</string>
+    <string name="sync_err_code">Le code est invalide</string>
+    <string name="sync_err_email">E-mail incorrect</string>
+    <string name="sync_err_internet">Problème de connection</string>
+    <string name="sync_err_phone">Numéro de téléphone incorrect</string>
+    <string name="sync_err_phone_used">Ce numéro de téléphone est utilisé</string>
+    <string name="sync_features">"1. Synchronisez entre vos appareils
+2. Récupérez si vous perdez un appareil
+3. Revenez à la version de la note
+4. Faible coût de service"</string>
+    <string name="sync_free">Essai pendant 1 mois</string>
+    <string name="sync_free_until">"Essai jusqu'au %s"</string>
+    <string name="sync_premium_until">"Premium jusqu'au %s"</string>
+    <string name="sync_signin_google">"Se connecter à l'aide de Google"</string>
+    <string name="sync_your_code">Votre téléphone mobile</string>
+</resources>

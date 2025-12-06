@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">விரைவு குறிப்பட்டையை பயன்படுத்துகிறேன்</string>
+    <string name="actionbar_searchbar_hint">குறிப்புகளில் தேடுs</string>
+    <string name="app_name">விரை குறிப்பட்டை</string>
+    <string name="crypt_agree">மேலே உள்ளதை ஏற்கிறேன்</string>
+    <string name="crypt_info">"Encryption is a way to protect your notes from prying. Choose a strong password and remember it. There is no way to recover the encrypted notes or retrieve the password.
+If you lose or reset your password, all previously encrypted data will be lost. This is entirely your own responsibility."</string>
+    <string name="crypt_nomasterpasswd">வெற்று</string>
+    <string name="crypt_title">குறிமுறையாக்கம்</string>
+    <string name="cryptbuy_buy">வாங்கு</string>
+    <string name="cryptbuy_info">"Encryption is a way to protect your notes from prying.
+By purchasing this option once you get
+1. Protection of your data
+Lifetime license
+3. Purchasing will help in the development of the project"</string>
+    <string name="editor_decrypt">Make decrypted</string>
+    <string name="editor_saved">சேமிக்கப்பட்டது</string>
+    <string name="editor_share_nothing">பகிர்வதற்கு ஒன்றுமில்லை</string>
+    <string name="err">பிழை</string>
+    <string name="err_cannot_create_file">கோப்பினை உருவாக்க இயலாது</string>
+    <string name="err_cannot_decode_file">Unable to decrypt file</string>
+    <string name="err_cannot_encode_file">Unable to encrypt file</string>
+    <string name="err_cannot_find_storage">தவறான சேமிப்புப் பாதை</string>
+    <string name="err_cannot_open_file">கோப்பை திறக்க இயலாது</string>
+    <string name="err_cannot_read_file">கோப்பை படித்தறிதலில் தோல்வி</string>
+    <string name="err_empty_masterpwd">முதன்மைக்கடவுச்சொல் வெற்றாக உள்ளது</string>
+    <string name="err_folder_exists">முன்னரே கோப்புறை உள்ளது</string>
+    <string name="err_folder_name_invalid">தவறான கோப்புறையின் பெயர்</string>
+    <string name="err_folder_notempty">கோப்புறை வெற்றாக இல்லை ஆகவே அகற்ற இயலாது</string>
+    <string name="err_invalid_phone">தவறான கைபேசி எண்</string>
+    <string name="err_invalid_pwd">தவறான கடவுச்சொல்</string>
+    <string name="err_move_file">கோப்பை நகர்த்துவதில் பிழை</string>
+    <string name="err_move_storage">சேமிப்பகத்தை நகர்த்துவதில் பிழை</string>
+    <string name="err_no_account">கணக்கு காணப்படவில்லை</string>
+    <string name="err_not_a_folder">%s என்பது கோப்புறையல்ல</string>
+    <string name="err_only_one_folder">உங்களிடம் மற்ற கோப்புறைகள் இல்லை</string>
+    <string name="list_decrypt_error">\#decrypt error</string>
+    <string name="list_decrypt_error2">\#encrypted</string>
+    <string name="list_enter_folder_name">கோப்புறையின் பெயரையிடு</string>
+    <string name="list_enter_pwd">கடவுச்சொல்லையிடு</string>
+    <string name="list_move_to">இதற்கு நகர்த்து</string>
+    <string name="list_new_folder">விரைவு கோப்புறை</string>
+    <string name="list_read_error">\#படித்தறிதல் பிழை</string>
+    <string name="masterpasswd_emptypass">கடவுச்சொல் வெற்றாக இருக்கக்கூடாது</string>
+    <string name="masterpasswd_notsame">கடவுச்சொல் பொருந்தவில்லை</string>
+    <string name="masterpasswd_ok">சரி</string>
+    <string name="masterpasswd_pass1_hint">புதிய கடவுச்சொல்லையிடவும்</string>
+    <string name="masterpasswd_pass2_hint">மீண்டும் இடவும்</string>
+    <string name="masterpasswd_show">கடவுச்சொல்லை காண்பி</string>
+    <string name="masterpasswd_title">புதிய கடவுச்சொல்</string>
+    <string name="menu">பட்டி</string>
+    <string name="nd_about">இதைப்பற்றி</string>
+    <string name="nd_home">எனது குறிப்புகள்</string>
+    <string name="nd_settings">அமைப்பு</string>
+    <string name="nd_sync">ஒத்திசைவு</string>
+    <string name="nd_trash">குப்பை</string>
+    <string name="search_nothing_found">ஒன்றும் காணப்படவிலை</string>
+    <string name="sent_from">விரை குறிப்பட்டையிலிருந்து அனுப்பவும்</string>
+    <string name="settings_crypt">குறிப்புகளின் encryption</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">தொகுப்பில் நகரியின் அமைவிடம்</string>
+    <string name="settings_editorTheme">தொகுப்பாளரின் தீம்</string>
+    <string name="settings_encrypt_new">New note encrypted by default</string>
+    <string name="settings_encrypt_new_desc">அனைத்து புதிய குறிப்புகளும் encryptஆகிவிடும்</string>
+    <string name="settings_fontSize">எழுத்துருவின் அளவு</string>
+    <string name="settings_globalTheme">பொதுவான தீம்</string>
+    <string name="settings_master_passwd">முதன்மைக்கடவுச்சொல்</string>
+    <string name="settings_master_passwd_desc">இந்த கடவுச்சொல் SDயிலுள்ள கோப்புகளை encrypt செய்வதற்கு பயன்படும்</string>
+    <string name="settings_one_passwd">ஒரு கடவுச்சொல்</string>
+    <string name="settings_one_passwd_desc">குறிப்புகளை encrypt செய்வதற்கு முதன்மைக்கடவுச்சொல்லை பயன்படுத்து</string>
+    <string name="settings_storage_location">சேமிப்பக இருப்பிடம்</string>
+    <string name="share_via">இதில் பகிரவும்</string>
+    <string name="speech_not_supported">பேச்சுகளை ஏற்றுக்கொள்ளாது</string>
+    <string name="speech_prompt">இப்போது பேசவும்</string>
+    <string name="sync_1month">ஒரு மாத தவணை</string>
+    <string name="sync_1year">ஓராண்டு தவணைய</string>
+    <string name="sync_enter_code">"குறியீடு 
+%s
+ அனுப்பப்பட்டது. கீழே குறியீட்டை உள்ளிடவும்"</string>
+    <string name="sync_err_code">செல்லாத குறியீடு</string>
+    <string name="sync_err_email">தவறான மின்னஞ்சல்</string>
+    <string name="sync_err_internet">இணைப்புச்சிக்கல்</string>
+    <string name="sync_err_phone">தவறான கைபேசி எண்</string>
+    <string name="sync_err_phone_used">இந்த எண் முன்னரே பயன்படுத்தப்பட்டது</string>
+    <string name="sync_features">"௧.உங்களது சாதனங்களுக்கிடையே ஒத்திசையுங்கள்
+௨.சாதனத்தை இழந்திருந்தால் மீட்கவும்
+௩.எந்த பதிப்பிற்கு வேண்டுமானாலும் மாறலாம்
+௪.குறைந்த கட்டணம்"</string>
+    <string name="sync_free">ஒரு மாத முயற்சி</string>
+    <string name="sync_free_until">Trial up to %s</string>
+    <string name="sync_premium_until">%s வரை தவணை</string>
+    <string name="sync_signin_google">உங்கள் Google கணக்கில் உள்நுழையவும்</string>
+    <string name="sync_your_code">உங்கள் கைபேசி எண்</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Oznacz jako zaszyfrowany</item>
+        <item>Usuń</item>
+        <item>Zamknij bez zapisywania</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Sortuj po datach</item>
+        <item>Sortuj po nazwie</item>
+        <item>Stwórz folder</item>
+        <item>Zmień nazwę folderu</item>
+        <item>Usuń folder</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Sortuj po datach</item>
+        <item>Sortuj po nazwie</item>
+        <item>Stwórz folder</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Otwórz</item>
+        <item>Duplikuj</item>
+        <item>Usuń</item>
+        <item>Przenieś</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Opróżnij kosz</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Pochodzenie</item>
+        <item>Koniec</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Biały</item>
+        <item>Czarny</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Bardzo mała</item>
+        <item>Mała</item>
+        <item>Średnia</item>
+        <item>Duża</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Czerwony</item>
+        <item>Ciemny</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Pamięć wewnętrzna</item>
+        <item>Manualnie</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Wyłącz synchronizację</item>
+    </string-array>
+</resources>

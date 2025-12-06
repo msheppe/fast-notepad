@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">A Gyors jegyzettömböt használom</string>
+    <string name="actionbar_searchbar_hint">Keresés a jegyzetek között</string>
+    <string name="app_name">Gyors jegyzettömb</string>
+    <string name="crypt_agree">Elfogadom a fent leírtakat</string>
+    <string name="crypt_info">"A titkosítás egy mód, hogy megvédje jegyzeteit a kíváncsiskodók elől. Válasszon olyan jelszót, amit biztosan nem felejt el, ugyanis a jegyzeteket másképp nem tudja visszaállítani.
+Ha valahogy mégis elfelejti a jelszót, akkor az Ön felelőssége lesz az adatveszteség."</string>
+    <string name="crypt_nomasterpasswd">nincs mesterjelszó</string>
+    <string name="crypt_title">Titkosítás</string>
+    <string name="cryptbuy_buy">Vásárlás</string>
+    <string name="cryptbuy_info">"A titkosítás egy mód, hogy megvédje jegyzeteit a kíváncsiskodók elől.
+Ennek megvásárlásával a következőket kapja:
+1. Adatainak védelme
+Örök licensz
+3. Támogatja a fejlesztést"</string>
+    <string name="editor_decrypt">Titkosítás visszavonása</string>
+    <string name="editor_saved">Mentve</string>
+    <string name="editor_share_nothing">Nincs mit megosztani</string>
+    <string name="err">Hiba</string>
+    <string name="err_cannot_create_file">Nem lehet létrehozni a fájlt</string>
+    <string name="err_cannot_decode_file">Nem lehet dekódolni a fájlt</string>
+    <string name="err_cannot_encode_file">Nem lehet kódolni a fájlt</string>
+    <string name="err_cannot_find_storage">Hibás tárolási hely</string>
+    <string name="err_cannot_open_file">Nem lehet megnyitni a fájlt</string>
+    <string name="err_cannot_read_file">Nem lehet olvasni a fájlt</string>
+    <string name="err_empty_masterpwd">Mesterjelszó üres</string>
+    <string name="err_folder_exists">A mappa már létezik</string>
+    <string name="err_folder_name_invalid">A mappa neve helytelen</string>
+    <string name="err_folder_notempty">Nem lehet törölni a mappát, nem üres</string>
+    <string name="err_invalid_phone">Telefon érvénytelen</string>
+    <string name="err_invalid_pwd">Hibás jelszó</string>
+    <string name="err_move_file">Hiba fájl mozgatásakor</string>
+    <string name="err_move_storage">Hiba tárolási hely mozgatásakor</string>
+    <string name="err_no_account">Felhasználó nem található</string>
+    <string name="err_not_a_folder">%s nem egy mappa</string>
+    <string name="err_only_one_folder">Nincsenek más mappák</string>
+    <string name="list_decrypt_error">\#decrypt error</string>
+    <string name="list_decrypt_error2">\#encrypted</string>
+    <string name="list_enter_folder_name">Add meg a mappa nevét</string>
+    <string name="list_enter_pwd">Add meg a jelszót</string>
+    <string name="list_move_to">Mozgatás ide:</string>
+    <string name="list_new_folder">Gyors mappa</string>
+    <string name="list_read_error">\#read error</string>
+    <string name="masterpasswd_emptypass">Jelszó nem lehet üres</string>
+    <string name="masterpasswd_notsame">Jelszavak nem egyeznek</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">adja meg az új jelszót</string>
+    <string name="masterpasswd_pass2_hint">kérem ismételje meg</string>
+    <string name="masterpasswd_show">Jelszó mutatása</string>
+    <string name="masterpasswd_title">Új jelszó</string>
+    <string name="menu">Menü</string>
+    <string name="nd_about">Névjegy</string>
+    <string name="nd_home">Jegyzeteim</string>
+    <string name="nd_settings">Beállítások</string>
+    <string name="nd_sync">Szinkronizálás</string>
+    <string name="nd_trash">Kuka</string>
+    <string name="search_nothing_found">Nincs találat</string>
+    <string name="sent_from">Küldve a Gyors jegyzettömb használatával</string>
+    <string name="settings_crypt">Jegyzetek titkosítása</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Kurzor helyzete a szerkesztőben</string>
+    <string name="settings_editorTheme">Szerkesztő témája</string>
+    <string name="settings_encrypt_new">Új jegyzet titkosítása alapértelmezetten</string>
+    <string name="settings_encrypt_new_desc">Összes új jegyzet titkosítva lesz</string>
+    <string name="settings_fontSize">Betűméret</string>
+    <string name="settings_globalTheme">Alkalmazás témája</string>
+    <string name="settings_master_passwd">Mesterjelszó</string>
+    <string name="settings_master_passwd_desc">Ez a jelszó titkosítja a fájlokat</string>
+    <string name="settings_one_passwd">Egy jelszó</string>
+    <string name="settings_one_passwd_desc">Mesterjelszó használata titkosításhoz</string>
+    <string name="settings_storage_location">Tárolási hely</string>
+    <string name="share_via">Megosztás</string>
+    <string name="speech_not_supported">Nem támogatott</string>
+    <string name="speech_prompt">Beszéljen most</string>
+    <string name="sync_1month">Prémium 1 hónapra</string>
+    <string name="sync_1year">Prémium 1 évre</string>
+    <string name="sync_enter_code">"Kód el lett küldve az
+%s
+Kérem írja be alulra"</string>
+    <string name="sync_err_code">Kód érvénytelen</string>
+    <string name="sync_err_email">E-mail cím helytelen</string>
+    <string name="sync_err_internet">Probléma a kapcsolattal</string>
+    <string name="sync_err_phone">Telefon helytelen</string>
+    <string name="sync_err_phone_used">Ez a telefon használva van</string>
+    <string name="sync_features">"1. Szinkronizálhat eszközei között
+2. Visszaállíthatja jegyzeteit, ha elveszti készülékét
+3. Visszatérhet jegyzetei előző verzióihoz
+4. Olcsó szolgáltatás"</string>
+    <string name="sync_free">1 hónap próbaidő</string>
+    <string name="sync_free_until">Próbaidő: %s</string>
+    <string name="sync_premium_until">Prémium: %s</string>
+    <string name="sync_signin_google">Bejelentkezés Google-lel</string>
+    <string name="sync_your_code">Ön telefonjára</string>
+</resources>

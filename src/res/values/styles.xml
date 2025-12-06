@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeDark" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="themedActionBar">@style/DarkActionBar</item>
+        <item name="themedActionBarInput">@style/DarkActionBarInput</item>
+        <item name="themedBtnAdd">@style/DarkBtnAdd</item>
+        <item name="themedBtnBack">@style/DarkBtnBack</item>
+        <item name="themedBtnClear">@style/DarkBtnClear</item>
+        <item name="themedBtnEdit">@style/DarkBtnEdit</item>
+        <item name="themedBtnMenu">@style/DarkBtnMenu</item>
+        <item name="themedBtnMic">@style/DarkBtnMic</item>
+        <item name="themedBtnSearch">@style/DarkBtnSearch</item>
+        <item name="themedBtnShare">@style/DarkBtnShare</item>
+        <item name="themedBtnToggle">@style/DarkBtnToggle</item>
+        <item name="themedCheckbox">@drawable/dark_checkbox</item>
+        <item name="themedList">@style/DarkList</item>
+        <item name="themedNavigationDrawer">@style/DarkNavigationDrawer</item>
+        <item name="themedTextView">@style/DarkTextView</item>
+    </style>
+    <style name="ThemeRed" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="themedActionBar">@style/RedActionBar</item>
+        <item name="themedActionBarInput">@style/RedActionBarInput</item>
+        <item name="themedBtnAdd">@style/RedBtnAdd</item>
+        <item name="themedBtnBack">@style/RedBtnBack</item>
+        <item name="themedBtnClear">@style/RedBtnClear</item>
+        <item name="themedBtnEdit">@style/RedBtnEdit</item>
+        <item name="themedBtnMenu">@style/RedBtnMenu</item>
+        <item name="themedBtnMic">@style/RedBtnMic</item>
+        <item name="themedBtnSearch">@style/RedBtnSearch</item>
+        <item name="themedBtnShare">@style/RedBtnShare</item>
+        <item name="themedBtnToggle">@style/RedBtnToggle</item>
+        <item name="themedCheckbox">@drawable/red_checkbox</item>
+        <item name="themedList">@style/RedList</item>
+        <item name="themedNavigationDrawer">@style/RedNavigationDrawer</item>
+        <item name="themedTextView">@style/RedTextView</item>
+    </style>
+    <style name="DarkActionBar">
+        <item name="android:background">@color/actionbar_dark</item>
+    </style>
+    <style name="DarkActionBarInput">
+        <item name="android:textColor">@color/actionbar_input_dark</item>
+        <item name="android:textColorHint">@color/actionbar_input_hint_dark</item>
+    </style>
+    <style name="DarkBtnAdd">
+        <item name="android:background">@drawable/dark_btn_add</item>
+    </style>
+    <style name="DarkBtnBack">
+        <item name="android:background">@drawable/dark_btn_back</item>
+    </style>
+    <style name="DarkBtnClear">
+        <item name="android:background">@drawable/dark_btn_clear</item>
+    </style>
+    <style name="DarkBtnEdit">
+        <item name="android:background">@drawable/dark_btn_edit</item>
+    </style>
+    <style name="DarkBtnMenu">
+        <item name="android:background">@drawable/dark_btn_menu</item>
+    </style>
+    <style name="DarkBtnMic">
+        <item name="android:background">@drawable/dark_btn_mic</item>
+    </style>
+    <style name="DarkBtnSearch">
+        <item name="android:background">@drawable/dark_btn_search</item>
+    </style>
+    <style name="DarkBtnShare">
+        <item name="android:background">@drawable/dark_btn_share</item>
+    </style>
+    <style name="DarkBtnToggle">
+        <item name="android:background">@drawable/dark_btn_toggle</item>
+    </style>
+    <style name="DarkList">
+        <item name="android:textColor">@color/list_textcolor_normal_dark</item>
+        <item name="android:background">@color/list_background_dark</item>
+        <item name="android:divider">@color/list_divider_dark</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="DarkNavigationDrawer">
+        <item name="android:textColor">@color/navigation_drawer_color_dark</item>
+        <item name="android:background">@color/navigation_drawer_background_dark</item>
+    </style>
+    <style name="DarkTextView" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/list_textcolor_normal_dark</item>
+        <item name="android:textColorHint">@color/textview_hint_dark</item>
+    </style>
+    <style name="RedActionBar">
+        <item name="android:background">@color/actionbar_red</item>
+    </style>
+    <style name="RedActionBarInput">
+        <item name="android:textColor">@color/actionbar_input_red</item>
+        <item name="android:textColorHint">@color/actionbar_input_hint_red</item>
+    </style>
+    <style name="RedBtnAdd">
+        <item name="android:background">@drawable/red_btn_add</item>
+    </style>
+    <style name="RedBtnBack">
+        <item name="android:background">@drawable/red_btn_back</item>
+    </style>
+    <style name="RedBtnClear">
+        <item name="android:background">@drawable/red_btn_clear</item>
+    </style>
+    <style name="RedBtnEdit">
+        <item name="android:background">@drawable/red_btn_edit</item>
+    </style>
+    <style name="RedBtnMenu">
+        <item name="android:background">@drawable/red_btn_menu</item>
+    </style>
+    <style name="RedBtnMic">
+        <item name="android:background">@drawable/red_btn_mic</item>
+    </style>
+    <style name="RedBtnSearch">
+        <item name="android:background">@drawable/red_btn_search</item>
+    </style>
+    <style name="RedBtnShare">
+        <item name="android:background">@drawable/red_btn_share</item>
+    </style>
+    <style name="RedBtnToggle">
+        <item name="android:background">@drawable/red_btn_toggle</item>
+    </style>
+    <style name="RedList">
+        <item name="android:textColor">@color/list_textcolor_normal_red</item>
+        <item name="android:background">@color/list_background_red</item>
+        <item name="android:divider">@color/list_divider_red</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="RedNavigationDrawer">
+        <item name="android:textColor">@color/navigation_drawer_color_red</item>
+        <item name="android:background">@color/navigation_drawer_background_red</item>
+    </style>
+    <style name="RedTextView" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/list_textcolor_normal_red</item>
+        <item name="android:textColorHint">@color/textview_hint_red</item>
+    </style>
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/textview_color</item>
+    </style>
+</resources>

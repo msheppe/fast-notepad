@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Зашифровать</item>
+        <item>Удалить</item>
+        <item>Закрыть без сохранения</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Сортировать по дате</item>
+        <item>Сортировать по названию</item>
+        <item>Создать папку</item>
+        <item>Переименовать папку</item>
+        <item>Удалить папку</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Сортировать по дате</item>
+        <item>Сортировать по названию</item>
+        <item>Создать папку</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Открыть</item>
+        <item>Клонировать</item>
+        <item>Удалить</item>
+        <item>Переместить в</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Очистить корзину</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Начало</item>
+        <item>Конец</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Белая</item>
+        <item>Черная</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Очень мелкий</item>
+        <item>Мелкий</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Красная</item>
+        <item>Тёмная</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Внутренняя память</item>
+        <item>Вручную</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Отключить синхронизацию</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Enkripsikan</item>
+        <item>Hapus</item>
+        <item>Tutup tanpa simpan</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Urutkan berdasarkan tanggal</item>
+        <item>Urutkan berdasarkan judul</item>
+        <item>Buat folder</item>
+        <item>Ganti nama folder</item>
+        <item>Hapus folder</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Urutkan berdasarkan tanggal</item>
+        <item>Urutkan berdasarkan judul</item>
+        <item>Buat folder</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Buka</item>
+        <item>Gandakan</item>
+        <item>Hapus</item>
+        <item>Pindahkan ke</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Kosongkan sampah</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Awal</item>
+        <item>Akhir</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Putih</item>
+        <item>Hitam</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Lebih kecil</item>
+        <item>Kecil</item>
+        <item>Sedang</item>
+        <item>Besar</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Merah</item>
+        <item>Gelap</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Penyimpanan internal</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Nonaktifkan sinkronisasi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Zašifrovať</item>
+        <item>Zmazať</item>
+        <item>Zavrieť bez uloženia?</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Zoradiť podľa dátumu</item>
+        <item>Zoradiť podľa názvu</item>
+        <item>Vytvoriť adresár</item>
+        <item>Premenovať adresár</item>
+        <item>Vymazať adresár</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Zoradiť podľa dátumu</item>
+        <item>Zoradiť podľa názvu</item>
+        <item>Vytvoriť adresár</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Otvoriť</item>
+        <item>Klonovať</item>
+        <item>Vymazať</item>
+        <item>Presunúť do</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Vysypať kôš</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Na začiatku</item>
+        <item>Na konci</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Biela</item>
+        <item>Čierna</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Extra malé</item>
+        <item>Malé</item>
+        <item>Stredné</item>
+        <item>Veľké</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Červená</item>
+        <item>Tmavá</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Interná pamäť</item>
+        <item>Manuál</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Vypnúť synchronizáciu</item>
+    </string-array>
+</resources>

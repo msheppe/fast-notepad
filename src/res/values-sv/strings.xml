@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Jag använder Snabbt anteckningsblock</string>
+    <string name="actionbar_searchbar_hint">Sök bland anteckningar</string>
+    <string name="app_name">Snabbt anteckningsblock</string>
+    <string name="crypt_agree">Jag samtycker med ovan</string>
+    <string name="crypt_info">"Kryptering är ett sätt att skydda dina anteckningar från obehöriga. Välj lösenordet omsorgfullt, eftersom det inte finns något sätt att få tillbaka anteckningarna utan detta!
+Om du skulle glömma lösenordet, är förlusten av dina anteckningar helt ditt eget ansvar."</string>
+    <string name="crypt_nomasterpasswd">blankt</string>
+    <string name="crypt_title">Kryptering</string>
+    <string name="cryptbuy_buy">Köp</string>
+    <string name="cryptbuy_info">"Kryptering är ett sätt att skydda dina anteckningar från obehöriga.
+Genom att köpa detta tillägg, får du:
+1. Skydd av dina anteckningar. Licens på livstid
+3. Stödjer utvecklingen av programmet"</string>
+    <string name="editor_decrypt">Dekryptera</string>
+    <string name="editor_saved">Sparat</string>
+    <string name="editor_share_nothing">Inget att dela</string>
+    <string name="err">Fel</string>
+    <string name="err_cannot_create_file">Kan inte skapa fil</string>
+    <string name="err_cannot_decode_file">Kan inte avkoda fil</string>
+    <string name="err_cannot_encode_file">Kan inte koda fil</string>
+    <string name="err_cannot_find_storage">Hittar inte lagringsplats</string>
+    <string name="err_cannot_open_file">Kan inte öppna fil</string>
+    <string name="err_cannot_read_file">Kan inte läsa fil</string>
+    <string name="err_empty_masterpwd">Huvudlösenordet är blankt</string>
+    <string name="err_folder_exists">Mappen finns redan</string>
+    <string name="err_folder_name_invalid">Mapp-namnet är felaktigt</string>
+    <string name="err_folder_notempty">Du kan inte radera en mapp som inte är tom</string>
+    <string name="err_invalid_phone">Telefonnummer inkorrekt</string>
+    <string name="err_invalid_pwd">Felaktigt lösenord</string>
+    <string name="err_move_file">Kan inte flytta filen</string>
+    <string name="err_move_storage">Kan inte flytta lagringsplatsen</string>
+    <string name="err_no_account">Kontot finns inte</string>
+    <string name="err_not_a_folder">%s är inte en mapp</string>
+    <string name="err_only_one_folder">Du har inga andra mappar</string>
+    <string name="list_decrypt_error">\#krypteringsfel</string>
+    <string name="list_decrypt_error2">\#krypterade</string>
+    <string name="list_enter_folder_name">Ange mapp-namn</string>
+    <string name="list_enter_pwd">Ange lösenord</string>
+    <string name="list_move_to">Flytta till</string>
+    <string name="list_new_folder">Mapp</string>
+    <string name="list_read_error">\#läsfel</string>
+    <string name="masterpasswd_emptypass">Lösenordet kan inte vara blankt</string>
+    <string name="masterpasswd_notsame">Lösenorden samstämmer inte</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">ange nytt lösenord</string>
+    <string name="masterpasswd_pass2_hint">repetera lösenordet</string>
+    <string name="masterpasswd_show">Visa lösenord</string>
+    <string name="masterpasswd_title">Nytt lösenord</string>
+    <string name="menu">Meny</string>
+    <string name="nd_about">Om</string>
+    <string name="nd_home">Mina anteckningar</string>
+    <string name="nd_settings">Inställningar</string>
+    <string name="nd_sync">Synkronisering</string>
+    <string name="nd_trash">Papperskorg</string>
+    <string name="search_nothing_found">Inget funnet</string>
+    <string name="sent_from">Skickat från Snabbt anteckningsblock</string>
+    <string name="settings_crypt">Kryptering</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Markörläge i redigeraren</string>
+    <string name="settings_editorTheme">Tema för redigerare</string>
+    <string name="settings_encrypt_new">Kryptera standardmässigt</string>
+    <string name="settings_encrypt_new_desc">Nya anteckningar kommer bli krypterade</string>
+    <string name="settings_fontSize">Typsnittstorlek</string>
+    <string name="settings_globalTheme">Globalt tema</string>
+    <string name="settings_master_passwd">Huvudlösenord</string>
+    <string name="settings_master_passwd_desc">Detta lösenord krypterar filerna på SD-kortet</string>
+    <string name="settings_one_passwd">Gemensamt lösenord</string>
+    <string name="settings_one_passwd_desc">Använd huvudlösenorder för att kryptera anteckningar</string>
+    <string name="settings_storage_location">Lagringsplats</string>
+    <string name="share_via">Dela via</string>
+    <string name="speech_not_supported">Stöds ej</string>
+    <string name="speech_prompt">Tala nu</string>
+    <string name="sync_1month">Premium 1 månad</string>
+    <string name="sync_1year">Premium 1 år</string>
+    <string name="sync_enter_code">"Koden skickades till
+%s
+Mata in den nedan"</string>
+    <string name="sync_err_code">Koden är inkorrekt</string>
+    <string name="sync_err_email">E-postadress är felaktig</string>
+    <string name="sync_err_internet">Uppkopplingsproblem</string>
+    <string name="sync_err_phone">Telefonnumret är felaktigt</string>
+    <string name="sync_err_phone_used">Denna telefon redan använd</string>
+    <string name="sync_features">"1. Synkronisera dina enheter
+2. Återskapa om du förlorar din enhet
+3. Återgå till äldre versioner av anteckningar
+4. Till en låg kostnad"</string>
+    <string name="sync_free">Prova-på 1 månad</string>
+    <string name="sync_free_until">Prova-på till %s</string>
+    <string name="sync_premium_until">Premium till %s</string>
+    <string name="sync_signin_google">Logga in med Google</string>
+    <string name="sync_your_code">Ditt mobilnummer</string>
+</resources>

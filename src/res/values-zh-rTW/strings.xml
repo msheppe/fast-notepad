@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">I use Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Search in Notes</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">I agree with written above</string>
+    <string name="crypt_info">"Encryption is a way to protect your notes from prying. Choose a strong password and remember it. There is no way to recover the encrypted notes or retrieve the password.
+If you lose or reset your password, all previously encrypted data will be lost. This is entirely your own responsibility."</string>
+    <string name="crypt_nomasterpasswd">empty</string>
+    <string name="crypt_title">Encryption</string>
+    <string name="cryptbuy_buy">購買</string>
+    <string name="cryptbuy_info">"Encryption is a way to protect your notes from prying.
+By purchasing this option once you get
+1. Protection of your data
+Lifetime license
+3. Purchasing will help in the development of the project"</string>
+    <string name="editor_decrypt">Make decrypted</string>
+    <string name="editor_saved">保存成功</string>
+    <string name="editor_share_nothing">Nothing to share</string>
+    <string name="err">錯誤</string>
+    <string name="err_cannot_create_file">Unable to create file</string>
+    <string name="err_cannot_decode_file">Unable to decrypt file</string>
+    <string name="err_cannot_encode_file">Unable to encrypt file</string>
+    <string name="err_cannot_find_storage">Wrong storage path</string>
+    <string name="err_cannot_open_file">Unable to open file</string>
+    <string name="err_cannot_read_file">Unable read file</string>
+    <string name="err_empty_masterpwd">Master-password is empty</string>
+    <string name="err_folder_exists">The folder already exists</string>
+    <string name="err_folder_name_invalid">The folder name is incorrect</string>
+    <string name="err_folder_notempty">Unable to delete, folder is not empty</string>
+    <string name="err_invalid_phone">Wrong phone number</string>
+    <string name="err_invalid_pwd">Wrong password</string>
+    <string name="err_move_file">Error on file moving</string>
+    <string name="err_move_storage">Error on storage moving</string>
+    <string name="err_no_account">Account not found</string>
+    <string name="err_not_a_folder">%s is not a folder</string>
+    <string name="err_only_one_folder">You have no another folders</string>
+    <string name="list_decrypt_error">\#decrypt error</string>
+    <string name="list_decrypt_error2">\#encrypted</string>
+    <string name="list_enter_folder_name">輸入資料夾名稱</string>
+    <string name="list_enter_pwd">輸入密碼</string>
+    <string name="list_move_to">Move to</string>
+    <string name="list_new_folder">Fast folder</string>
+    <string name="list_read_error">\#read error</string>
+    <string name="masterpasswd_emptypass">Password cannot be empty</string>
+    <string name="masterpasswd_notsame">Passwords are not equal</string>
+    <string name="masterpasswd_ok">行</string>
+    <string name="masterpasswd_pass1_hint">enter new password</string>
+    <string name="masterpasswd_pass2_hint">please repeat</string>
+    <string name="masterpasswd_show">Show password</string>
+    <string name="masterpasswd_title">新密碼</string>
+    <string name="menu">目錄</string>
+    <string name="nd_about">關於</string>
+    <string name="nd_home">My notes</string>
+    <string name="nd_settings">設定</string>
+    <string name="nd_sync">Synchronization</string>
+    <string name="nd_trash">Trash bin</string>
+    <string name="search_nothing_found">Nothing Found</string>
+    <string name="sent_from">Sent from Fast notepad</string>
+    <string name="settings_crypt">Notes encryption</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Cursor position in the editor</string>
+    <string name="settings_editorTheme">Editor theme</string>
+    <string name="settings_encrypt_new">New note encrypted by default</string>
+    <string name="settings_encrypt_new_desc">All new notes will be encrypted</string>
+    <string name="settings_fontSize">字型大小</string>
+    <string name="settings_globalTheme">Global theme</string>
+    <string name="settings_master_passwd">Master-password</string>
+    <string name="settings_master_passwd_desc">This password uses for encrypted files on SD</string>
+    <string name="settings_one_passwd">One password</string>
+    <string name="settings_one_passwd_desc">Use master-password to encrypt notes</string>
+    <string name="settings_storage_location">Storage location</string>
+    <string name="share_via">Share via</string>
+    <string name="speech_not_supported">Speech not supported</string>
+    <string name="speech_prompt">Speak now</string>
+    <string name="sync_1month">Premium for 1 month</string>
+    <string name="sync_1year">Premium for 1 year</string>
+    <string name="sync_enter_code">"Code was sent to
+%s
+Please enter it bellow"</string>
+    <string name="sync_err_code">Code is invalid</string>
+    <string name="sync_err_email">E-mail is incorrect</string>
+    <string name="sync_err_internet">Connection problem</string>
+    <string name="sync_err_phone">Phone number is incorrect</string>
+    <string name="sync_err_phone_used">This phone number is used</string>
+    <string name="sync_features">"1. Sync between your devices
+2. Recover if you lose a device
+3. Return to any version of note
+4. Low cost of service"</string>
+    <string name="sync_free">Trial for 1 month</string>
+    <string name="sync_free_until">Trial up to %s</string>
+    <string name="sync_premium_until">Premium up to %s</string>
+    <string name="sync_signin_google">Sign in with Google</string>
+    <string name="sync_your_code">Your mobile phone</string>
+</resources>

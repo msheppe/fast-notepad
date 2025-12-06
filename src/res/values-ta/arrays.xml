@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Make encrypted</item>
+        <item>அகற்று</item>
+        <item>சேமிக்காமல் மூடு</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>திகதியின் படி வரிசைபடுத்து</item>
+        <item>தலைப்பின் படி வரிசைபடுத்து</item>
+        <item>கோப்புறையை உருவாக்கு</item>
+        <item>கோப்புறைக்கு மறுபெயரிடு</item>
+        <item>கோப்புறையை அகற்று</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>திகதியின் படி வரிசைபடுத்து</item>
+        <item>தலைப்பின் படி வரிசைபடுத்து</item>
+        <item>கோப்புறையை உருவாக்கு</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>திற</item>
+        <item>குளோன்</item>
+        <item>நீக்கு</item>
+        <item>இதற்கு நகர்த்து</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>குப்பைகளை அகற்று</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>தொடக்கம்</item>
+        <item>முடிவு</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>வெள்ளை</item>
+        <item>கருப்பு</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>மிகவும் சிறியது</item>
+        <item>கிறியது</item>
+        <item>இடைநிலை</item>
+        <item>பெரியது</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>சிவப்பு</item>
+        <item>இருள்</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>உள்ளக நினைவகம்</item>
+        <item>ஆளியக்கக் கட்டுப்பாடு</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>ஒத்திசைவை நிருத்து</item>
+    </string-array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Аз използвам Бързо бележник</string>
+    <string name="actionbar_searchbar_hint">Търсене в статии</string>
+    <string name="app_name">Бърз бележника</string>
+    <string name="crypt_agree">Съгласен съм с горе написано</string>
+    <string name="crypt_info">"Шифроването е начин да запазите вашите бележки от любопитни. Трябва да мислиш два пъти и парола изберете комбинация, която кулминира не забравяйте като начин да възстановите бележките, или нулиране на паролата не съществува.
+Ако по някаква причина не си спомняте паролата, посочили когато създавате анотация, загуба на данни е изцяло Ваша отговорност."</string>
+    <string name="crypt_nomasterpasswd">не е зададено</string>
+    <string name="crypt_title">Шифроване</string>
+    <string name="cryptbuy_buy">Купи</string>
+    <string name="cryptbuy_info">"Шифроването е начин да защитите вашите бележки от непознати.
+Чрез закупуване на тази опция получавате
+1. Защита на вашите данни от неоторизиран
+2. Живот лиценз
+3. Помощ за развитието на проекта"</string>
+    <string name="editor_decrypt">Разшифровай</string>
+    <string name="editor_saved">Запазено</string>
+    <string name="editor_share_nothing">Няма нищо за изпращане</string>
+    <string name="err">Грешка</string>
+    <string name="err_cannot_create_file">Не може да създадете файл</string>
+    <string name="err_cannot_decode_file">Невъзможно е да се декриптира файла</string>
+    <string name="err_cannot_encode_file">Вие не можете да кодирате файл</string>
+    <string name="err_cannot_find_storage">Грешен място за съхранение</string>
+    <string name="err_cannot_open_file">Не може да се отвори файл</string>
+    <string name="err_cannot_read_file">Не може да се чете файл</string>
+    <string name="err_empty_masterpwd">Господар паролата е празна</string>
+    <string name="err_folder_exists">Папката е вече</string>
+    <string name="err_folder_name_invalid">Името на папката е грешно</string>
+    <string name="err_folder_notempty">Не можете да изтриете папка, не е празна</string>
+    <string name="err_invalid_phone">Невалиден телефонен</string>
+    <string name="err_invalid_pwd">Грешна парола</string>
+    <string name="err_move_file">Възникна грешка при преместване на файл</string>
+    <string name="err_move_storage">Грешка движи съхранение</string>
+    <string name="err_no_account">Профилът не е намерен</string>
+    <string name="err_not_a_folder">%s не папка</string>
+    <string name="err_only_one_folder">Вие нямате други папки</string>
+    <string name="list_decrypt_error">\#декриптиране грешка</string>
+    <string name="list_decrypt_error2">\#шифровано</string>
+    <string name="list_enter_folder_name">Въведете име на папка</string>
+    <string name="list_enter_pwd">Въведете парола</string>
+    <string name="list_move_to">Премести в</string>
+    <string name="list_new_folder">Бърз папка</string>
+    <string name="list_read_error">\#прочети грешка</string>
+    <string name="masterpasswd_emptypass">Паролата не може да бъде празно</string>
+    <string name="masterpasswd_notsame">Паролите не съвпадат</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">въведете нова парола</string>
+    <string name="masterpasswd_pass2_hint">повторете</string>
+    <string name="masterpasswd_show">Покажи паролата</string>
+    <string name="masterpasswd_title">Нова парола</string>
+    <string name="menu">Меню</string>
+    <string name="nd_about">На бърза бележника</string>
+    <string name="nd_home">Моите бележки</string>
+    <string name="nd_settings">Настройки</string>
+    <string name="nd_sync">Синхронизация</string>
+    <string name="nd_trash">Кошница</string>
+    <string name="search_nothing_found">Нищо намерени</string>
+    <string name="sent_from">Изпратено от Бързо бележника</string>
+    <string name="settings_crypt">Шифроване на бележки</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Позиционирайте курсора в редактора</string>
+    <string name="settings_editorTheme">Тема редактор</string>
+    <string name="settings_encrypt_new">Шифроване на нови</string>
+    <string name="settings_encrypt_new_desc">Всички нови записи ще бъдат криптирани</string>
+    <string name="settings_fontSize">Размер на шрифта</string>
+    <string name="settings_globalTheme">Глобална тема</string>
+    <string name="settings_master_passwd">Господар парола</string>
+    <string name="settings_master_passwd_desc">Тази парола се използва за шифроване на файлове на SD</string>
+    <string name="settings_one_passwd">Една парола</string>
+    <string name="settings_one_passwd_desc">Използвайте един господар парола за шифроване на бележки</string>
+    <string name="settings_storage_location">Място за съхранение</string>
+    <string name="share_via">Изпрати чрез</string>
+    <string name="speech_not_supported">Не се поддържа</string>
+    <string name="speech_prompt">Говорете</string>
+    <string name="sync_1month">Премиум за 1 месец</string>
+    <string name="sync_1year">Премиум за 1 година</string>
+    <string name="sync_enter_code">"Кодът е изпратена до
+%s
+Въведете по-долу"</string>
+    <string name="sync_err_code">Неверен код</string>
+    <string name="sync_err_email">Невалиден E-mail</string>
+    <string name="sync_err_internet">Проблем с интернет връзката</string>
+    <string name="sync_err_phone">Невалиден телефон</string>
+    <string name="sync_err_phone_used">Този телефон е вече в употреба</string>
+    <string name="sync_features">"1. Синхронизацията между устройства
+2. Възстановяване в случай на загуба на устройство
+3. Подвижният обратно бележките към всяка дата
+4. Ниска цена услуги"</string>
+    <string name="sync_free">Безплатно за 1 месец</string>
+    <string name="sync_free_until">Безплатно до %s</string>
+    <string name="sync_premium_until">Премиум до %s</string>
+    <string name="sync_signin_google">Влезни чрез Google</string>
+    <string name="sync_your_code">Вашия мобилен телефон</string>
+</resources>

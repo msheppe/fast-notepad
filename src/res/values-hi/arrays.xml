@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>कूटलिखित बनाएं</item>
+        <item>मिटाएं</item>
+        <item>बिना सहेजे बंद करें</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>तिथि क्रम में</item>
+        <item>शीर्षक क्रम में</item>
+        <item>फोल्‍डर बनाएं</item>
+        <item>फोल्‍डर का नाम बदलें</item>
+        <item>फोल्‍डर मिटाएं</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>तिथि क्रम में</item>
+        <item>शीर्षक क्रम में</item>
+        <item>फोल्‍डर बनाएं</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>खोले</item>
+        <item>बंद करें</item>
+        <item>मिटाएं</item>
+        <item>यहाँ ले जायें</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>कचरा खाली करें</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>उद्गम</item>
+        <item>समाप्त</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>सफेद</item>
+        <item>काला</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>अतिरिक्त छोटा</item>
+        <item>छोटा</item>
+        <item>मध्यम</item>
+        <item>बड़ा</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>लाल</item>
+        <item>गहरा</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>आंतरिक मेमोरी</item>
+        <item>मैन्युअल</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>सिंक अक्षम करें</item>
+    </string-array>
+</resources>

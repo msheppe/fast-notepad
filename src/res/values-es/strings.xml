@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Estoy usando Notas rápidas</string>
+    <string name="actionbar_searchbar_hint">Buscar en mis notas</string>
+    <string name="app_name">Notas rápidas</string>
+    <string name="crypt_agree">Estoy de acuerdo</string>
+    <string name="crypt_info">"La encriptación es la forma de protejer tus notas de los fisgones. Debes pensar en una contraseña que no olvides ya que no existe forma de recuperar las notas encriptadas sin esta contraseña.
+Si por algún motivo no puedes recordar la contraseña que has elegido al crear las notas, la pérdida de datos queda enteramente a tu responsabilidad."</string>
+    <string name="crypt_nomasterpasswd">vacío</string>
+    <string name="crypt_title">Encriptación</string>
+    <string name="cryptbuy_buy">Comprar</string>
+    <string name="cryptbuy_info">"La encriptación es la forma de protejer tus notas de los fisgones.
+Si compras esta opción obtienes:
+1. Proteger tus datos
+2. Licencia de por vida
+3. Ayudarás en el desarrollo del proyecto."</string>
+    <string name="editor_decrypt">Desencriptar</string>
+    <string name="editor_saved">Guardado</string>
+    <string name="editor_share_nothing">Nada para compartir</string>
+    <string name="err">Error</string>
+    <string name="err_cannot_create_file">Imposible crear el archivo</string>
+    <string name="err_cannot_decode_file">Imposible decodificar el archivo</string>
+    <string name="err_cannot_encode_file">Imposible codificar el archivo</string>
+    <string name="err_cannot_find_storage">Ubicación de almacenaje incorrecta</string>
+    <string name="err_cannot_open_file">Imposible abrir el archivo</string>
+    <string name="err_cannot_read_file">Imposible leer el archivo</string>
+    <string name="err_empty_masterpwd">Contraseña maestra vacía</string>
+    <string name="err_folder_exists">La carpeta ya existe</string>
+    <string name="err_folder_name_invalid">Nombre de carpeta incorrecto</string>
+    <string name="err_folder_notempty">No se puede eliminar la carpeta, aún contiene archivos dentro</string>
+    <string name="err_invalid_phone">Teléfono inválido</string>
+    <string name="err_invalid_pwd">Contraseña incorrecta</string>
+    <string name="err_move_file">Error moviendo archivo</string>
+    <string name="err_move_storage">Error moviendo almacenamiento</string>
+    <string name="err_no_account">Cuenta no encontrada</string>
+    <string name="err_not_a_folder">%s no es una carpeta</string>
+    <string name="err_only_one_folder">No tienes mas carpetas</string>
+    <string name="list_decrypt_error">\#Error de desencriptación</string>
+    <string name="list_decrypt_error2">\#Encriptado</string>
+    <string name="list_enter_folder_name">Ingrese el nombre de Carpeta</string>
+    <string name="list_enter_pwd">Ingrese contraseña</string>
+    <string name="list_move_to">Mover a...</string>
+    <string name="list_new_folder">Carpeta Rápida</string>
+    <string name="list_read_error">\#Error de Lectura</string>
+    <string name="masterpasswd_emptypass">La contraseña no puede estar vacía</string>
+    <string name="masterpasswd_notsame">Las contraseñas no son iguales</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Ingresa la nueva contraseña</string>
+    <string name="masterpasswd_pass2_hint">Repita la contraseña</string>
+    <string name="masterpasswd_show">Mostrar la contraseña</string>
+    <string name="masterpasswd_title">Nueva contraseña</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">Acerca de</string>
+    <string name="nd_home">Mis notas</string>
+    <string name="nd_settings">Preferencias</string>
+    <string name="nd_sync">Sincronizar</string>
+    <string name="nd_trash">Papelera</string>
+    <string name="search_nothing_found">No se encontró nada</string>
+    <string name="sent_from">Enviado desde Notas rápidas</string>
+    <string name="settings_crypt">Encriptación de notas</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Posición del cursor en editor</string>
+    <string name="settings_editorTheme">Tema del editor</string>
+    <string name="settings_encrypt_new">Encriptar las notas nuevas por defecto</string>
+    <string name="settings_encrypt_new_desc">Todas las notas nuevas serán encriptadas</string>
+    <string name="settings_fontSize">Tamaño de fuente</string>
+    <string name="settings_globalTheme">Tema global</string>
+    <string name="settings_master_passwd">Contraseña maestra</string>
+    <string name="settings_master_passwd_desc">Contraseña a usar para archivos encriptados en la SD</string>
+    <string name="settings_one_passwd">Una contraseña</string>
+    <string name="settings_one_passwd_desc">Usar la contraseña maestra para encriptar notas</string>
+    <string name="settings_storage_location">Ubicación de almacenamiento</string>
+    <string name="share_via">Compartir via</string>
+    <string name="speech_not_supported">No soportado</string>
+    <string name="speech_prompt">Habla ahora</string>
+    <string name="sync_1month">Premium por un mes</string>
+    <string name="sync_1year">Premium por 1 año</string>
+    <string name="sync_enter_code">"El código ha sido enviado a
+%s
+Por favor ingréselo debajo"</string>
+    <string name="sync_err_code">Código inválido</string>
+    <string name="sync_err_email">E-mail incorrecto</string>
+    <string name="sync_err_internet">Problema de conexión</string>
+    <string name="sync_err_phone">Teléfono incorrecto</string>
+    <string name="sync_err_phone_used">Este teléfono ya está en uso</string>
+    <string name="sync_features">"1. Sincroniza con tus dispositivos
+2. Recupera notas si pierdes un dispositivo
+3. Volver a cualquier versión de la nota
+4. Bajo costo de servicio"</string>
+    <string name="sync_free">Prueba por 1 mes</string>
+    <string name="sync_free_until">Versión de pruebas hasta %s</string>
+    <string name="sync_premium_until">Versión Premium hasta to %s</string>
+    <string name="sync_signin_google">Ingresar con tu cuenta de Google</string>
+    <string name="sync_your_code">Tu número de teléfono móvil</string>
+</resources>

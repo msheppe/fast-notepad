@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Шифроване</item>
+        <item>Изтриване</item>
+        <item>Затвори без записване</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Сортиране по дата</item>
+        <item>Сортирай по име</item>
+        <item>Създаване на папка</item>
+        <item>Преименуване на папка</item>
+        <item>Изтриване на папка</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Сортиране по дата</item>
+        <item>Сортирай по име</item>
+        <item>Създаване на папка</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Отворен</item>
+        <item>Войната на клонингите</item>
+        <item>Изтриване</item>
+        <item>Преместване в</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Празен кошчето</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>В началото на</item>
+        <item>Край</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Бяло</item>
+        <item>Черно</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Много фини</item>
+        <item>Гърне</item>
+        <item>Средно</item>
+        <item>Голям</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Червен</item>
+        <item>Тъмно</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Вътрешна памет</item>
+        <item>Ръчно</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Изключете синхронизация</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Make encrypted</item>
+        <item>Slet</item>
+        <item>Luk uden at gemme</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Sorter efter dato</item>
+        <item>Sorter efter titel</item>
+        <item>Lav mappe</item>
+        <item>Omdøb mappe</item>
+        <item>Slet mappe</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Sorter efter dato</item>
+        <item>Sorter efter titel</item>
+        <item>Lav mappe</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Åbn</item>
+        <item>Klon</item>
+        <item>Slet</item>
+        <item>Flyt til</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Tøm papirkurv</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origin</item>
+        <item>End</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Hvid</item>
+        <item>Sort</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Xtra small</item>
+        <item>Lille</item>
+        <item>Medium</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Rød</item>
+        <item>Mørk</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Internal memory</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Deaktiver synkronisering</item>
+    </string-array>
+</resources>

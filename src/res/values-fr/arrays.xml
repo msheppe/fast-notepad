@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Rendre chiffrée</item>
+        <item>Supprimer</item>
+        <item>Fermer sans enregistrer</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Trier par date</item>
+        <item>Trier par titre</item>
+        <item>Créer le dossier</item>
+        <item>Renommer le dossier</item>
+        <item>Supprimer le dossier</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Trier par date</item>
+        <item>Trier par titre</item>
+        <item>Créer le dossier</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Ouvrir</item>
+        <item>Cloner</item>
+        <item>Supprimer</item>
+        <item>Déplacer vers</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Vider la corbeille</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origine</item>
+        <item>Fin</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Blanc</item>
+        <item>Noir</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Très petit</item>
+        <item>Petit</item>
+        <item>Moyen</item>
+        <item>Grand</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Rouge</item>
+        <item>Sombre</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Mémoire interne</item>
+        <item>Manuel</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Désactiver la synchronisation</item>
+    </string-array>
+</resources>

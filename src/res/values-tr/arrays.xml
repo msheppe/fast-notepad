@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Şifreli olun</item>
+        <item>Silmek</item>
+        <item>Kaydetmeden kapatın</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Tarihe göre sipariş</item>
+        <item>Başlığa göre sipariş</item>
+        <item>Klasör oluşturun</item>
+        <item>Klasörü yeniden adlandırın</item>
+        <item>Klasörü sil</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Tarihe göre sipariş</item>
+        <item>Başlığa göre sipariş</item>
+        <item>Klasör oluşturun</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Açık</item>
+        <item>Klon</item>
+        <item>Silmek</item>
+        <item>Taşıma yeri</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Boş çöp</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Kökeni</item>
+        <item>Son</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Beyaz</item>
+        <item>Siyah</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Çok küçük</item>
+        <item>Küçük</item>
+        <item>Orta</item>
+        <item>Büyük</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Kırmızı</item>
+        <item>Karanlık</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Dahili bellek</item>
+        <item>Manuel</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Devre Dışı senkronizasyon</item>
+    </string-array>
+</resources>

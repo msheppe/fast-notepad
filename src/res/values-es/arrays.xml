@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Encriptar</item>
+        <item>Borrar</item>
+        <item>Salir sin guardar</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Ordenar por fecha</item>
+        <item>Ordenar por título</item>
+        <item>Crear carpeta</item>
+        <item>Renombrar carpeta</item>
+        <item>Borrar carpeta</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Ordenar por fecha</item>
+        <item>Ordenar por título</item>
+        <item>Crear carpeta</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Abrir</item>
+        <item>Clonar</item>
+        <item>Borrar</item>
+        <item>Mover a...</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Vaciar papelera</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origen</item>
+        <item>Final</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>Blanco</item>
+        <item>Negro</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Extra pequeña</item>
+        <item>Pequeña</item>
+        <item>Mediana</item>
+        <item>Grande</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Rojo</item>
+        <item>Oscuro</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Memoria interna</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Desactivar sincronización</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_editor">
+        <item>Make encrypted</item>
+        <item>Delete</item>
+        <item>Close without saving</item>
+    </string-array>
+    <string-array name="menu_folder">
+        <item>Order by date</item>
+        <item>Order by title</item>
+        <item>Create folder</item>
+        <item>Rename folder</item>
+        <item>Delete folder</item>
+    </string-array>
+    <string-array name="menu_home">
+        <item>Order by date</item>
+        <item>Order by title</item>
+        <item>Create folder</item>
+    </string-array>
+    <string-array name="menu_item">
+        <item>Open</item>
+        <item>Clone</item>
+        <item>Delete</item>
+        <item>Move to</item>
+    </string-array>
+    <string-array name="menu_trash">
+        <item>Empty trash</item>
+    </string-array>
+    <string-array name="settings_cursor_position">
+        <item>Origin</item>
+        <item>End</item>
+    </string-array>
+    <string-array name="settings_editorThemeTitles">
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+    <string-array name="settings_fontSizeTitles">
+        <item>Xtra small</item>
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="settings_globalThemeTitles">
+        <item>Red</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="settings_storage_type">
+        <item>Android</item>
+        <item>Internal memory</item>
+        <item>Manual</item>
+    </string-array>
+    <string-array name="sync_menu">
+        <item>Disable sync</item>
+    </string-array>
+    <string-array name="settings_cursor_positionValues">
+        <item>begin</item>
+        <item>end</item>
+    </string-array>
+    <string-array name="settings_editorThemeValues">
+        <item>white</item>
+        <item>black</item>
+    </string-array>
+    <string-array name="settings_fontSizeValues">
+        <item>xs</item>
+        <item>s</item>
+        <item>m</item>
+        <item>l</item>
+    </string-array>
+    <string-array name="settings_globalThemeValues">
+        <item>red</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="settings_storage_type_values">
+        <item>system</item>
+        <item>internal</item>
+        <item>manual</item>
+    </string-array>
+</resources>

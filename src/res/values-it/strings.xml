@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Uso Fast Notepad</string>
+    <string name="actionbar_searchbar_hint">Cercare negli appunti</string>
+    <string name="app_name">Fast Notepad</string>
+    <string name="crypt_agree">Accetto quanto sopra</string>
+    <string name="crypt_info">"La cifratura è un modo per proteggere i tuoi appunti dalle intromissioni. Scegli una password sicura e ricordala. Non c'è modo di recuperare gli appunti cifrati o la password.
+Se perdi o reimposti la password, tutti i dati precedentemente cifrati andranno persi. Quanto sopra è interamente sotto la tua responsabilità."</string>
+    <string name="crypt_nomasterpasswd">Vuoto</string>
+    <string name="crypt_title">Cifratura</string>
+    <string name="cryptbuy_buy">Acquistare</string>
+    <string name="cryptbuy_info">"La cifratura è un modo di proteggere i tuoi appunti dalle intromissioni. 
+Acquistando questa opzione una volta otterrai
+1. La protezione dei tuoi dati
+Licenza con validità illimitata
+3. L'acquisto aiuterà lo sviluppo del progetto"</string>
+    <string name="editor_decrypt">Decriptare</string>
+    <string name="editor_saved">Salvata</string>
+    <string name="editor_share_nothing">Nothing to share</string>
+    <string name="err">Errore</string>
+    <string name="err_cannot_create_file">Impossibile creare file</string>
+    <string name="err_cannot_decode_file">Impossibile decriptare il file</string>
+    <string name="err_cannot_encode_file">Impossibile criptare il file</string>
+    <string name="err_cannot_find_storage">Percorso di archiviazione errato</string>
+    <string name="err_cannot_open_file">Impossibile aprire il file</string>
+    <string name="err_cannot_read_file">Impossibile leggere il file</string>
+    <string name="err_empty_masterpwd">La password principale è vuota</string>
+    <string name="err_folder_exists">La cartella esiste già</string>
+    <string name="err_folder_name_invalid">Il nome della cartella non è corretta</string>
+    <string name="err_folder_notempty">Impossibile cancellare la cartella: non è vuota</string>
+    <string name="err_invalid_phone">Numero di telefono errato</string>
+    <string name="err_invalid_pwd">Password errata</string>
+    <string name="err_move_file">Errore nello spostamento del file</string>
+    <string name="err_move_storage">Error on storage moving</string>
+    <string name="err_no_account">Account non trovato</string>
+    <string name="err_not_a_folder">%s non è una cartella</string>
+    <string name="err_only_one_folder">Non hai altre cartelle</string>
+    <string name="list_decrypt_error">\#decrypt error</string>
+    <string name="list_decrypt_error2">\#criptato</string>
+    <string name="list_enter_folder_name">Inserisci il nome della cartella</string>
+    <string name="list_enter_pwd">Inserisci Password</string>
+    <string name="list_move_to">Sposta a</string>
+    <string name="list_new_folder">Fast folder</string>
+    <string name="list_read_error">\#read error</string>
+    <string name="masterpasswd_emptypass">Il campo password non può essere vuoto</string>
+    <string name="masterpasswd_notsame">Le password non sono uguali</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">Inserisci nuova password</string>
+    <string name="masterpasswd_pass2_hint">prego ripetere</string>
+    <string name="masterpasswd_show">Mostra password</string>
+    <string name="masterpasswd_title">Nuova Password</string>
+    <string name="menu">Menu</string>
+    <string name="nd_about">About</string>
+    <string name="nd_home">I miei appunti</string>
+    <string name="nd_settings">Impostazioni</string>
+    <string name="nd_sync">Sincronizzazione</string>
+    <string name="nd_trash">Cestino</string>
+    <string name="search_nothing_found">Nessun Risultato</string>
+    <string name="sent_from">Inviato da Fast Notepad</string>
+    <string name="settings_crypt">Cifratura appunti</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">"Posizione del cursore nell'editor"</string>
+    <string name="settings_editorTheme">Editor theme</string>
+    <string name="settings_encrypt_new">Nuovi appunti cifrati per impostazione predefinita</string>
+    <string name="settings_encrypt_new_desc">Tutti i nuovi appunti saranno cifrati</string>
+    <string name="settings_fontSize">Dimensioni del font</string>
+    <string name="settings_globalTheme">Global theme</string>
+    <string name="settings_master_passwd">Password principale</string>
+    <string name="settings_master_passwd_desc">This password uses for encrypted files on SD</string>
+    <string name="settings_one_passwd">Una password</string>
+    <string name="settings_one_passwd_desc">Usa la password principale per cifrare gli appunti</string>
+    <string name="settings_storage_location">Posizione di memorizzazione</string>
+    <string name="share_via">Condividi tramite</string>
+    <string name="speech_not_supported">Speech not supported</string>
+    <string name="speech_prompt">Parla ora</string>
+    <string name="sync_1month">Premium per 1 mese</string>
+    <string name="sync_1year">Premium per 1 anno</string>
+    <string name="sync_enter_code">"Il codice è stato inviato a
+%s
+Prego inserirlo qui sotto"</string>
+    <string name="sync_err_code">Il codice non è valido</string>
+    <string name="sync_err_email">"l'indirizzo e-mail è errato"</string>
+    <string name="sync_err_internet">Problema di connessione</string>
+    <string name="sync_err_phone">Il numero di telefono è errato</string>
+    <string name="sync_err_phone_used">This phone number is used</string>
+    <string name="sync_features">"1. Sincronizzazione tra due dispositivi
+2. Recupera un dispositivo smarrito
+3. Torna a qualunque versione dell'appunto
+4. Basso costo del servizio"</string>
+    <string name="sync_free">Prova per 1 mese</string>
+    <string name="sync_free_until">Prova fino a %s</string>
+    <string name="sync_premium_until">Premium fino a %s</string>
+    <string name="sync_signin_google">Registrati con Google</string>
+    <string name="sync_your_code">Il tuo numero di cellulare</string>
+</resources>

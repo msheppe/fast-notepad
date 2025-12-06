@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_share_vk">Я карыстаюся Хуткім нататнікам</string>
+    <string name="actionbar_searchbar_hint">Пошук у нататках</string>
+    <string name="app_name">Хуткі нататнік</string>
+    <string name="crypt_agree">Я згодны з вышэй напісаным</string>
+    <string name="crypt_info">"Шыфраванне гэта спосаб засцерагчы вашы нататкі ад старонніх. Вы павінны двойчы падумаць і ў якасці пароля выбраць такую камбінацыю, якая не забуду так як спосабу аднавіць нататкі або скінуць пароль не існуе.
+Если вы па якой-небудзь прычыне не можаце ўспомніць пароль указаннем пры стварэнні нататкі, то страта дадзеных цалкам ваша адказнасць."</string>
+    <string name="crypt_nomasterpasswd">не зададзены</string>
+    <string name="crypt_title">Шыфраванне</string>
+    <string name="cryptbuy_buy">Купіць</string>
+    <string name="cryptbuy_info">"Шыфраванне гэта спосаб засцерагчы вашы нататкі ад старонніх.
+Купіўшы гэтую опцыю вы атрымаеце
+1. Абарані свае дадзеных ад старонніх
+2. Пажыццёвая ліцэнзія
+3. Дапаможаце ў развіцці праекта"</string>
+    <string name="editor_decrypt">Расшыфраваць</string>
+    <string name="editor_saved">Захавана</string>
+    <string name="editor_share_nothing">Нічога адправіць</string>
+    <string name="err">Памылка</string>
+    <string name="err_cannot_create_file">Немагчыма стварыць файл</string>
+    <string name="err_cannot_decode_file">Немагчыма расшыфраваць файл</string>
+    <string name="err_cannot_encode_file">Немагчыма зашыфраваць файл</string>
+    <string name="err_cannot_find_storage">Няправільны шлях захоўвання</string>
+    <string name="err_cannot_open_file">Немагчыма адкрыць файл</string>
+    <string name="err_cannot_read_file">Немагчыма прачытаць файл</string>
+    <string name="err_empty_masterpwd">Пусты майстар пароль</string>
+    <string name="err_folder_exists">Такая тэчка ўжо ёсць</string>
+    <string name="err_folder_name_invalid">Імя папкі не дакладнае</string>
+    <string name="err_folder_notempty">Выдаліць нельга, тэчка не пустая</string>
+    <string name="err_invalid_phone">Няправільны тэлефон</string>
+    <string name="err_invalid_pwd">Няправільны пароль</string>
+    <string name="err_move_file">Памылка пры перамяшчэнні файла</string>
+    <string name="err_move_storage">Памылка пры перамяшчэнні сховішчы</string>
+    <string name="err_no_account">Рахунак не знойдзены</string>
+    <string name="err_not_a_folder">"%s не з'яўляецца тэчкай"</string>
+    <string name="err_only_one_folder">У вас няма іншых тэчак</string>
+    <string name="list_decrypt_error">\#памылка расшыфроўкі</string>
+    <string name="list_decrypt_error2">\#зашыфравана</string>
+    <string name="list_enter_folder_name">Калі ласка, увядзіце імя папкі</string>
+    <string name="list_enter_pwd">Калі ласка, увядзіце пароль</string>
+    <string name="list_move_to">Перамясціць у</string>
+    <string name="list_new_folder">Хуткая тэчка</string>
+    <string name="list_read_error">\#памылка чытання</string>
+    <string name="masterpasswd_emptypass">Пароль не можа быць пустым</string>
+    <string name="masterpasswd_notsame">Паролі не супадаюць</string>
+    <string name="masterpasswd_ok">OK</string>
+    <string name="masterpasswd_pass1_hint">увядзіце новы пароль</string>
+    <string name="masterpasswd_pass2_hint">паўторыце</string>
+    <string name="masterpasswd_show">Паказаць пароль</string>
+    <string name="masterpasswd_title">Новы пароль</string>
+    <string name="menu">Меню</string>
+    <string name="nd_about">Аб праграме</string>
+    <string name="nd_home">Мае нататкі</string>
+    <string name="nd_settings">Налады</string>
+    <string name="nd_sync">Сінхранізацыя</string>
+    <string name="nd_trash">Кошык</string>
+    <string name="search_nothing_found">Нічога не знойдзена</string>
+    <string name="sent_from">Адпраўлена з Хуткага нататніка</string>
+    <string name="settings_crypt">Шыфраванне нататак</string>
+    <string name="settings_crypt_desc">AES-256</string>
+    <string name="settings_cursor">Пазіцыя курсора ў рэдактары</string>
+    <string name="settings_editorTheme">Тэма рэдактара</string>
+    <string name="settings_encrypt_new">Шыфраваць новыя</string>
+    <string name="settings_encrypt_new_desc">Усе новыя запісы будуць зашыфраваныя</string>
+    <string name="settings_fontSize">Памер шрыфта</string>
+    <string name="settings_globalTheme">Глабальная тэма</string>
+    <string name="settings_master_passwd">Майстар пароль</string>
+    <string name="settings_master_passwd_desc">Гэты пароль выкарыстоўваецца для шыфравання файлаў на SD</string>
+    <string name="settings_one_passwd">Адзін пароль</string>
+    <string name="settings_one_passwd_desc">Выкарыстоўваць адзін майстар пароль для шыфравання нататак</string>
+    <string name="settings_storage_location">Месца захоўвання</string>
+    <string name="share_via">Адправіць праз</string>
+    <string name="speech_not_supported">Не падтрымліваецца</string>
+    <string name="speech_prompt">Кажаце</string>
+    <string name="sync_1month">Прэміум на 1 месяц</string>
+    <string name="sync_1year">Прэміум на 1 год</string>
+    <string name="sync_enter_code">"Код быў адпраўлены на
+%s
+Увядзiце яго ніжэй"</string>
+    <string name="sync_err_code">Код няправільны</string>
+    <string name="sync_err_email">E-mail няправільны</string>
+    <string name="sync_err_internet">Праблемы з інтэрнэт злучэннем</string>
+    <string name="sync_err_phone">Тэлефон няправільны</string>
+    <string name="sync_err_phone_used">Гэты тэлефон ўжо выкарыстоўваецца</string>
+    <string name="sync_features">"1. Сінхранізацыя паміж прыладамі
+2. Аднаўленне ў выпадку страты прылады
+3. Адкат нататкі да любой даты
+4. Нізкі кошт паслугі"</string>
+    <string name="sync_free">Бясплатна на 1 месяц</string>
+    <string name="sync_free_until">Бясплатна да %s</string>
+    <string name="sync_premium_until">Прэміум да %s</string>
+    <string name="sync_signin_google">Увайсці праз Google</string>
+    <string name="sync_your_code">Ваш мабільны тэлефон</string>
+</resources>
