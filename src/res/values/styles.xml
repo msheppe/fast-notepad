@@ -17,6 +17,12 @@
         <item name="themedList">@style/DarkList</item>
         <item name="themedNavigationDrawer">@style/DarkNavigationDrawer</item>
         <item name="themedTextView">@style/DarkTextView</item>
+
+	<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+	<item name="android:statusBarColor">@color/actionbar_dark</item>
+	<item name="android:windowTranslucentStatus">false</item>
+
+	<item name="editorRootBackground">@color/color_statusbar_dark</item>
     </style>
     <style name="ThemeRed" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:textViewStyle">@style/TextViewStyle</item>
@@ -35,6 +41,12 @@
         <item name="themedList">@style/RedList</item>
         <item name="themedNavigationDrawer">@style/RedNavigationDrawer</item>
         <item name="themedTextView">@style/RedTextView</item>
+
+	<item name="android:windowDrawsSystemBarBackgrounds">true</item>
+	<item name="android:statusBarColor">@color/actionbar_red</item>
+	<item name="android:windowTranslucentStatus">false</item>
+
+	<item name="editorRootBackground">@color/color_statusbar_red</item>
     </style>
     <style name="DarkActionBar">
         <item name="android:background">@color/actionbar_dark</item>
