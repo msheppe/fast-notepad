@@ -56,7 +56,7 @@ Lifetime license
     <string name="nd_sync">Synchronization</string>
     <string name="nd_trash">Trash bin</string>
     <string name="search_nothing_found">Nothing Found</string>
-    <string name="sent_from">Sent from Fast notepad</string>
+    <string name="sent_from">Sent from Fast Notepad</string>
     <string name="settings_crypt">Notes encryption</string>
     <string name="settings_crypt_desc">AES-256</string>
     <string name="settings_cursor">Cursor position in the editor</string>

@@ -812,8 +812,10 @@
     invoke-super {p0, p1}, Lcom/taxaly/noteme/v2/lib/drawer/cp;->onCreate(Landroid/os/Bundle;)V
 
     const v0, 0x7f040007
-
     invoke-virtual {p0, v0}, Lcom/taxaly/noteme/v2/MainActivity;->setContentView(I)V
+
+    # NEW: ensure MANAGE_EXTERNAL_STORAGE is granted on Android 11+
+    invoke-direct {p0}, Lcom/taxaly/noteme/v2/MainActivity;->checkAllFilesPermission()V
 
     const v0, 0x7f0b0015
 
@@ -1160,3 +1162,56 @@
 
     return-void
 .end method
+
+.method private checkAllFilesPermission()V
+    .locals 4
+
+    # if (Build.VERSION.SDK_INT < 30) return;
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+    const/16 v1, 0x1e              # 30
+    if-lt v0, v1, :return_ok
+
+    # if (Environment.isExternalStorageManager()) return;
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageManager()Z
+    move-result v0
+    if-nez v0, :return_ok
+
+    # Intent intent = new Intent(Settings.ACTION_MANAGE_APP_ALL_FILES_ACCESS_PERMISSION);
+    new-instance v0, Landroid/content/Intent;
+    const-string v1, "android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION"
+    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    # String pkg = getPackageName();
+    invoke-virtual {p0}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
+    move-result-object v1
+
+    # String uriString = "package:" + pkg;
+    new-instance v2, Ljava/lang/StringBuilder;
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "package:"
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
+
+    # Uri uri = Uri.parse(uriString);
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    move-result-object v1
+
+    # intent.setData(uri);
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+
+    # intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+    const/high16 v1, 0x10000000
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+
+    # startActivity(intent);
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+:return_ok
+    return-void
+.end method
+
