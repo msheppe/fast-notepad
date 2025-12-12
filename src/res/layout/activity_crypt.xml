@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/themedList"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="?attr/editorRootBackground">
+
+    <!-- NEW inner container -->
+    <RelativeLayout
+        android:id="@+id/crypt_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="?attr/basicWindowBackground">
+
+        <!-- MOVE ALL EXISTING CHILD VIEWS HERE -->
+        <!-- literally cut/paste everything that used to be under the root -->
     <include android:id="@id/include_actionbar_simple" layout="@layout/actionbar_simple" />
     <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/include_actionbar_simple" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
         <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
@@ -11,4 +26,7 @@
             <LinearLayout android:orientation="vertical" android:id="@id/crypt_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/relativeLayout2" android:layout_alignParentLeft="true" />
         </RelativeLayout>
     </ScrollView>
+
+    </RelativeLayout>
+
 </RelativeLayout>

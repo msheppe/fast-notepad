@@ -24,6 +24,7 @@
 	<item name="android:windowTranslucentStatus">false</item>
 
 	<item name="editorRootBackground">@color/color_statusbar_dark</item>
+	<item name="basicWindowBackground">@color/editor_bg_normal_black</item>
     </style>
     <style name="ThemeRed" parent="@android:style/Theme.Material.Light.NoActionBar">
         <item name="android:textViewStyle">@style/TextViewStyle</item>
@@ -49,5 +50,6 @@
 	<item name="android:windowTranslucentStatus">false</item>
 
 	<item name="editorRootBackground">@color/color_statusbar_red</item>
+	<item name="basicWindowBackground">@color/editor_bg_normal_white</item>
     </style>
 </resources>

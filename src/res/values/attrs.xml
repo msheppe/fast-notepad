@@ -16,4 +16,5 @@
     <attr name="themedNavigationDrawer" format="reference" />
     <attr name="themedTextView" format="reference" />
     <attr name="editorRootBackground" format="reference|color" />
+    <attr name="basicWindowBackground" format="reference|color" />
 </resources>
