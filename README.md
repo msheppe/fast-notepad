@@ -8,7 +8,7 @@ when you reinstall.<br>
 <br>
 If you use encrypted notes, the default color scheme (red/white) is currently recommended.<br>
 <br>
-v2.1.1<br>
+v2.1.1 (beta)<br>
 Update to API 35 (Android 15)<br>
 Minimum API 21 (Android 5.0)<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
