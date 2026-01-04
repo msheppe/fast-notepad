@@ -6,12 +6,15 @@ First go into Settings, Storage location, and make sure Internal memory is selec
 Your notes will be migrated to that location, preserved on uninstall, and detected<br>
 when you reinstall.<br>
 <br>
-If you use encrypted notes, the default color scheme (red/white) is currently recommended.<br>
+If you use encrypted notes, the white editor theme is currently recommended.<br>
+<br>
+v2.1.2 (alpha)<br>
+Color scheme fixes in progress<br>
+Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 v2.1.1<br>
 Update to API 35 (Android 15)<br>
 Minimum API 21 (Android 5.0)<br>
-Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 v2.1.0<br>
 Update to API 29 (Android 10)<br>

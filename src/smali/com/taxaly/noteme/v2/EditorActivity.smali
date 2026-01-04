@@ -315,14 +315,15 @@
 
     invoke-virtual {v0, v2}, Lcom/taxaly/noteme/v2/lib/MyEditorText;->setBackgroundColor(I)V
 
+    # cond_3 fix
+    iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
+
     if-nez p2, :cond_3
 
     invoke-virtual {p0, v5}, Lcom/taxaly/noteme/v2/EditorActivity;->editbtn_click(Landroid/view/View;)V
 
     :cond_3
     iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->j:Z
-
-    iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
 
     goto :goto_1
 
@@ -354,14 +355,15 @@
 
     invoke-virtual {v0, v2}, Lcom/taxaly/noteme/v2/lib/MyEditorText;->setBackgroundColor(I)V
 
+    # cond_6 fix
+    iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
+
     if-nez p2, :cond_6
 
     invoke-virtual {p0, v5}, Lcom/taxaly/noteme/v2/EditorActivity;->editbtn_click(Landroid/view/View;)V
 
     :cond_6
     iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->j:Z
-
-    iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
 
     goto :goto_1
 
@@ -378,14 +380,15 @@
 
     invoke-virtual {v0, v4}, Lcom/taxaly/noteme/v2/lib/MyEditorText;->setBackgroundColor(I)V
 
+    # cond_8 fix
+    iput-boolean v2, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
+
     if-nez p2, :cond_8
 
     invoke-virtual {p0, v5}, Lcom/taxaly/noteme/v2/EditorActivity;->editbtn_click(Landroid/view/View;)V
 
     :cond_8
     iput-boolean v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->j:Z
-
-    iput-boolean v2, p0, Lcom/taxaly/noteme/v2/EditorActivity;->f:Z
 
     iput-object v5, p0, Lcom/taxaly/noteme/v2/EditorActivity;->g:Ljava/lang/String;
 
@@ -948,6 +951,11 @@
     iget v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
 
     invoke-virtual {v0, v1}, Lcom/taxaly/noteme/v2/lib/MyEditorText;->setBackgroundColor(I)V
+
+    # fix text color
+    iget-object v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->b:Lcom/taxaly/noteme/v2/lib/MyEditorText;
+    iget v1, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
+    invoke-virtual {v0, v1}, Lcom/taxaly/noteme/v2/lib/MyEditorText;->setTextColor(I)V
 
     const/4 v0, 0x0
 
