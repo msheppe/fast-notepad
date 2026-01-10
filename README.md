@@ -6,9 +6,7 @@ First go into Settings, Storage location, and make sure Internal memory is selec
 Your notes will be migrated to that location, preserved on uninstall, and detected<br>
 when you reinstall.<br>
 <br>
-If you use encrypted notes, the white editor theme is currently recommended.<br>
-<br>
-v2.1.2 (alpha)<br>
+v2.1.2-beta<br>
 Color scheme fixes in progress<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
