@@ -1115,11 +1115,11 @@
     iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
 
     # Force encrypted colors to match normal colors
-    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
-    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
+#    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
+#    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
 
-    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->n:I
-    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
+#    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->n:I
+#    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
 
 
     invoke-virtual {p0}, Lcom/taxaly/noteme/v2/EditorActivity;->getIntent()Landroid/content/Intent;
@@ -1473,7 +1473,7 @@
     move-result v0
 
     # swap color
-    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
+#    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
 
     iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
 

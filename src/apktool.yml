@@ -10,7 +10,7 @@ packageInfo:
   forcedPackageId: 127
 versionInfo:
   versionCode: 41
-  versionName: 2.1.2-beta
+  versionName: 2.1.2
 doNotCompress:
 - arsc
 - png

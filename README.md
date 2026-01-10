@@ -6,8 +6,8 @@ First go into Settings, Storage location, and make sure Internal memory is selec
 Your notes will be migrated to that location, preserved on uninstall, and detected<br>
 when you reinstall.<br>
 <br>
-v2.1.2-beta<br>
-Color scheme fixes in progress<br>
+v2.1.2<br>
+Pale green background fixed for encrypted notes<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 v2.1.1<br>
