@@ -7,7 +7,7 @@ Your notes will be migrated to that location, preserved on uninstall, and detect
 when you reinstall.<br>
 <br>
 v2.1.2<br>
-Pale green background fixed for encrypted notes<br>
+Fixed encrypted note color scheme<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 v2.1.1<br>
