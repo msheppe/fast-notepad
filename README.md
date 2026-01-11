@@ -7,7 +7,7 @@ Your notes will be migrated to that location, preserved on uninstall, and detect
 when you reinstall.<br>
 <br>
 <br>
-v2.1.3<br>
+v2.1.3 (beta)<br>
 Fixed search colors<br>
 Cleaned up old layouts<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
