@@ -1121,7 +1121,6 @@
 #    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->n:I
 #    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
 
-
     invoke-virtual {p0}, Lcom/taxaly/noteme/v2/EditorActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v7

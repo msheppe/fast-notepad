@@ -822,6 +822,14 @@
 
     invoke-virtual {p0, v0}, Lcom/taxaly/noteme/v2/SearchActivity;->setContentView(I)V
 
+    # fix inset
+#    const v0, 0x7f0b004c   # id of @+id/status_inset
+#    invoke-direct {p0, v0}, Lcom/taxaly/noteme/v2/SearchActivity;->setStatusInsetHeight(I)V
+
+    # fix top bar
+#    const v0, 0x7f0b0007  # <-- actionbar_searchbar
+#    invoke-direct {p0, v0}, Lcom/taxaly/noteme/v2/SearchActivity;->applyStatusBarPadding(I)V
+
     const v0, 0x7f0b0009
 
     invoke-virtual {p0, v0}, Lcom/taxaly/noteme/v2/SearchActivity;->findViewById(I)Landroid/view/View;
@@ -990,3 +998,82 @@
     :cond_0
     return-void
 .end method
+
+.method private applyStatusBarPadding(I)V
+    .locals 7
+
+    # View v = findViewById(viewId)
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+    move-result-object v0
+
+    if-eqz v0, :ret
+
+    # Resources res = getResources()
+    invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+    move-result-object v1
+
+    # int id = res.getIdentifier("status_bar_height","dimen","android")
+    const-string v2, "status_bar_height"
+    const-string v3, "dimen"
+    const-string v4, "android"
+    invoke-virtual {v1, v2, v3, v4}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v2
+
+    if-eqz v2, :ret
+
+    # int top = res.getDimensionPixelSize(id)
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    move-result v5
+
+    # Preserve existing paddings
+    invoke-virtual {v0}, Landroid/view/View;->getPaddingLeft()I
+    move-result v1
+    invoke-virtual {v0}, Landroid/view/View;->getPaddingRight()I
+    move-result v2
+    invoke-virtual {v0}, Landroid/view/View;->getPaddingBottom()I
+    move-result v3
+
+    # v.setPadding(left, top, right, bottom)
+    invoke-virtual {v0, v1, v5, v2, v3}, Landroid/view/View;->setPadding(IIII)V
+
+:ret
+    return-void
+.end method
+
+.method private setStatusInsetHeight(I)V
+    .locals 6
+
+    # View v = findViewById(id)
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+    move-result-object v0
+    if-eqz v0, :ret
+
+    # Resources res = getResources()
+    invoke-virtual {p0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+    move-result-object v1
+
+    # int dimenId = res.getIdentifier("status_bar_height","dimen","android")
+    const-string v2, "status_bar_height"
+    const-string v3, "dimen"
+    const-string v4, "android"
+    invoke-virtual {v1, v2, v3, v4}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    move-result v2
+    if-eqz v2, :ret
+
+    # int h = res.getDimensionPixelSize(dimenId)
+    invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
+    move-result v3
+
+    # LayoutParams lp = v.getLayoutParams()
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    move-result-object v4
+    if-eqz v4, :ret
+
+    # lp.height = h; v.setLayoutParams(lp)
+    iput v3, v4, Landroid/view/ViewGroup$LayoutParams;->height:I
+    invoke-virtual {v0, v4}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+
+:ret
+    return-void
+.end method
+

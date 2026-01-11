@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="checkbox_padding_left">10.0dip</dimen>
-    <dimen name="editor_padding">8.0dip</dimen>
-</resources>

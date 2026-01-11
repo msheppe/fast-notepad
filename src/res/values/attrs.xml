@@ -17,4 +17,5 @@
     <attr name="themedTextView" format="reference" />
     <attr name="editorRootBackground" format="reference|color" />
     <attr name="basicWindowBackground" format="reference|color" />
+    <attr name="windowContentBackground" format="reference|color" />
 </resources>

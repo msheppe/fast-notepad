@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/themedList"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/include_search" layout="@layout/actionbar_search" />
-    <TextView android:textSize="18.0dip" android:id="@id/search_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/search_nothing_found" android:layout_alignTop="@id/search_list" android:layout_centerHorizontal="true" style="?attr/themedList" />
-    <ProgressBar android:id="@id/search_progress" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/search_text" android:layout_centerHorizontal="true" />
-    <ListView android:id="@id/search_list" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/include_search" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="?attr/themedList" />
-</RelativeLayout>

@@ -340,4 +340,10 @@
     <public type="id" name="settings_row_text1" id="0x7f0b0048" />
     <public type="id" name="settings_row_checkbox" id="0x7f0b0049" />
     <public type="id" name="settings_row_text2" id="0x7f0b004a" />
+
+    <public type="attr" name="basicWindowBackground" id="0x7f01000f" />
+    <public type="attr" name="editorRootBackground" id="0x7f010010" />
+    <public type="attr" name="windowContentBackground" id="0x7f010011" />
+    <public type="id" name="crypt_content" id="0x7f0b004b" />
+    <public type="id" name="status_inset" id="0x7f0b004c" />
 </resources>

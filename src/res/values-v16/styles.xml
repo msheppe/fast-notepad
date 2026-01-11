@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
-        <item name="android:textSize">15.0sp</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textColor">@color/textview_color</item>
-        <item name="android:fontFamily">Verdana</item>
-    </style>
-</resources>
