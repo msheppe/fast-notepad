@@ -411,6 +411,7 @@
 
     move-result-object v22
 
+    # settings list size
     const/4 v2, 0x6
 
     new-array v2, v2, [Lcom/taxaly/noteme/v2/lib/r;
@@ -715,6 +716,8 @@
 
     aput-object v2, v16, v17
 
+# start editor_theme block
+
     move-object/from16 v0, p0
 
     iget-object v15, v0, Lcom/taxaly/noteme/v2/ad;->d:[Lcom/taxaly/noteme/v2/lib/r;
@@ -776,6 +779,8 @@
     invoke-direct/range {v2 .. v14}, Lcom/taxaly/noteme/v2/lib/r;-><init>(Lcom/taxaly/noteme/v2/lib/s;IIIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/String;[Ljava/lang/String;Ljava/lang/Class;)V
 
     aput-object v2, v15, v16
+
+# end block
 
     move-object/from16 v0, p0
 

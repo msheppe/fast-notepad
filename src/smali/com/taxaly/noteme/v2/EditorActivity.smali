@@ -1114,12 +1114,25 @@
 
     iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
 
-    # Force encrypted colors to match normal colors
-#    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
-#    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
+    # If EDITOR_THEME == "white", skip force
+    const-string v3, "EDITOR_THEME"
+    sget-object v8, Lcom/taxaly/noteme/v2/ad;->i:Ljava/lang/String;   # default (white)
+    invoke-virtual {v6, v3, v8}, Lcom/taxaly/noteme/v2/lib/p;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v3
 
-#    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->n:I
-#    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
+    sget-object v8, Lcom/taxaly/noteme/v2/ad;->f:Ljava/lang/String;   # "white"
+    invoke-virtual {v3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v3
+
+    if-nez v3, :skip_force_crypt_colors
+
+    # Force encrypted colors to match normal colors
+    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->l:I
+    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->m:I
+    iget v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->n:I
+    iput v0, p0, Lcom/taxaly/noteme/v2/EditorActivity;->o:I
+
+    :skip_force_crypt_colors
 
     invoke-virtual {p0}, Lcom/taxaly/noteme/v2/EditorActivity;->getIntent()Landroid/content/Intent;
 
