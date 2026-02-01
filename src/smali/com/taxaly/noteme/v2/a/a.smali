@@ -180,7 +180,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lcom/taxaly/noteme/v2/lib/p;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/taxaly/noteme/v2/lib/p;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -200,7 +200,7 @@
 
     invoke-direct {p0, p1, v0}, Lcom/taxaly/noteme/v2/a/a;->a(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
 
-    const-string v0, "INSERT INTO settings (varid, vardata) VALUES (\'STORAGE_TYPE\', \'system\');"
+    const-string v0, "INSERT INTO settings (varid, vardata) VALUES (\'STORAGE_TYPE\', \'internal\');"
 
     invoke-direct {p0, p1, v0}, Lcom/taxaly/noteme/v2/a/a;->a(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;)V
 

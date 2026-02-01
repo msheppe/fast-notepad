@@ -574,7 +574,7 @@
 
     const-string v4, "STORAGE_TYPE"
 
-    const/4 v11, 0x0
+    const/4 v11, 0x1
 
     aget-object v11, v22, v11
 

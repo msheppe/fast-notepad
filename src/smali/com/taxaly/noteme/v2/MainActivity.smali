@@ -1040,6 +1040,8 @@
 
     invoke-super {p0}, Lcom/taxaly/noteme/v2/lib/drawer/cp;->onResume()V
 
+    invoke-direct {p0}, Lcom/taxaly/noteme/v2/MainActivity;->ensureFastnoteDir()V
+
     invoke-virtual {p0}, Lcom/taxaly/noteme/v2/MainActivity;->a()V
 
     iget-object v0, p0, Lcom/taxaly/noteme/v2/MainActivity;->a:[Lcom/taxaly/noteme/v2/lib/d;
@@ -1215,3 +1217,75 @@
     return-void
 .end method
 
+.method private ensureFastnoteDir()V
+    .locals 6
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    # --- API 30+ (Android 11+) ---
+    const/16 v1, 0x1e
+    if-lt v0, v1, :check_legacy
+
+    invoke-static {}, Landroid/os/Environment;->isExternalStorageManager()Z
+    move-result v0
+    if-eqz v0, :ret
+    goto :do_work
+
+:check_legacy
+    # --- API 23–29 (Android 6–10) ---
+    const/16 v1, 0x17
+    if-lt v0, v1, :do_work
+
+    invoke-virtual {p0}, Lcom/taxaly/noteme/v2/MainActivity;->getApplicationContext()Landroid/content/Context;
+    move-result-object v0
+    const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
+    invoke-static {v0, v1}, Lcom/taxaly/noteme/v2/lib/drawer/bj;->a(Landroid/content/Context;Ljava/lang/String;)I
+    move-result v0
+    if-nez v0, :ret   # 0 == granted
+
+:do_work
+
+    new-instance v0, Lcom/taxaly/noteme/v2/lib/p;
+    invoke-virtual {p0}, Lcom/taxaly/noteme/v2/MainActivity;->getApplicationContext()Landroid/content/Context;
+    move-result-object v1
+    invoke-direct {v0, v1}, Lcom/taxaly/noteme/v2/lib/p;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {v0}, Lcom/taxaly/noteme/v2/lib/p;->d()Ljava/lang/String;
+    move-result-object v0
+
+    new-instance v1, Ljava/io/File;
+    invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
+
+    # ---- after mkdirs(): seed DB defaults if STORAGE_TYPE is missing ----
+
+    new-instance v2, Lcom/taxaly/noteme/v2/lib/p;
+    invoke-virtual {p0}, Lcom/taxaly/noteme/v2/MainActivity;->getApplicationContext()Landroid/content/Context;
+    move-result-object v3
+    invoke-direct {v2, v3}, Lcom/taxaly/noteme/v2/lib/p;-><init>(Landroid/content/Context;)V
+
+    # read STORAGE_TYPE, default "" (empty means "not set")
+    const-string v3, "STORAGE_TYPE"
+    const-string v4, ""
+    invoke-virtual {v2, v3, v4}, Lcom/taxaly/noteme/v2/lib/p;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v5
+
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v5
+    if-eqz v5, :skip_seed_storage_defaults
+
+    # write STORAGE_TYPE = "internal"
+    const-string v5, "internal"
+    invoke-virtual {v2, v3, v5}, Lcom/taxaly/noteme/v2/lib/p;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    # write STORAGE = p.d() (shared /fastnote)
+    const-string v3, "STORAGE"
+    invoke-virtual {v2}, Lcom/taxaly/noteme/v2/lib/p;->d()Ljava/lang/String;
+    move-result-object v5
+    invoke-virtual {v2, v3, v5}, Lcom/taxaly/noteme/v2/lib/p;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+:skip_seed_storage_defaults
+
+:ret
+    return-void
+.end method
