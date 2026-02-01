@@ -7,8 +7,8 @@ Your notes will be migrated to that location and preserved on uninstall.<br>
 <br>
 <br>
 v2.1.4 (alpha)<br>
-* Internal memory is now the default storage location on a fresh install.<br>
-* This prevents notes from getting lost on uninstall.<br>
+<b>Internal memory is now the default storage location on a fresh install.</b><br>
+<b>This prevents notes from getting lost on uninstall.</b><br>
 Tweaked encrypted note colors<br>
 Restored landscape layouts to the source tree<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
