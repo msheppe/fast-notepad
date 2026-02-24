@@ -1,12 +1,13 @@
 # fast-notepad<br>
 A revival of Igor's Fast Notepad 2.0.9 for Android (aka Taxaly Noteme)<br>
+Now supporting Android 5.0 to 16<br>
 <br>
 NOTE: To uninstall any version of Fast Notepad without losing your notes:<br>
 First go into Settings, Storage location, and make sure Internal memory is selected.<br>
 Your notes will be migrated to that location and preserved on uninstall.<br>
 <br>
 <br>
-v2.1.4 (alpha)<br>
+v2.1.4<br>
 <b>Internal memory is now the default storage location on a fresh install.</b><br>
 <b>This prevents notes from getting lost on uninstall.</b><br>
 Tweaked encrypted note colors<br>
