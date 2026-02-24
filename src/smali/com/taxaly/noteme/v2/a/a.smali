@@ -156,7 +156,8 @@
 
     if-eqz v2, :cond_1
 
-    const-string v2, "system"
+    const-string v2, "internal" 
+	## "system"
 
     const/4 v3, 0x0
 

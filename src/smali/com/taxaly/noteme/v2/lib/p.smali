@@ -72,6 +72,8 @@
     :goto_2
     return-object v2
 
+# save path setting
+
     :sswitch_0
     const-string v3, "system"
 
