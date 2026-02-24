@@ -30,4 +30,5 @@ Update to API 29 (Android 10)<br>
 Minimum API 19 (Android 4.4)<br>
 <br>
 v2.0.9<br>
-Initial fork, API 23 (Android 6)<br>
+Pre-fork, API 23 (Android 6)<br>
+Minimum API 8 (Android 2.2)<br>
