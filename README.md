@@ -6,7 +6,7 @@ First go into Settings, Storage location, and make sure Internal memory is selec
 Your notes will be migrated to that location and preserved on uninstall.<br>
 <br>
 <br>
-v2.1.4<br>
+v2.1.4 (alpha)<br>
 <b>Internal memory is now the default storage location on a fresh install.</b><br>
 <b>This prevents notes from getting lost on uninstall.</b><br>
 Tweaked encrypted note colors<br>
