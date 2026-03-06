@@ -11,6 +11,7 @@ packageInfo:
 versionInfo:
   versionCode: 41
   versionName: 2.1.4
+useAapt2: true
 doNotCompress:
 - arsc
 - png
