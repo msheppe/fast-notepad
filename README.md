@@ -20,10 +20,11 @@ Cleaned up old layouts<br>
 <br>
 v2.1.2 -- 2026-01-10<br>
 Fixed encrypted note color scheme<br>
+Minimum API 21 (Android 5.0)<br>
 <br>
 v2.1.1 -- 2026-01-02<br>
 Update to API 35 (Android 15)<br>
-Minimum API 21 (Android 5.0)<br>
+Minimum API 19 (Android 4.4)<br>
 <br>
 v2.1.0 -- 2025-12-06<br>
 Update to API 29 (Android 10)<br>
