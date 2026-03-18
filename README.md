@@ -7,11 +7,12 @@ First go into Settings, Storage location, and make sure Internal memory is selec
 Your notes will be migrated to that location and preserved on uninstall.<br>
 <br>
 <br>
-v2.1.4 -- 2026-03-05<br>
+v2.1.4 -- 2026-03-18<br>
 <b>Internal memory is now the default storage location on a fresh install.</b><br>
 <b>This prevents notes from getting lost on uninstall.</b><br>
 Tweaked encrypted note colors<br>
 Restored landscape layouts to the source tree<br>
+Recreated all the git tags and releases based on (I think) the correct commits<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 v2.1.3 -- 2026-01-11<br>
