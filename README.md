@@ -14,7 +14,7 @@ Tweaked encrypted note colors<br>
 Restored landscape layouts to the source tree<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
-v2.1.3 -- 2026-01-14<br>
+v2.1.3 -- 2026-01-11<br>
 Fixed search colors<br>
 Cleaned up old layouts<br>
 <br>
@@ -22,7 +22,7 @@ v2.1.2 -- 2026-01-10<br>
 Fixed encrypted note color scheme<br>
 Minimum API 21 (Android 5.0)<br>
 <br>
-v2.1.1 -- 2026-01-02<br>
+v2.1.1 -- 2025-12-11<br>
 Update to API 35 (Android 15)<br>
 Minimum API 19 (Android 4.4)<br>
 <br>
