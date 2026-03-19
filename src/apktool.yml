@@ -10,7 +10,7 @@ packageInfo:
   forcedPackageId: 127
 versionInfo:
   versionCode: 41
-  versionName: 2.1.4
+  versionName: 2.1.5-alpha
 useAapt2: true
 doNotCompress:
 - arsc

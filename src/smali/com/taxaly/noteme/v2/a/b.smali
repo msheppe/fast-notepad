@@ -583,6 +583,7 @@
     return-object v0
 .end method
 
+# Check for invalid characters in filename
 .method private g(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
@@ -628,6 +629,14 @@
 
     move-result-object v0
 
+    const-string v1, "\\*"
+
+    const-string v2, ""
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
@@ -643,7 +652,6 @@
     :cond_0
     return-object v0
 .end method
-
 
 # virtual methods
 .method public a(Ljava/io/File;)I
@@ -1680,6 +1688,11 @@
 
     :try_start_3
     invoke-virtual {v8, v5}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
+
+    move-result v6
+
+    # catch file rename failures
+    if-eqz v6, :cond_14
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
