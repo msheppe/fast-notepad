@@ -583,13 +583,15 @@
     return-object v0
 .end method
 
-# Check for invalid characters in filename
+# Check for invalid characters in filename, and trim extra spaces
 .method private g(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
+    # Maximum filename length (60)
     const/16 v3, 0x3c
 
-    const-string v0, "\\."
+    # Strip NUL 
+    const-string v0, "(?i)NUL"
 
     const-string v1, ""
 
@@ -597,60 +599,62 @@
 
     move-result-object v0
 
-    const-string v1, "[\\/]"
+    # Strip bad characters
+    const-string v1, "[\\\\/:;*?\"<>|]"
 
-    const-string v2, ""
-
-    invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, "(?i)NUL"
-
-    const-string v2, ""
+    const-string v2, " "
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    const-string v1, "\\?"
+    # Strip leading dots
+    const-string v1, "^[\\.-]+"
 
-    const-string v2, ""
-
-    invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    const-string v1, ":"
-
-    const-string v2, ""
+    const-string v2, "_"
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    const-string v1, "\\*"
+    # Condense multiple spaces to one
+    const-string v1, "\\s+"
 
-    const-string v2, ""
+    const-string v2, " "
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
+    # Call trim()
+    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object v0
+
+    # Check string length
     invoke-virtual {v0}, Ljava/lang/String;->length()I
 
     move-result v1
+
+    if-eqz v1, :cond_1
 
     if-le v1, v3, :cond_0
 
     const/4 v1, 0x0
 
+    # If the string is too long, use substring()
     invoke-virtual {v0, v1, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
 
+    # If it's empty, replace with an underscore
+    :cond_1
+    const-string v0, "_"
+
+    # Return the result
     :cond_0
     return-object v0
+
 .end method
 
 # virtual methods

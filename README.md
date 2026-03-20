@@ -6,9 +6,9 @@ NOTE: To uninstall any version of Fast Notepad without losing your notes:<br>
 First go into Settings, Storage location, and make sure Internal memory is selected.<br>
 Your notes will be migrated to that location and preserved on uninstall.<br>
 <br>
-<b>v2.1.5 (alpha) -- 2026-03-18</b><br>
-Added asterisk to the list of invalid filename characters<br>
+<b>v2.1.5 (alpha) -- 2026-03-19</b><br>
 Fixed error handling on saving files<br>
+Enhanced filename sanitization<br>
 Downgrade to v2.1.0 is allowed without uninstalling<br>
 <br>
 <b>v2.1.4 -- 2026-03-18</b><br>
