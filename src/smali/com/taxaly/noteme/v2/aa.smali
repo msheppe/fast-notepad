@@ -86,6 +86,10 @@
 
     invoke-direct {v0, v2, v3}, Lcom/taxaly/noteme/v2/a/b;-><init>(Landroid/content/Context;Landroid/app/Activity;)V
 
+    # trim folder name (new)
+    invoke-static {v1}, Lcom/taxaly/noteme/v2/a/b;->k(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v1
+
     invoke-virtual {v0, v1}, Lcom/taxaly/noteme/v2/a/b;->d(Ljava/lang/String;)Z
 
     move-result v2

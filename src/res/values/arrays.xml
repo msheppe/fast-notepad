@@ -45,8 +45,8 @@
         <item>Dark</item>
     </string-array>
     <string-array name="settings_storage_type">
-        <item>Android</item>
-        <item>Internal memory</item>
+        <item>Android (Private)</item>
+        <item>Internal memory (Shared)</item>
         <item>Manual</item>
     </string-array>
     <string-array name="sync_menu">

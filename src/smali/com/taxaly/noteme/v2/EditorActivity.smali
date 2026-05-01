@@ -635,6 +635,10 @@
 
     move-result-object v3
 
+    # Skip adding tagline
+    goto :cond_2
+
+    # Sent from Fast Notepad
     const v4, 0x7f070033
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;

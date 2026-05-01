@@ -296,6 +296,7 @@
 
     move-result-object v0
 
+    # LF-only format in the editor window
     const-string v1, "\r\n"
 
     const-string v2, "\n"
@@ -568,6 +569,7 @@
 
     move-result-object v0
 
+    # CRLF format for the written file
     const-string v1, "\n"
 
     const-string v2, "\r\n"
@@ -583,61 +585,59 @@
     return-object v0
 .end method
 
-# Check for invalid characters in filename, and trim extra spaces
+# mod: Check for invalid characters in filename, and trim extra spaces
 .method private g(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    # Maximum filename length (60)
-    const/16 v3, 0x3c
-
     # Strip NUL 
     const-string v0, "(?i)NUL"
-
     const-string v1, ""
 
     invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     move-result-object v0
 
-    # Strip bad characters
-    const-string v1, "[\\\\/:;*?\"<>|]"
-
+    # Invalid characters
+    const-string v1, "[\\\\/:;*`~\"<>|]"
     const-string v2, " "
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     move-result-object v0
 
-    # Strip leading dots
-    const-string v1, "^[\\.-]+"
-
+    # Strip leading dashes
+    const-string v1, "^[-]+"
     const-string v2, "_"
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     move-result-object v0
 
     # Condense multiple spaces to one
     const-string v1, "\\s+"
-
     const-string v2, " "
 
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-
     move-result-object v0
 
     # Call trim()
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
-
     move-result-object v0
 
     # Check string length
     invoke-virtual {v0}, Ljava/lang/String;->length()I
-
     move-result v1
 
+    # If the string is empty, return a timestamp
     if-eqz v1, :cond_1
 
+    # Check if it's nothing but space and punctuation
+    const-string v1, "^[-.\\[\\]\\{\\},'@#$%^&()_+=?! ]+$"
+    invoke-virtual {v0, v1}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+    move-result v1
+    if-nez v1, :cond_1
+
+    # Maximum filename length (60)
+    const/16 v3, 0x3c
+
+    # If it's shorter than the max, return it
     if-le v1, v3, :cond_0
 
     const/4 v1, 0x0
@@ -646,13 +646,18 @@
     invoke-virtual {v0, v1, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
+    goto :cond_0
 
-    # If it's empty, replace with an underscore
     :cond_1
-    const-string v0, "_"
+
+    # Generate timestamp
+    invoke-direct {p0}, Lcom/taxaly/noteme/v2/a/b;->h()Ljava/lang/String;
+
+    move-result-object v0
+
+    :cond_0
 
     # Return the result
-    :cond_0
     return-object v0
 
 .end method
@@ -1216,9 +1221,11 @@
     goto/16 :goto_0
 .end method
 
+# mod: Rename modified file
 .method public a(Lcom/taxaly/noteme/v2/lib/k;Ljava/lang/String;Ljava/lang/String;)Z
     .locals 11
 
+    # cannot open
     const v10, 0x7f070011
 
     const/4 v1, 0x1
@@ -1389,6 +1396,7 @@
 
     iget-object v0, p0, Lcom/taxaly/noteme/v2/a/b;->e:Landroid/content/Context;
 
+    # cannot create
     const v1, 0x7f07000d
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
@@ -1673,10 +1681,23 @@
     move-object v6, v5
 
     :goto_d
+    # Rename file when re-saving
     new-instance v5, Ljava/io/File;
 
     invoke-direct {v5, v7, v6}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
+    invoke-virtual {v8, v5}, Ljava/io/File;->equals(Ljava/lang/Object;)Z
+    move-result v9
+    if-eqz v9, :cond_20
+
+    # rename file if uncommented
+    # goto :cond_20       
+
+    iput-object v6, p1, Lcom/taxaly/noteme/v2/lib/k;->b:Ljava/lang/String;
+
+    goto/16 :cond_19
+
+    :cond_20
     invoke-virtual {v5}, Ljava/io/File;->exists()Z
 
     move-result v9
@@ -1690,13 +1711,25 @@
 
     if-eqz v6, :cond_d
 
-    :try_start_3
-    invoke-virtual {v8, v5}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
-
+    # check if file exists before re-saving
+    invoke-virtual {v8}, Ljava/io/File;->exists()Z
     move-result v6
+
+    # if old file doesn't exist, show error
+    # if-eqz v6, :err_ren_1
+
+    # if old file doesn't exist, skip the rename and create the new one
+    if-eqz v6, :goto_a
+
+    :try_start_3
+
+    invoke-virtual {v8, v5}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
+    move-result v6
+    goto :goto_a
 
     # catch file rename failures
     if-eqz v6, :cond_14
+
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_2
 
@@ -1706,6 +1739,8 @@
     move-exception v6
 
     if-eqz v3, :cond_14
+
+    :err_ren_1
 
     iget-object v0, p0, Lcom/taxaly/noteme/v2/a/b;->e:Landroid/content/Context;
 
@@ -2030,8 +2065,9 @@
     goto :goto_0
 .end method
 
+# mod: Validate folder rename
 .method public a(Ljava/lang/String;Ljava/lang/String;)Z
-    .locals 5
+    .locals 6
 
     const/4 v1, 0x1
 
@@ -2061,41 +2097,22 @@
     return v0
 
     :cond_0
-    if-eqz p1, :cond_1
 
+    # Null check
+    if-eqz p1, :cond_1
     if-eqz p2, :cond_1
 
-    const/16 v3, 0x2f
-
-    invoke-virtual {p2, v3}, Ljava/lang/String;->indexOf(I)I
-
+    # Check zero length
+    invoke-virtual {p2}, Ljava/lang/String;->length()I
     move-result v3
+    if-eqz v3, :cond_1
 
-    if-gez v3, :cond_1
-
-    const/16 v3, 0x5c
-
-    invoke-virtual {p2, v3}, Ljava/lang/String;->indexOf(I)I
-
+    # Validate folder name for rename
+    invoke-direct {p0, p2}, Lcom/taxaly/noteme/v2/a/b;->j(Ljava/lang/String;)Z
     move-result v3
+    if-eqz v3, :cond_1
 
-    if-gez v3, :cond_1
-
-    const-string v3, "."
-
-    invoke-virtual {p2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-nez v3, :cond_1
-
-    const-string v3, ".."
-
-    invoke-virtual {p2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_2
+    goto :cond_2
 
     :cond_1
     iget-object v1, p0, Lcom/taxaly/noteme/v2/a/b;->e:Landroid/content/Context;
@@ -3308,8 +3325,9 @@
     goto/16 :goto_0
 .end method
 
+# mod: Check folder name before mkdir
 .method public d(Ljava/lang/String;)Z
-    .locals 4
+    .locals 6
 
     const/4 v1, 0x1
 
@@ -3339,41 +3357,25 @@
     return v0
 
     :cond_0
+
+    # Null check
     if-eqz p1, :cond_1
 
-    const/16 v3, 0x2f
-
-    invoke-virtual {p1, v3}, Ljava/lang/String;->indexOf(I)I
-
+    # Check zero length
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
     move-result v3
+    if-eqz v3, :cond_1
 
-    if-gez v3, :cond_1
-
-    const/16 v3, 0x5c
-
-    invoke-virtual {p1, v3}, Ljava/lang/String;->indexOf(I)I
-
+    # Validate folder name for create
+    invoke-direct {p0, p1}, Lcom/taxaly/noteme/v2/a/b;->j(Ljava/lang/String;)Z
     move-result v3
+    if-eqz v3, :cond_1
 
-    if-gez v3, :cond_1
-
-    const-string v3, "."
-
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-nez v3, :cond_1
-
-    const-string v3, ".."
-
-    invoke-virtual {p1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v3
-
-    if-eqz v3, :cond_2
+    goto :cond_2
 
     :cond_1
+    # Invalid folder name
+
     iget-object v1, p0, Lcom/taxaly/noteme/v2/a/b;->e:Landroid/content/Context;
 
     const v2, 0x7f070015
@@ -3387,6 +3389,8 @@
     goto :goto_0
 
     :cond_2
+    # Okay
+
     new-instance v3, Ljava/io/File;
 
     invoke-direct {v3, v2, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
@@ -3556,4 +3560,110 @@
     iput-object v1, p0, Lcom/taxaly/noteme/v2/a/b;->a:Ljava/lang/String;
 
     goto :goto_0
+.end method
+
+# generate filename datestamp
+.method private h()Ljava/lang/String;
+    .locals 4
+
+    new-instance v0, Ljava/text/SimpleDateFormat;
+
+    const-string v1, "yyyy-MM-dd-HH-mm-ss"
+
+    invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+
+    new-instance v1, Ljava/util/Date;
+
+    invoke-direct {v1}, Ljava/util/Date;-><init>()V
+
+    invoke-virtual {v0, v1}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+
+    move-result-object v2
+
+    return-object v2
+.end method
+
+.method private j(Ljava/lang/String;)Z
+    # Check folder name for invalid characters
+    .locals 3
+    # v0 return, v1 argument, v2 result
+
+    # length check
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+    move-result v2
+
+    if-eqz v2, :cond_invalid
+
+    # forward slash '/'
+    const/16 v1, 0x2f
+    invoke-virtual {p1, v2}, Ljava/lang/String;->indexOf(I)I
+    move-result v3
+    if-gez v3, :cond_invalid
+
+    # backslash '\'
+    const/16 v2, 0x5c
+    invoke-virtual {p1, v2}, Ljava/lang/String;->indexOf(I)I
+    move-result v3
+    if-gez v3, :cond_invalid
+
+    # leading dash check (index == 0)
+    const/16 v2, 0x2d
+    invoke-virtual {p1, v2}, Ljava/lang/String;->indexOf(I)I
+    move-result v3
+    if-eqz v3, :cond_invalid
+
+    # "." check
+    const-string v2, "."
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v3
+    if-nez v3, :cond_invalid
+
+    # ".." check
+    const-string v2, ".."
+    invoke-virtual {p1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    move-result v3
+    if-nez v3, :cond_invalid
+
+    # folders can't have txt extensions, it crashes the app with ArrayIndexOutOfBounds
+    const-string v2, "(?i).*[.]txt$"
+    invoke-virtual {p1, v2}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+    move-result v3
+    if-nez v3, :cond_invalid
+
+    const-string v2, "(?i).*[.]enctxt$"
+    invoke-virtual {p1, v2}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+    move-result v3
+    if-nez v3, :cond_invalid
+
+    # punctuation check
+    const-string v2, ".*[:;*`~\"<>|].*"
+    invoke-virtual {p1, v2}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
+    move-result v3
+    if-nez v3, :cond_invalid
+
+    # valid - return true
+    const/4 v0, 0x1
+    return v0
+
+    :cond_invalid
+    const/4 v0, 0x0
+    return v0
+.end method
+
+.method public static k(Ljava/lang/String;)Ljava/lang/String;
+    # Condense spaces and trim
+    .locals 5
+
+    const-string v0, "\\s+"
+    const-string v1, " "
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
+    move-result-object p0
+
+    # return cleaned name
+    return-object p0
+
 .end method

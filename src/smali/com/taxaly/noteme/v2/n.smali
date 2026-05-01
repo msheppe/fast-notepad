@@ -92,6 +92,10 @@
 
     iget-object v2, p0, Lcom/taxaly/noteme/v2/n;->b:Ljava/lang/String;
 
+    # trim folder name (rename)
+    invoke-static {v0}, Lcom/taxaly/noteme/v2/a/b;->k(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v0
+
     invoke-virtual {v1, v2, v0}, Lcom/taxaly/noteme/v2/a/b;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v2

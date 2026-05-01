@@ -98,7 +98,7 @@
 
     invoke-direct {v0, v1}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
 
-    const v1, 0x7f070040
+    const v1, 0x7f070040  # Storage location (field)
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -107,6 +107,9 @@
     iget-object v2, p0, Lcom/taxaly/noteme/v2/ad;->a:Landroid/app/Activity;
 
     invoke-direct {v1, v2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
+
+    const/4 v2, 0x1
+    invoke-virtual {v1, v2}, Landroid/widget/EditText;->setSingleLine(Z)V
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 

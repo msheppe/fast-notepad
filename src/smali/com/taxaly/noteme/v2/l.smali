@@ -80,6 +80,10 @@
 
     invoke-direct {v1, v2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
 
+    # New folder dialog
+    const/4 v2, 0x1
+    invoke-virtual {v1, v2}, Landroid/widget/EditText;->setSingleLine(Z)V
+
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
     const v2, 0x7f070023
@@ -201,6 +205,10 @@
     move-result-object v3
 
     invoke-direct {v2, v3}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
+
+    # Folder rename dialog
+    const/4 v3, 0x1
+    invoke-virtual {v2, v3}, Landroid/widget/EditText;->setSingleLine(Z)V
 
     invoke-virtual {v0, v2}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
