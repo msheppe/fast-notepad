@@ -139,6 +139,10 @@
 
     iput-object v2, v1, Lcom/taxaly/noteme/v2/lib/r;->f:Ljava/lang/Object;
 
+    # keep cached manual/display path in sync with resolved STORAGE path
+    iget-object v1, p0, Lcom/taxaly/noteme/v2/al;->a:Lcom/taxaly/noteme/v2/lib/r;
+    iput-object v0, v1, Lcom/taxaly/noteme/v2/lib/r;->j:Ljava/lang/String;
+
     iget-object v1, p0, Lcom/taxaly/noteme/v2/al;->b:Lcom/taxaly/noteme/v2/ah;
 
     iget-object v1, v1, Lcom/taxaly/noteme/v2/ah;->a:Lcom/taxaly/noteme/v2/ad;
