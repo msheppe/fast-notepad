@@ -34,7 +34,7 @@ Lifetime license
     <string name="err_move_storage">Error on storage moving</string>
     <string name="err_no_account">Account not found</string>
     <string name="err_not_a_folder">%s is not a folder</string>
-    <string name="err_only_one_folder">You have no another folders</string>
+    <string name="err_only_one_folder">You have no other folders</string>
     <string name="list_decrypt_error">\#decrypt error</string>
     <string name="list_decrypt_error2">\#encrypted</string>
     <string name="list_enter_folder_name">Enter folder name</string>
