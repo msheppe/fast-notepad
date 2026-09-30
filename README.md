@@ -10,9 +10,12 @@ Please open an issue if you have any problems with file/folder names, <br>
 language errors in any language, or anything else!<br>
 <br>
 <br>
+<b>v2.1.7 -- 2026-09-30</b><br>
+Update to API 36 (Android 16)<br>
+Downgrade to v2.1.0 is allowed without uninstalling.<br>
+<br>
 <b>v2.1.6 -- 2026-05-29</b><br>
 Fixed the Storage Location dialog so the manual path is updated immediately<br>
-Downgrade to v2.1.0 is allowed without uninstalling.<br>
 <br>
 <b>v2.1.5 -- 2026-04-30</b><br>
 Fixed error handling when saving files<br>

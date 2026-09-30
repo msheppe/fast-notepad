@@ -5,12 +5,12 @@ usesFramework:
   - 1
 sdkInfo:
   minSdkVersion: 21
-  targetSdkVersion: 35
+  targetSdkVersion: 36
 packageInfo:
   forcedPackageId: 127
 versionInfo:
   versionCode: 41
-  versionName: 2.1.6
+  versionName: 2.1.7
 useAapt2: true
 doNotCompress:
 - arsc
